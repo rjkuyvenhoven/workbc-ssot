@@ -44,6 +44,7 @@ jobs:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
         commit_prefix: "[AUTO] "
         commit_message: "${{ github.event.client_payload.notes }}"
+
   industry_outlook_update:
     runs-on: ubuntu-22.04
 

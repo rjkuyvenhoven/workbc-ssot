@@ -38,7 +38,6 @@ date="$4"
 ssconvert --export-type=Gnumeric_stf:stf_csv --export-file-per-sheet "data/$filename" "data/${filename%.xlsx}-%s.csv"
 cat "data/${filename%.xlsx}-Sheet1.csv" | php csv_extract.php --range 3 > load/updates/industry_outlook_${year}.csv
 
-
 # Load file into database.
 psql -c "DELETE FROM industry_outlook;"
 SOURCE="/app/load/updates/industry_outlook_${year}.csv" pgloader -l workbc.lisp load/updates/industry_outlook.load
