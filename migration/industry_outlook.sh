@@ -45,7 +45,7 @@ SOURCE="/app/load/updates/industry_outlook_${year}.csv" pgloader -l workbc.lisp 
 
 # Update sources.csv and load it into database.
 csvq --repository load --datetime-format "%Y/%m/%d %H:%i" \
-"REPLACE INTO sources (filename, date, endpoint, period, sheet, label) USING (endpoint) VALUES('${filename%.xlsx}', '${date}', 'industry_outlook', '${year}/12/01 08:00', 'Sheet1', 'B.C. Labour Market Outlook')"
+"REPLACE INTO sources (filename, date, endpoint, period, sheet, label) USING (endpoint, period) VALUES('${filename%.xlsx}', '${date}', 'industry_outlook', '${year}/${month_with_zero}/01 08:00', 'Sheet1', 'B.C. Labour Market Outlook')"
 pgloader -l workbc.lisp load/sources.load
 chmod ugoa+rw load/sources.csv
 
