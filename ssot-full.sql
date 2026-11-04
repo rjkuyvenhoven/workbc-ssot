@@ -92029,7 +92029,7 @@ high_opportunity_occupations	\N	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_
 occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_Apr5_24	Sheet1	A2-C1537	\N	2024-04-05 08:00:00+00
 fyp_categories_interests	\N	2025-01-01 08:00:00+00	\N	FYP - Categories, Areas of interest, and NOCs 2025-04-23	CONSOLIDATED LIST	A2-F909	\N	2025-04-23 08:00:00+00
 monthly_labour_market_updates	Monthly Labour Force Survey, 3-month moving average, seasonally unadjusted	1971-11-26 08:00:00+00	unemployment_pct	\N	\N	\N	\N	\N
-industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05-01_3	Sheet1	A3-H20	\N	2026-11-03 10:58:00+00
+industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05-01_2	Sheet1	A3-H20	\N	2026-11-04 12:16:00+00
 openings_industry	\N	2026-01-01 08:00:00+00	\N	top_10_careers_by_aggregate_industry_2026-08-05	Sheet 1	A2-D181	\N	2026-08-05 08:00:00+00
 labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Industry Profiles	A5-BC23	BC Labour Market Information Office	2025-11-24 08:00:00+00
 labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A6-V13	BC Labour Market Information Office	2025-11-24 08:00:00+00
