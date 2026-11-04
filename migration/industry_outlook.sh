@@ -3,7 +3,7 @@
 ##
 ## Convert and load a new Industry Profile sheet.
 ##
-## Usage: industry_outlook_update.sh SheetName["WorkBC_Industry_Profile_2026-08-05.xlsx"] ReportYear[2026] UpdateDate["2028/08/05 14:06"]
+## Usage: industry_outlook.sh SheetName["WorkBC_Industry_Profile_2026-08-05.xlsx"] ReportYear[2026] ReportMonth[1] UpdateDate["2028/08/05 14:06"]
 ##
 
 set -xeuo pipefail
