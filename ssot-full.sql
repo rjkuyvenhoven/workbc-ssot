@@ -2,8 +2,10 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 15.5 (Debian 15.5-1.pgdg120+1)
--- Dumped by pg_dump version 15.5 (Debian 15.5-1.pgdg120+1)
+\restrict EYGBGB4a16qQij5P3EUTXuurRlalr2mpHvzQEAj6WXJYd8X4TJvDbEpjr5fZSIO
+
+-- Dumped from database version 16.16 (Debian 16.16-1.pgdg12+1)
+-- Dumped by pg_dump version 16.16 (Debian 16.16-1.pgdg12+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -671,13 +673,13 @@ COMMENT ON COLUMN public.career_search_groups.region IS 'Region';
 --
 
 CREATE VIEW public.career_search_groups_taxonomy AS
- SELECT DISTINCT career_search_groups.occupational_category,
-    career_search_groups.region
+ SELECT DISTINCT occupational_category,
+    region
    FROM public.career_search_groups
-  ORDER BY career_search_groups.occupational_category, career_search_groups.region;
+  ORDER BY occupational_category, region;
 
 
-ALTER TABLE public.career_search_groups_taxonomy OWNER TO workbc;
+ALTER VIEW public.career_search_groups_taxonomy OWNER TO workbc;
 
 --
 -- Name: career_search_openings; Type: TABLE; Schema: public; Owner: workbc
@@ -1161,13 +1163,13 @@ COMMENT ON COLUMN public.education.teer_description IS 'TEER_description';
 --
 
 CREATE VIEW public.education_teers AS
- SELECT DISTINCT education.teer,
-    education.teer_description
+ SELECT DISTINCT teer,
+    teer_description
    FROM public.education
-  ORDER BY education.teer;
+  ORDER BY teer;
 
 
-ALTER TABLE public.education_teers OWNER TO workbc;
+ALTER VIEW public.education_teers OWNER TO workbc;
 
 --
 -- Name: fyp_categories_interests; Type: TABLE; Schema: public; Owner: workbc
@@ -1239,42 +1241,42 @@ COMMENT ON COLUMN public.fyp_categories_interests.sub_noc_label_en IS 'EPBC Sub-
 --
 
 CREATE VIEW public.fyp_categories_interests_nocs AS
- SELECT DISTINCT fyp_categories_interests.noc_2021,
-    fyp_categories_interests.category,
-    fyp_categories_interests.interest
+ SELECT DISTINCT noc_2021,
+    category,
+    interest
    FROM public.fyp_categories_interests
-  ORDER BY fyp_categories_interests.noc_2021, fyp_categories_interests.category, fyp_categories_interests.interest;
+  ORDER BY noc_2021, category, interest;
 
 
-ALTER TABLE public.fyp_categories_interests_nocs OWNER TO workbc;
+ALTER VIEW public.fyp_categories_interests_nocs OWNER TO workbc;
 
 --
 -- Name: fyp_categories_interests_sub_nocs; Type: VIEW; Schema: public; Owner: workbc
 --
 
 CREATE VIEW public.fyp_categories_interests_sub_nocs AS
- SELECT DISTINCT fyp_categories_interests.sub_noc,
-    fyp_categories_interests.sub_noc_label_en,
-    fyp_categories_interests.noc_2021,
-    fyp_categories_interests.label_en
+ SELECT DISTINCT sub_noc,
+    sub_noc_label_en,
+    noc_2021,
+    label_en
    FROM public.fyp_categories_interests
-  ORDER BY fyp_categories_interests.sub_noc;
+  ORDER BY sub_noc;
 
 
-ALTER TABLE public.fyp_categories_interests_sub_nocs OWNER TO workbc;
+ALTER VIEW public.fyp_categories_interests_sub_nocs OWNER TO workbc;
 
 --
 -- Name: fyp_categories_interests_taxonomy; Type: VIEW; Schema: public; Owner: workbc
 --
 
 CREATE VIEW public.fyp_categories_interests_taxonomy AS
- SELECT DISTINCT fyp_categories_interests.category,
-    fyp_categories_interests.interest
+ SELECT DISTINCT category,
+    interest
    FROM public.fyp_categories_interests
-  ORDER BY fyp_categories_interests.category, fyp_categories_interests.interest;
+  ORDER BY category, interest;
 
 
-ALTER TABLE public.fyp_categories_interests_taxonomy OWNER TO workbc;
+ALTER VIEW public.fyp_categories_interests_taxonomy OWNER TO workbc;
 
 --
 -- Name: high_opportunity_occupations; Type: TABLE; Schema: public; Owner: workbc
@@ -5950,29 +5952,29 @@ COMMENT ON COLUMN public.nocs.noc_2016 IS 'Equivalent NOC 2016 codes (comma-sepa
 --
 
 CREATE VIEW public.nocs_categories AS
- SELECT nocs.noc_2021,
-    nocs.label_en AS label,
-    nocs.noc_level AS level
+ SELECT noc_2021,
+    label_en AS label,
+    noc_level AS level
    FROM public.nocs
-  WHERE (nocs.noc_level < 5);
+  WHERE (noc_level < 5);
 
 
-ALTER TABLE public.nocs_categories OWNER TO workbc;
+ALTER VIEW public.nocs_categories OWNER TO workbc;
 
 --
 -- Name: nocs_nocs; Type: VIEW; Schema: public; Owner: workbc
 --
 
 CREATE VIEW public.nocs_nocs AS
- SELECT nocs.noc_2021,
-    nocs.label_en AS label,
-    nocs.label_fr,
-    nocs.noc_2016
+ SELECT noc_2021,
+    label_en AS label,
+    label_fr,
+    noc_2016
    FROM public.nocs
-  WHERE (nocs.noc_level = 5);
+  WHERE (noc_level = 5);
 
 
-ALTER TABLE public.nocs_nocs OWNER TO workbc;
+ALTER VIEW public.nocs_nocs OWNER TO workbc;
 
 --
 -- Name: occupational_interests; Type: TABLE; Schema: public; Owner: workbc
@@ -92016,7 +92018,7 @@ COPY public.skills (noc, skills_competencies, importance, importance_description
 --
 
 COPY public.sources (endpoint, label, period, datapoint, filename, sheet, range, author, date) FROM stdin;
-wages	B.C. Labour Market Information Office, derived from 2025 Job Bank Wage data	2025-01-01 08:00:00+00	\N	WorkBC_2025_Wage_Data	Data Table	A2-G513	\N	2026-02-02 08:00:00+00
+wages	B.C. Labour Market Information Office, derived from 2025 Job Bank Wage data	2025-01-01 08:00:00+00	\N	WorkBC_2025_Wage_Data	Data Table	A2-I513	\N	2026-02-02 08:00:00+00
 titles	\N	2021-01-01 08:00:00+00	\N	NOC2021/noc_2021_version_1.0_-_elements.csv	\N	\N	\N	2026-08-06 08:00:00+00
 skills	\N	2021-01-01 08:00:00+00	\N	skills_data_for_career_profiles_2026-08-05	Sheet 1	A2-G17641	\N	2026-08-05 08:00:00+00
 openings_careers	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	Job_Openings_by_Industry_LMO_2026-08-05	Career Profiles	A5-Q515	\N	2026-08-05 08:00:00+00
@@ -92025,11 +92027,10 @@ census	2021 Census	2021-01-01 08:00:00+00	\N	2021_Census_Jan18_23	Career Profile
 career_regional	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Regional Outlook	A5-AC516	\N	2026-08-05 08:00:00+00
 career_provincial	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Provincial Outlook	A4-L515	\N	2026-08-05 08:00:00+00
 career_related	\N	2021-01-01 08:00:00+00	\N	NOC2021/noc_2021_version_1.0_-_elements.csv	\N	\N	\N	2026-08-06 08:00:00+00
-high_opportunity_occupations	\N	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_new_tool_2026	Sheet1	A2-O851	B.C. Labour Market Information Office	2026-08-05 08:00:00+00
-occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_Apr5_24	Sheet1	A2-C1537	\N	2024-04-05 08:00:00+00
+high_opportunity_occupations	\N	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_new_tool_2026-08-05	Sheet 1	A2-O857	B.C. Labour Market Information Office	2026-08-05 08:00:00+00
+occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_Apr5_24	Sheet 1	A2-C1537	\N	2024-04-05 08:00:00+00
 fyp_categories_interests	\N	2025-01-01 08:00:00+00	\N	FYP - Categories, Areas of interest, and NOCs 2025-04-23	CONSOLIDATED LIST	A2-F909	\N	2025-04-23 08:00:00+00
 monthly_labour_market_updates	Monthly Labour Force Survey, 3-month moving average, seasonally unadjusted	1971-11-26 08:00:00+00	unemployment_pct	\N	\N	\N	\N	\N
-industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05	Sheet1	A3-H20	\N	2026-08-05 08:00:00+00
 openings_industry	\N	2026-01-01 08:00:00+00	\N	top_10_careers_by_aggregate_industry_2026-08-05	Sheet 1	A2-D181	\N	2026-08-05 08:00:00+00
 labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Industry Profiles	A5-BC23	BC Labour Market Information Office	2025-11-24 08:00:00+00
 labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A6-V13	BC Labour Market Information Office	2025-11-24 08:00:00+00
@@ -92037,14 +92038,14 @@ labour_force_survey_regional_industry_region	2024 Labour Force Survey	2024-01-01
 labour_force_survey_regional_industry_province	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A35-U42	BC Labour Market Information Office	2025-11-24 08:00:00+00
 regional_labour_market_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Regional_Profile_Data_2026-08-05	Regional Profiles - LMO	A5-L12	\N	2026-08-05 08:00:00+00
 regional_top_occupations	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Regional_Profile_Data_2026-08-05	Top Occupation	A4-D73	\N	2026-08-05 08:00:00+00
-career_trek	\N	2026-01-01 08:00:00+00	\N	SSOT_WorkBC_Career_Trek_2025_26__Apr24	LMO	A2-J195	\N	2026-04-24 08:00:00+00
+career_trek	\N	2026-01-01 08:00:00+00	\N	SSOT_WorkBC_Career_Trek_2025_26__Apr24	LMO	A2-J204	\N	2026-04-24 08:00:00+00
 career_search_openings	\N	2024-01-01 08:00:00+00	\N	Career_Search_Tool_Job_Openings_2024_Jan_13_2025	Sheet 1	A2-L35617	\N	2025-01-13 08:00:00+00
 career_search_groups	\N	2024-01-01 08:00:00+00	\N	career_search_tool_occupation_groups_manual_update_2024_Jan_15_2025	Sheet 1	A2-C10492	\N	2025-01-15 08:00:00+00
 career_transition_opportunities	\N	2026-01-01 08:00:00+00	\N	career_transition_tool_opportunities_2026-08-05	Sheet 1	A2-I10081	\N	2026-08-05 08:00:00+00
 onet_nocs	\N	2021-01-01 08:00:00+00	\N	onet2019_soc2018_noc2016_noc2021_crosswalk	Sheet1	A2-F1977	\N	2024-09-17 08:00:00+00
 nocs	\N	2021-01-01 08:00:00+00	\N	NOC2021/*	\N	\N	\N	2024-07-08 08:00:00+00
 industries	\N	2021-01-01 08:00:00+00	\N	EDM/*	\N	\N	\N	2024-04-15 08:00:00+00
-lmo_report_2024_job_openings_10y	B.C. Labour Market Outlook	2024-01-01 08:00:00+00	\N	LMO 2024E Charts and Tables 2025 02 12	Figure 1.1-1	A4-C17	\N	2025-02-12 08:00:00+00
+lmo_report_2024_job_openings_10y	B.C. Labour Market Outlook	2024-01-01 08:00:00+00	\N	LMO 2024E Charts and Tables 2025 02 12	Figure 1.1-1	A4-C6;A8-C12;A16-C17	\N	2025-02-12 08:00:00+00
 lmo_report_2024_job_openings_teers	B.C. Labour Market Outlook	2024-01-01 08:00:00+00	\N	LMO 2024E Charts and Tables 2025 02 12	Figure 2-1	B5-F11	\N	2025-02-12 08:00:00+00
 lmo_report_2024_job_openings_industries	B.C. Labour Market Outlook	2024-01-01 08:00:00+00	\N	LMO 2024E Charts and Tables 2025 02 12	Figure 3-1	O3-U23	\N	2025-02-12 08:00:00+00
 lmo_report_2024_job_openings_broad_categories	B.C. Labour Market Outlook	2024-01-01 08:00:00+00	\N	LMO 2024E Charts and Tables 2025 02 12	Figure 4.1-1	A5-J17	\N	2025-02-12 08:00:00+00
@@ -92069,7 +92070,7 @@ lmo_report_2025_job_openings_cariboo	B.C. Labour Market Outlook	2025-01-01 08:00
 lmo_report_2025_job_openings_north_coast_nechako	B.C. Labour Market Outlook	2025-01-01 08:00:00+00	\N	tidy LMO 2025E Charts and Tables_09.18.2025	tab_5_6_1	A2-I7	\N	2025-11-26 08:00:00+00
 lmo_report_2025_job_openings_northeast	B.C. Labour Market Outlook	2025-01-01 08:00:00+00	\N	tidy LMO 2025E Charts and Tables_09.18.2025	tab_5_7_1	A2-I7	\N	2025-11-26 08:00:00+00
 lmo_report_2026_job_openings_10y	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	Figure 1_2	A2-E11	\N	2026-10-14 08:00:00+00
-lmo_report_2026_job_openings_teers	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	Figure_2_2	A2-H8	\N	2026-10-14 08:00:00+00
+lmo_report_2026_job_openings_teers	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	Figure_2_2	A2-G8	\N	2026-10-14 08:00:00+00
 lmo_report_2026_job_openings_industries	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	fig_3_1	A2-I19	\N	2026-10-14 08:00:00+00
 lmo_report_2026_job_openings_broad_categories	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	fig_4_1	A2-J12	\N	2026-10-14 08:00:00+00
 lmo_report_2026_job_openings_regions	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	tidy LMO 2026E Charts and tables_2026-10-14	tab_5_1	A2-H9	\N	2026-10-14 08:00:00+00
@@ -92148,6 +92149,7 @@ monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-06-01 08:00:00+00	\N	WorkBC LMS June_2026	Sheet3	\N	\N	2026-07-16 11:02:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-07-01 08:00:00+00	\N	WorkBC LMS July_2026	Sheet3	\N	\N	2026-09-10 15:56:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-08-01 08:00:00+00	\N	WorkBC LMS Aug_2026	Sheet3	\N	\N	2026-09-10 15:59:00+00
+industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05_7	Sheet1	A3-H20	\N	2026-11-17 13:56:00+00
 \.
 
 
@@ -121584,8 +121586,8 @@ GRANT SELECT ON TABLE public.wages TO ssot_lmmu;
 -- Name: DEFAULT PRIVILEGES FOR TABLES; Type: DEFAULT ACL; Schema: public; Owner: workbc
 --
 
-ALTER DEFAULT PRIVILEGES FOR ROLE workbc IN SCHEMA public GRANT SELECT ON TABLES  TO ssot_readonly;
-ALTER DEFAULT PRIVILEGES FOR ROLE workbc IN SCHEMA public GRANT SELECT ON TABLES  TO ssot_lmmu;
+ALTER DEFAULT PRIVILEGES FOR ROLE workbc IN SCHEMA public GRANT SELECT ON TABLES TO ssot_readonly;
+ALTER DEFAULT PRIVILEGES FOR ROLE workbc IN SCHEMA public GRANT SELECT ON TABLES TO ssot_lmmu;
 
 
 --
@@ -121601,4 +121603,6 @@ ALTER EVENT TRIGGER pgrst_watch OWNER TO workbc;
 --
 -- PostgreSQL database dump complete
 --
+
+\unrestrict EYGBGB4a16qQij5P3EUTXuurRlalr2mpHvzQEAj6WXJYd8X4TJvDbEpjr5fZSIO
 
