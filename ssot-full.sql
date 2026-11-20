@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict EYGBGB4a16qQij5P3EUTXuurRlalr2mpHvzQEAj6WXJYd8X4TJvDbEpjr5fZSIO
+\restrict pZEYjM98zcobFtoG4UU8AerZxbD0wO3ogQHzvNeqw8WrDNSTDYfLBJT8EVadffN
 
 -- Dumped from database version 16.16 (Debian 16.16-1.pgdg12+1)
 -- Dumped by pg_dump version 16.16 (Debian 16.16-1.pgdg12+1)
@@ -69349,8 +69349,8 @@ wholesale_trade	31470	3.3	3.3	3.2	0.8999999999999999	0.6	0.7000000000000001
 --
 
 COPY public.labour_force_survey_industry (industry, yoy_employment_growth_pct, yoy_change_employment, total_employment, workforce_employment_gender_pct_men, workforce_employment_gender_pct_women, workforce_provincial_average_pct_men, workforce_provincial_average_pct_women, workforce_employment_under_25_pct_previous, workforce_employment_under_25_pct, workforce_employment_under_25_pct_average, workforce_employment_over_55_pct_previous, workforce_employment_over_55_pct, workforce_employment_over_55_pct_average, employment_part_time_pct_previous, employment_part_time_pct, employment_part_time_pct_average, employment_self_employment_pct_previous, employment_self_employment_pct, employment_self_employment_pct_average, employment_temporary_pct_previous, employment_temporary_pct, employment_temporary_pct_average, employment_firms_under_20_employees_pct_previous, employment_firms_under_20_employees_pct, employment_firms_under_20_employees_pct_average, employment_private_sector_pct_previous, employment_private_sector_pct, employment_private_sector_pct_average, employment_unemployment_rate_pct_previous, employment_unemployment_rate_pct, employment_unemployment_rate_pct_average, earnings_men_previous, earnings_men, earnings_men_average, earnings_women_previous, earnings_women, earnings_women_average, earnings_youth_previous, earnings_youth, earnings_youth_average, location_cariboo_employment_this_industry_pct, location_cariboo_employment_all_industries_pct, location_kootenay_employment_this_industry_pct, location_kootenay_employment_all_industries_pct, location_mainland_southwest_employment_this_industry_pct, location_mainland_southwest_employment_all_industries_pct, location_north_coast_nechako_employment_this_industry_pct, location_north_coast_nechako_employment_all_industries_pct, location_northeast_employment_this_industry_pct, location_northeast_employment_all_industries_pct, location_thompson_okanagan_employment_this_industry_pct, location_thompson_okanagan_employment_all_industries_pct, location_vancouver_island_coast_employment_this_industry_pct, location_vancouver_island_coast_employment_all_industries_pct) FROM stdin;
-Total, All Industries	2.3	66084	2914042	52.6	47.4	52.6	47.4	13.8	12.5	12.5	22.1	21.1	21.1	21.7	19.9	19.9	17.2	15.6	15.6	10.2	8.9	8.9	37.3	35.1	35.1	65.7	63.9	63.9	4.8	5.6	5.6	31	39	39	26	34	34	17.8	23	23	2.9	2.9	3	3	64.9	64.9	1.6	1.6	1.2	1.2	10.4	10.4	16.1	16.1
-accommodation_food_services	-5.4	-10708	186625	44.3	55.7	52.6	47.4	39.5	36.4	12.5	12.9	11.3	21.1	41.3	42.8	19.9	9	6.3	15.6	16.4	15.7	8.9	43.4	45.5	35.1	91	93.5	63.9	4.5	4.8	5.6	17.81	22.98	39	16.99	21.83	34	14.95	19.24	23	2.6	2.9	3.1	3	62.4	64.9	0.9	1.6	1	1.2	11.4	10.4	18.5	16.1
+Total, All Industries	2.3	66084	2914042	52.6	47.4	42.6	57.4	13.8	12.5	12.5	22.1	21.1	21.1	21.7	19.9	19.9	17.2	15.6	15.6	10.2	8.9	8.9	37.3	35.1	35.1	65.7	63.9	63.9	4.8	5.6	5.6	31	39	39	26	34	34	17.8	23	23	2.9	2.9	3	3	64.9	64.9	1.6	1.6	1.2	1.2	10.4	10.4	16.1	16.1
+accommodation_food_services	-5.4	-10708	186625	44.3	55.7	42.6	57.4	39.5	36.4	12.5	12.9	11.3	21.1	41.3	42.8	19.9	9	6.3	15.6	16.4	15.7	8.9	43.4	45.5	35.1	91	93.5	63.9	4.5	4.8	5.6	17.81	22.98	39	16.99	21.83	34	14.95	19.24	23	2.6	2.9	3.1	3	62.4	64.9	0.9	1.6	1	1.2	11.4	10.4	18.5	16.1
 agriculture_fishing	-28.2	-7250	18500	53.5	46.5	52.6	47.4	10.3	13.7	12.5	34.4	28.2	21.1	20.9	23.8	19.9	35.7	26.8	15.6	16	18.5	8.9	48.2	56.2	35.1	64.2	73.2	63.9	10	12.7	5.6	22.08	31.76	39	20.17	24.81	34	15.37	18.76	23	3	2.9	3	3	49.8	64.9	3.6	1.6	0.9	1.2	17.4	10.4	22.2	16.1
 business_building_other_support_services	3.6	3312	94708	54.8	45.2	52.6	47.4	11.3	13.1	12.5	26.8	27.6	21.1	28.9	29.7	19.9	27.7	28.5	15.6	10.6	10	8.9	59.3	55.5	35.1	71.1	69.6	63.9	3.6	5	5.6	22.36	30.23	39	20.41	27.23	34	18.21	23.13	23	1.7	2.9	2.9	3	65.9	64.9	1.3	1.6	1	1.2	10.6	10.4	16.6	16.1
 construction	3.9	9188	246750	87.1	12.9	52.6	47.4	12.7	12.9	12.5	18.5	19.2	21.1	9.5	7.7	19.9	28.9	26.5	15.6	7.5	4.9	8.9	53.8	48.8	35.1	70.3	72.4	63.9	4	4.6	5.6	31.09	38.01	39	27.37	34.82	34	22.45	25.78	23	2.7	2.9	3.3	3	61.9	64.9	2	1.6	1.7	1.2	12.6	10.4	15.7	16.1
@@ -92032,10 +92032,6 @@ occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_
 fyp_categories_interests	\N	2025-01-01 08:00:00+00	\N	FYP - Categories, Areas of interest, and NOCs 2025-04-23	CONSOLIDATED LIST	A2-F909	\N	2025-04-23 08:00:00+00
 monthly_labour_market_updates	Monthly Labour Force Survey, 3-month moving average, seasonally unadjusted	1971-11-26 08:00:00+00	unemployment_pct	\N	\N	\N	\N	\N
 openings_industry	\N	2026-01-01 08:00:00+00	\N	top_10_careers_by_aggregate_industry_2026-08-05	Sheet 1	A2-D181	\N	2026-08-05 08:00:00+00
-labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Industry Profiles	A5-BC23	BC Labour Market Information Office	2025-11-24 08:00:00+00
-labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A6-V13	BC Labour Market Information Office	2025-11-24 08:00:00+00
-labour_force_survey_regional_industry_region	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A21-AK28	BC Labour Market Information Office	2025-11-24 08:00:00+00
-labour_force_survey_regional_industry_province	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)	Regional Profiles	A35-U42	BC Labour Market Information Office	2025-11-24 08:00:00+00
 regional_labour_market_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Regional_Profile_Data_2026-08-05	Regional Profiles - LMO	A5-L12	\N	2026-08-05 08:00:00+00
 regional_top_occupations	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Regional_Profile_Data_2026-08-05	Top Occupation	A4-D73	\N	2026-08-05 08:00:00+00
 career_trek	\N	2026-01-01 08:00:00+00	\N	SSOT_WorkBC_Career_Trek_2025_26__Apr24	LMO	A2-J204	\N	2026-04-24 08:00:00+00
@@ -92150,6 +92146,10 @@ monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-07-01 08:00:00+00	\N	WorkBC LMS July_2026	Sheet3	\N	\N	2026-09-10 15:56:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-08-01 08:00:00+00	\N	WorkBC LMS Aug_2026	Sheet3	\N	\N	2026-09-10 15:59:00+00
 industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05_7	Sheet1	A3-H20	\N	2026-11-17 13:56:00+00
+labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)-test_0	Industry Profiles	A5-BC23	BC Labour Market Information Office	2026-11-20 09:16:00+00
+labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)-test_0	Regional Profiles	A6-V13	BC Labour Market Information Office	2026-11-20 09:16:00+00
+labour_force_survey_regional_industry_region	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)-test_0	Regional Profiles	A21-AK28	BC Labour Market Information Office	2026-11-20 09:16:00+00
+labour_force_survey_regional_industry_province	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)-test_0	Regional Profiles	A35-U42	BC Labour Market Information Office	2026-11-20 09:16:00+00
 \.
 
 
@@ -121604,5 +121604,5 @@ ALTER EVENT TRIGGER pgrst_watch OWNER TO workbc;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict EYGBGB4a16qQij5P3EUTXuurRlalr2mpHvzQEAj6WXJYd8X4TJvDbEpjr5fZSIO
+\unrestrict pZEYjM98zcobFtoG4UU8AerZxbD0wO3ogQHzvNeqw8WrDNSTDYfLBJT8EVadffN
 
