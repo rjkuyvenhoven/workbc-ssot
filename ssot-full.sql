@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict IL3iJ5sgwKwlHKOEguyajOq7mOrmBFWawIby7We79E3SeJtNLRuw04SavH5zcHb
+\restrict WhEP9ukXfYty5s8wEuiKBkOc8lyDSpmhWI315aMWllBfMmeyUxQu0eUhbcK1RYs
 
 -- Dumped from database version 16.16 (Debian 16.16-1.pgdg12+1)
 -- Dumped by pg_dump version 16.16 (Debian 16.16-1.pgdg12+1)
@@ -92146,10 +92146,10 @@ monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-07-01 08:00:00+00	\N	WorkBC LMS July_2026	Sheet3	\N	\N	2026-09-10 15:56:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-08-01 08:00:00+00	\N	WorkBC LMS Aug_2026	Sheet3	\N	\N	2026-09-10 15:59:00+00
 industry_outlook	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Industry_Profile_2026-08-05_7	Sheet1	A3-H20	\N	2026-11-17 13:56:00+00
-labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_0	Industry Profiles	A5-BC23	BC Labour Market Information Office	2026-11-20 10:50:00+00
-labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_0	Regional Profiles	A6-V13	BC Labour Market Information Office	2026-11-20 10:50:00+00
-labour_force_survey_regional_industry_region	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_0	Regional Profiles	A21-AK28	BC Labour Market Information Office	2026-11-20 10:50:00+00
-labour_force_survey_regional_industry_province	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_0	Regional Profiles	A35-U42	BC Labour Market Information Office	2026-11-20 10:50:00+00
+labour_force_survey_industry	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_9	Industry Profiles	A5-BC23	BC Labour Market Information Office	2026-11-20 15:06:00+00
+labour_force_survey_regional_employment	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_9	Regional Profiles	A6-V13	BC Labour Market Information Office	2026-11-20 15:06:00+00
+labour_force_survey_regional_industry_region	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_9	Regional Profiles	A21-AK28	BC Labour Market Information Office	2026-11-20 15:06:00+00
+labour_force_survey_regional_industry_province	2024 Labour Force Survey	2024-01-01 08:00:00+00	\N	2024_LFS_data_sheet(2025-02-26)_9	Regional Profiles	A35-U42	BC Labour Market Information Office	2026-11-20 15:06:00+00
 \.
 
 
@@ -121604,5 +121604,5 @@ ALTER EVENT TRIGGER pgrst_watch OWNER TO workbc;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict IL3iJ5sgwKwlHKOEguyajOq7mOrmBFWawIby7We79E3SeJtNLRuw04SavH5zcHb
+\unrestrict WhEP9ukXfYty5s8wEuiKBkOc8lyDSpmhWI315aMWllBfMmeyUxQu0eUhbcK1RYs
 
