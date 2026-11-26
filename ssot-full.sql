@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict VjhzWvCjsZC9qCsrXR5J0M2GI76z6Egx4mXqLOisB9fVWgiAqfj1hXdXE7f6o9z
+\restrict s5OsZ2PQS3uImr3VGVRwucwFfbkbrdcPuZPaX4h0U2QVZg0FBe5qw3cUNUP2gaL
 
 -- Dumped from database version 16.16 (Debian 16.16-1.pgdg12+1)
 -- Dumped by pg_dump version 16.16 (Debian 16.16-1.pgdg12+1)
@@ -6727,518 +6727,518 @@ COMMENT ON COLUMN public.wages.source_information IS 'Source Information';
 --
 
 COPY public.career_provincial (noc, description, forecasted_average_employment_growth_rate_first5y, forecasted_average_employment_growth_rate_second5y, forecasted_average_employment_growth_rate_10y, job_openings_first5y, job_openings_second5y, expected_job_openings_10y, replacement_of_retiring_workers_10y_pct, replacement_of_retiring_workers_10y, new_jobs_due_to_economic_growth_10y_pct, new_jobs_due_to_economic_growth_10y) FROM stdin;
-00010	Legislators	0.7000000000000001	1	0.8	300	320	620	80.30000000000001	490	19.7	120
+00010	Legislators	0.7	1	0.8	300	320	620	80.3	490	19.7	120
 00018	Senior managers - public and private sector	1.2	1.2	1.2	9390	9980	19380	75.5	14640	24.5	4740
-10010	Financial managers	0.8999999999999999	1	0.8999999999999999	1820	1940	3760	73.8	2770	26.200000000000003	990
-10011	Human resources managers	0.8999999999999999	1	0.8999999999999999	1540	1820	3350	78.4	2630	21.6	720
-10012	Purchasing managers	0.8	0.8999999999999999	0.8999999999999999	820	950	1770	81.69999999999999	1450	18.3	320
-10019	Other administrative services managers	-0.3	0.5	0.1	1130	1580	2720	96.89999999999999	2630	3.1	80
-10020	Insurance, real estate and financial brokerage managers	1.2	1	1.0999999999999999	1940	2030	3970	75.7	3010	24.3	960
-10021	Banking, credit and other investment managers	0.8999999999999999	0.8999999999999999	0.8999999999999999	2240	2670	4910	78.3	3850	21.7	1060
-10022	Advertising, marketing and public relations managers	1.2	1.0999999999999999	1.0999999999999999	2740	3370	6110	67.4	4120	32.6	1990
-10029	Other business services managers	0.8	1	0.8999999999999999	720	840	1560	79.3	1230	20.7	320
+10010	Financial managers	0.9	1	0.9	1820	1940	3760	73.8	2770	26.2	990
+10011	Human resources managers	0.9	1	0.9	1540	1820	3350	78.4	2630	21.6	720
+10012	Purchasing managers	0.8	0.9	0.9	820	950	1770	81.7	1450	18.3	320
+10019	Other administrative services managers	-0.3	0.5	0.1	1130	1580	2720	96.9	2630	3.1	80
+10020	Insurance, real estate and financial brokerage managers	1.2	1	1.1	1940	2030	3970	75.7	3010	24.3	960
+10021	Banking, credit and other investment managers	0.9	0.9	0.9	2240	2670	4910	78.3	3850	21.7	1060
+10022	Advertising, marketing and public relations managers	1.2	1.1	1.1	2740	3370	6110	67.4	4120	32.6	1990
+10029	Other business services managers	0.8	1	0.9	720	840	1560	79.3	1230	20.7	320
 10030	Telecommunication carriers managers	-1	1	0	90	200	290	100	290	0	0
-11100	Financial auditors and accountants	1	0.8999999999999999	0.8999999999999999	5400	5340	10740	67.2	7220	32.800000000000004	3520
-11101	Financial and investment analysts	0.8	1	0.8999999999999999	890	1030	1910	69.5	1330	30.5	580
-11102	Financial advisors	0.8999999999999999	1	0.8999999999999999	2550	2780	5330	68.4	3650	31.6	1690
-11103	Securities agents, investment dealers and brokers	0.8999999999999999	1	0.8999999999999999	550	560	1110	71.5	800	28.499999999999996	320
-11109	Other financial officers	0.8	0.8999999999999999	0.8999999999999999	920	1010	1930	73.5	1420	26.5	510
-11200	Human resources professionals	0.7000000000000001	1	0.8	1750	2050	3800	74.7	2830	25.3	960
+11100	Financial auditors and accountants	1	0.9	0.9	5400	5340	10740	67.2	7220	32.8	3520
+11101	Financial and investment analysts	0.8	1	0.9	890	1030	1910	69.5	1330	30.5	580
+11102	Financial advisors	0.9	1	0.9	2550	2780	5330	68.4	3650	31.6	1690
+11103	Securities agents, investment dealers and brokers	0.9	1	0.9	550	560	1110	71.5	800	28.5	320
+11109	Other financial officers	0.8	0.9	0.9	920	1010	1930	73.5	1420	26.5	510
+11200	Human resources professionals	0.7	1	0.8	1750	2050	3800	74.7	2830	25.3	960
 11201	Professional occupations in business management consulting	1	1.3	1.2	2300	2490	4790	66.8	3200	33.2	1590
-11202	Professional occupations in advertising, marketing and public relations	1.0999999999999999	1.0999999999999999	1.0999999999999999	3450	3860	7310	59.199999999999996	4330	40.8	2980
-12010	Supervisors, general office and administrative support workers	0.7000000000000001	0.8999999999999999	0.8	570	670	1230	81.39999999999999	1000	18.6	230
-12011	Supervisors, finance and insurance office workers	0.8	0.8999999999999999	0.8	440	500	930	80.10000000000001	750	19.900000000000002	190
-12012	Supervisors, library, correspondence and related information workers	-0.3	0.6	0.1	80	100	180	97.8	180	2.1999999999999997	0
-12013	Supervisors, supply chain, tracking and scheduling coordination occupations	0.6	0.7000000000000001	0.6	670	780	1450	80.80000000000001	1170	19.2	280
-12100	Executive assistants	0.7000000000000001	0.8999999999999999	0.8	1240	1500	2730	79.5	2170	20.5	560
-12101	Human resources and recruitment officers	0.7000000000000001	1.0999999999999999	0.8999999999999999	620	890	1510	72.1	1090	27.900000000000002	420
-12102	Procurement and purchasing agents and officers	0.8	0.8999999999999999	0.8	1260	1420	2670	79.9	2130	20.1	540
+11202	Professional occupations in advertising, marketing and public relations	1.1	1.1	1.1	3450	3860	7310	59.2	4330	40.8	2980
+12010	Supervisors, general office and administrative support workers	0.7	0.9	0.8	570	670	1230	81.4	1000	18.6	230
+12011	Supervisors, finance and insurance office workers	0.8	0.9	0.8	440	500	930	80.1	750	19.9	190
+12012	Supervisors, library, correspondence and related information workers	-0.3	0.6	0.1	80	100	180	97.8	180	2.2	0
+12013	Supervisors, supply chain, tracking and scheduling coordination occupations	0.6	0.7	0.6	670	780	1450	80.8	1170	19.2	280
+12100	Executive assistants	0.7	0.9	0.8	1240	1500	2730	79.5	2170	20.5	560
+12101	Human resources and recruitment officers	0.7	1.1	0.9	620	890	1510	72.1	1090	27.9	420
+12102	Procurement and purchasing agents and officers	0.8	0.9	0.8	1260	1420	2670	79.9	2130	20.1	540
 12103	Conference and event planners	0.8	0.8	0.8	500	610	1100	75.3	830	24.7	270
-12104	Employment insurance and revenue officers	-1.0999999999999999	0.3	-0.4	340	740	1080	100	1270	0	-200
+12104	Employment insurance and revenue officers	-1.1	0.3	-0.4	340	740	1080	100	1270	0	-200
 12110	Court reporters, medical transcriptionists and related occupations	0.8	1.2	1	260	270	530	74.4	390	25.6	140
-12111	Health information management occupations	1.3	1.6	1.5	150	160	310	66.10000000000001	200	33.900000000000006	100
-12112	Records management technicians	1	1.3	1.0999999999999999	40	40	80	68.30000000000001	50	31.8	20
-12113	Statistical officers and related research support occupations	1.3	1.2	1.2	80	90	170	53.6	90	46.400000000000006	80
-12200	Accounting technicians and bookkeepers	1	0.8999999999999999	1	5270	4710	9980	71.5	7140	28.499999999999996	2840
+12111	Health information management occupations	1.3	1.6	1.5	150	160	310	66.1	200	33.9	100
+12112	Records management technicians	1	1.3	1.1	40	40	80	68.3	50	31.8	20
+12113	Statistical officers and related research support occupations	1.3	1.2	1.2	80	90	170	53.6	90	46.4	80
+12200	Accounting technicians and bookkeepers	1	0.9	1	5270	4710	9980	71.5	7140	28.5	2840
 12201	Insurance adjusters and claims examiners	1	1	1	790	830	1630	68.7	1120	31.3	510
 12202	Insurance underwriters	1	1	1	300	330	630	66.9	420	33.1	210
-12203	Assessors, business valuators and appraisers	0.6	0.7000000000000001	0.6	320	320	640	77.5	500	22.5	140
-13100	Administrative officers	0.8999999999999999	1.0999999999999999	1	9190	10590	19780	77.5	15320	22.5	4460
-13101	Property administrators	1.2	1	1.0999999999999999	2520	2510	5030	75.3	3790	24.7	1240
-13102	Payroll administrators	0.8999999999999999	1	0.8999999999999999	1210	1240	2450	74.1	1820	25.900000000000002	640
-13110	Administrative assistants	0.8	1	0.8999999999999999	5730	6210	11950	73	8720	27	3230
-13111	Legal administrative assistants	1.2	0.7000000000000001	1	1430	1280	2710	65	1760	35	950
-13112	Medical administrative assistants	1.6	1.7999999999999998	1.7000000000000002	1080	1250	2330	53.900000000000006	1260	46.1	1070
+12203	Assessors, business valuators and appraisers	0.6	0.7	0.6	320	320	640	77.5	500	22.5	140
+13100	Administrative officers	0.9	1.1	1	9190	10590	19780	77.5	15320	22.5	4460
+13101	Property administrators	1.2	1	1.1	2520	2510	5030	75.3	3790	24.7	1240
+13102	Payroll administrators	0.9	1	0.9	1210	1240	2450	74.1	1820	25.9	640
+13110	Administrative assistants	0.8	1	0.9	5730	6210	11950	73	8720	27	3230
+13111	Legal administrative assistants	1.2	0.7	1	1430	1280	2710	65	1760	35	950
+13112	Medical administrative assistants	1.6	1.8	1.7	1080	1250	2330	53.9	1260	46.1	1070
 13200	Customs, ship and other brokers	0.5	0.3	0.4	110	100	210	83.3	170	16.7	30
-13201	Production and transportation logistics coordinators	0.7000000000000001	0.7000000000000001	0.7000000000000001	940	1000	1940	75	1450	25	480
-14100	General office support workers	0.8999999999999999	1.0999999999999999	1	5310	5670	10980	69.39999999999999	7620	30.599999999999998	3360
-14101	Receptionists	1.3	1.5	1.4000000000000001	4450	5040	9500	55.00000000000001	5220	45	4280
+13201	Production and transportation logistics coordinators	0.7	0.7	0.7	940	1000	1940	75	1450	25	480
+14100	General office support workers	0.9	1.1	1	5310	5670	10980	69.4	7620	30.6	3360
+14101	Receptionists	1.3	1.5	1.4	4450	5040	9500	55	5220	45	4280
 14102	Personnel clerks	0.8	1.2	1	280	330	610	69.6	430	30.4	190
-14103	Court clerks and related court services occupations	-0.8999999999999999	0.1	-0.4	40	80	130	100	160	0	-40
+14103	Court clerks and related court services occupations	-0.9	0.1	-0.4	40	80	130	100	160	0	-40
 14110	Survey interviewers and statistical clerks	0.4	0.8	0.6	160	150	310	79.7	250	20.3	60
 14111	Data entry clerks	-0.3	0	-0.2	460	550	1000	100	1130	0	-120
 14112	Desktop publishing operators and related occupations	0.6	0.5	0.6	10	10	10	79.5	10	20.5	0
-14200	Accounting and related clerks	0.8999999999999999	0.8999999999999999	0.8999999999999999	4620	4500	9120	72.8	6630	27.200000000000003	2480
-14201	Banking, insurance and other financial clerks	0.8999999999999999	0.8999999999999999	0.8999999999999999	420	420	840	70.89999999999999	590	29.099999999999998	240
+14200	Accounting and related clerks	0.9	0.9	0.9	4620	4500	9120	72.8	6630	27.2	2480
+14201	Banking, insurance and other financial clerks	0.9	0.9	0.9	420	420	840	70.9	590	29.1	240
 14202	Collection clerks	0.8	0.8	0.8	200	200	400	75.7	300	24.3	100
 14300	Library assistants and clerks	0.3	0.6	0.5	190	210	400	81	330	19	80
-14301	Correspondence, publication and regulatory clerks	0.3	0.7000000000000001	0.5	410	480	890	82.3	730	17.7	160
-14400	Shippers and receivers	0.7000000000000001	0.7000000000000001	0.7000000000000001	2070	2090	4160	75.9	3150	24.099999999999998	1000
+14301	Correspondence, publication and regulatory clerks	0.3	0.7	0.5	410	480	890	82.3	730	17.7	160
+14400	Shippers and receivers	0.7	0.7	0.7	2070	2090	4160	75.9	3150	24.1	1000
 14401	Storekeepers and partspersons	0.6	0.6	0.6	880	860	1750	77.7	1360	22.3	390
-14402	Production logistics workers	1	1.0999999999999999	1.0999999999999999	190	200	380	68.4	260	31.6	120
-14403	Purchasing and inventory control workers	0.7000000000000001	0.8	0.7000000000000001	670	710	1380	74.5	1030	25.5	350
-14404	Dispatchers	0.6	0.8	0.7000000000000001	530	620	1160	75.7	880	24.3	280
-14405	Transportation route and crew schedulers	0.7000000000000001	0.7000000000000001	0.7000000000000001	80	90	170	79	130	21	40
-20010	Engineering managers	1.2	1.4000000000000001	1.3	1110	1340	2440	70.8	1730	29.2	710
-20011	Architecture and science managers	1	1.2	1.0999999999999999	450	550	1000	74.2	740	25.8	260
-20012	Computer and information systems managers	1.9	1.7999999999999998	1.9	4030	4800	8830	64.60000000000001	5710	35.4	3120
-21100	Physicists and astronomers	1.5	1.3	1.4000000000000001	100	100	190	56.00000000000001	110	44	80
-21101	Chemists	0.8999999999999999	1.0999999999999999	1	290	350	650	67.60000000000001	440	32.4	210
+14402	Production logistics workers	1	1.1	1.1	190	200	380	68.4	260	31.6	120
+14403	Purchasing and inventory control workers	0.7	0.8	0.7	670	710	1380	74.5	1030	25.5	350
+14404	Dispatchers	0.6	0.8	0.7	530	620	1160	75.7	880	24.3	280
+14405	Transportation route and crew schedulers	0.7	0.7	0.7	80	90	170	79	130	21	40
+20010	Engineering managers	1.2	1.4	1.3	1110	1340	2440	70.8	1730	29.2	710
+20011	Architecture and science managers	1	1.2	1.1	450	550	1000	74.2	740	25.8	260
+20012	Computer and information systems managers	1.9	1.8	1.9	4030	4800	8830	64.6	5710	35.4	3120
+21100	Physicists and astronomers	1.5	1.3	1.4	100	100	190	56	110	44	80
+21101	Chemists	0.9	1.1	1	290	350	650	67.6	440	32.4	210
 21102	Geoscientists and oceanographers	1	1.5	1.3	470	560	1020	62	630	38	390
-21103	Meteorologists and climatologists	-0.4	0.6	0.1	10	20	30	97.89999999999999	30	2.3	0
-21109	Other professional occupations in physical sciences	3.2	1.0999999999999999	2.1	10	10	20	44.4	10	55.60000000000001	10
-21110	Biologists and related scientists	0.8	0.8999999999999999	0.8	820	980	1800	67.60000000000001	1220	32.4	580
+21103	Meteorologists and climatologists	-0.4	0.6	0.1	10	20	30	97.9	30	2.3	0
+21109	Other professional occupations in physical sciences	3.2	1.1	2.1	10	10	20	44.4	10	55.6	10
+21110	Biologists and related scientists	0.8	0.9	0.8	820	980	1800	67.6	1220	32.4	580
 21111	Forestry professionals	-0.5	0.6	0.1	300	410	700	99.2	700	0.8	10
-21112	Agricultural representatives, consultants and specialists	0.1	0.6	0.3	40	50	90	88.4	80	11.600000000000001	10
-21120	Public and environmental health and safety professionals	0.7000000000000001	1	0.8999999999999999	480	550	1020	73.3	750	26.700000000000003	270
-21200	Architects	1.5	1.6	1.6	720	790	1510	53.800000000000004	820	46.2	700
-21201	Landscape architects	1.2	1.5	1.4000000000000001	60	70	140	61.9	80	38.1	50
-21202	Urban and land use planners	0.7000000000000001	1	0.8	530	620	1140	73.5	840	26.5	300
-21203	Land surveyors	1.6	1.5	1.5	250	260	510	57.8	300	42.199999999999996	220
-21210	Mathematicians, statisticians and actuaries	0.8999999999999999	1.2	1	110	140	250	63.2	160	36.8	90
-21211	Data scientists	1.7000000000000002	1.7999999999999998	1.7000000000000002	400	510	910	48.699999999999996	450	51.300000000000004	470
-21220	Cybersecurity specialists	1.5	1.6	1.6	300	360	660	55.300000000000004	370	44.7	300
-21221	Business systems specialists	1.3	1.5	1.4000000000000001	920	1060	1980	61.5	1220	38.5	760
+21112	Agricultural representatives, consultants and specialists	0.1	0.6	0.3	40	50	90	88.4	80	11.6	10
+21120	Public and environmental health and safety professionals	0.7	1	0.9	480	550	1020	73.3	750	26.7	270
+21200	Architects	1.5	1.6	1.6	720	790	1510	53.8	820	46.2	700
+21201	Landscape architects	1.2	1.5	1.4	60	70	140	61.9	80	38.1	50
+21202	Urban and land use planners	0.7	1	0.8	530	620	1140	73.5	840	26.5	300
+21203	Land surveyors	1.6	1.5	1.5	250	260	510	57.8	300	42.2	220
+21210	Mathematicians, statisticians and actuaries	0.9	1.2	1	110	140	250	63.2	160	36.8	90
+21211	Data scientists	1.7	1.8	1.7	400	510	910	48.7	450	51.3	470
+21220	Cybersecurity specialists	1.5	1.6	1.6	300	360	660	55.3	370	44.7	300
+21221	Business systems specialists	1.3	1.5	1.4	920	1060	1980	61.5	1220	38.5	760
 21222	Information systems specialists	1.9	1.9	1.9	4100	4450	8560	53.5	4570	46.5	3980
 21223	Database analysts and data administrators	1.2	1.5	1.3	570	630	1190	62.9	750	37.1	440
 21230	Computer systems developers and programmers	1.9	1.9	1.9	980	1070	2050	48.9	1000	51.1	1050
-21231	Software engineers and designers	2.1	2	2.1	4810	5690	10500	40.8	4280	59.199999999999996	6210
-21232	Software developers and programmers	2.4	2.1999999999999997	2.3	4030	4560	8590	38.800000000000004	3330	61.199999999999996	5260
-21233	Web designers	2.5	2.1999999999999997	2.4	740	800	1540	36.6	560	63.4	980
-21234	Web developers and programmers	2.4	2.1999999999999997	2.3	2280	2570	4850	37.9	1840	62.1	3020
-21300	Civil engineers	1.3	1.5	1.4000000000000001	1890	2110	3990	56.99999999999999	2280	43	1720
+21231	Software engineers and designers	2.1	2	2.1	4810	5690	10500	40.8	4280	59.2	6210
+21232	Software developers and programmers	2.4	2.2	2.3	4030	4560	8590	38.8	3330	61.2	5260
+21233	Web designers	2.5	2.2	2.4	740	800	1540	36.6	560	63.4	980
+21234	Web developers and programmers	2.4	2.2	2.3	2280	2570	4850	37.9	1840	62.1	3020
+21300	Civil engineers	1.3	1.5	1.4	1890	2110	3990	57	2280	43	1720
 21301	Mechanical engineers	1.2	1.3	1.3	1030	1180	2210	55.7	1230	44.3	980
-21310	Electrical and electronics engineers	1.3	1.5	1.4000000000000001	1300	1460	2760	58.699999999999996	1620	41.3	1140
-21311	Computer engineers (except software engineers and designers)	1.6	1.7999999999999998	1.7000000000000002	680	770	1450	57.3	830	42.699999999999996	620
-21320	Chemical engineers	0.8	1.0999999999999999	1	150	170	320	63.9	210	36.1	120
+21310	Electrical and electronics engineers	1.3	1.5	1.4	1300	1460	2760	58.7	1620	41.3	1140
+21311	Computer engineers (except software engineers and designers)	1.6	1.8	1.7	680	770	1450	57.3	830	42.7	620
+21320	Chemical engineers	0.8	1.1	1	150	170	320	63.9	210	36.1	120
 21321	Industrial and manufacturing engineers	1.2	1.2	1.2	250	270	520	61.7	320	38.3	200
-21322	Metallurgical and materials engineers	1.4000000000000001	1.3	1.4000000000000001	40	40	80	48.8	40	51.2	40
-21330	Mining engineers	1.0999999999999999	1.6	1.4000000000000001	100	130	230	47.8	110	52.2	120
-21331	Geological engineers	1.4000000000000001	1.7000000000000002	1.6	180	210	390	46.6	180	53.400000000000006	210
-21332	Petroleum engineers	2.3	1.5	1.9	30	20	50	52.300000000000004	30	47.699999999999996	20
-21390	Aerospace engineers	0.8	0.7000000000000001	0.8	50	50	100	76.5	80	23.400000000000002	20
-21399	Other professional engineers	1.6	1	1.3	340	300	640	59.3	380	40.699999999999996	260
-22100	Chemical technologists and technicians	0.8	1.0999999999999999	0.8999999999999999	150	170	320	72.5	230	27.500000000000004	90
-22101	Geological and mineral technologists and technicians	1.7000000000000002	1.3	1.5	260	240	510	63.2	320	36.8	190
-22110	Biological technologists and technicians	0.2	0.6	0.4	110	170	280	81.89999999999999	230	18.099999999999998	50
+21322	Metallurgical and materials engineers	1.4	1.3	1.4	40	40	80	48.8	40	51.2	40
+21330	Mining engineers	1.1	1.6	1.4	100	130	230	47.8	110	52.2	120
+21331	Geological engineers	1.4	1.7	1.6	180	210	390	46.6	180	53.4	210
+21332	Petroleum engineers	2.3	1.5	1.9	30	20	50	52.3	30	47.7	20
+21390	Aerospace engineers	0.8	0.7	0.8	50	50	100	76.5	80	23.4	20
+21399	Other professional engineers	1.6	1	1.3	340	300	640	59.3	380	40.7	260
+22100	Chemical technologists and technicians	0.8	1.1	0.9	150	170	320	72.5	230	27.5	90
+22101	Geological and mineral technologists and technicians	1.7	1.3	1.5	260	240	510	63.2	320	36.8	190
+22110	Biological technologists and technicians	0.2	0.6	0.4	110	170	280	81.9	230	18.1	50
 22111	Agricultural and fish products inspectors	-0.4	0.5	0	40	70	110	100	120	0	0
-22112	Forestry technologists and technicians	-0.5	0.7000000000000001	0.1	210	350	570	100	570	0	-10
+22112	Forestry technologists and technicians	-0.5	0.7	0.1	210	350	570	100	570	0	-10
 22113	Conservation and fishery officers	0.2	0.4	0.3	100	110	210	92.9	200	7.1	10
-22114	Landscape and horticulture technicians and specialists	0.4	1	0.7000000000000001	490	710	1200	72.1	870	27.900000000000002	340
-22210	Architectural technologists and technicians	1.6	1.5	1.5	370	410	770	52.900000000000006	410	47.099999999999994	360
-22211	Industrial designers	1.6	1.5	1.5	250	280	530	46.400000000000006	250	53.6	280
-22212	Drafting technologists and technicians	1.4000000000000001	1.4000000000000001	1.4000000000000001	830	880	1710	58.199999999999996	1000	41.8	720
-22213	Land survey technologists and technicians	1.6	1.7000000000000002	1.6	80	90	180	53.5	90	46.5	80
-22214	Technical occupations in geomatics and meteorology	0.7000000000000001	1	0.8999999999999999	340	390	730	76.1	550	23.9	170
-22220	Computer network and web technicians	1.4000000000000001	1.6	1.5	1740	2030	3770	58.8	2210	41.199999999999996	1550
-22221	User support technicians	1.6	1.7000000000000002	1.6	1650	1910	3560	53.900000000000006	1920	46.1	1640
-22222	Information systems testing technicians	2.1999999999999997	2.1	2.1999999999999997	350	390	730	45.4	330	54.6	400
-22230	Non-destructive testers and inspectors	1.6	1.4000000000000001	1.5	110	120	230	61.4	140	38.6	90
-22231	Engineering inspectors and regulatory officers	0.7000000000000001	1	0.8	90	100	200	75	150	25	50
+22114	Landscape and horticulture technicians and specialists	0.4	1	0.7	490	710	1200	72.1	870	27.9	340
+22210	Architectural technologists and technicians	1.6	1.5	1.5	370	410	770	52.9	410	47.1	360
+22211	Industrial designers	1.6	1.5	1.5	250	280	530	46.4	250	53.6	280
+22212	Drafting technologists and technicians	1.4	1.4	1.4	830	880	1710	58.2	1000	41.8	720
+22213	Land survey technologists and technicians	1.6	1.7	1.6	80	90	180	53.5	90	46.5	80
+22214	Technical occupations in geomatics and meteorology	0.7	1	0.9	340	390	730	76.1	550	23.9	170
+22220	Computer network and web technicians	1.4	1.6	1.5	1740	2030	3770	58.8	2210	41.2	1550
+22221	User support technicians	1.6	1.7	1.6	1650	1910	3560	53.9	1920	46.1	1640
+22222	Information systems testing technicians	2.2	2.1	2.2	350	390	730	45.4	330	54.6	400
+22230	Non-destructive testers and inspectors	1.6	1.4	1.5	110	120	230	61.4	140	38.6	90
+22231	Engineering inspectors and regulatory officers	0.7	1	0.8	90	100	200	75	150	25	50
 22232	Occupational health and safety specialists	1	1	1	520	530	1050	73.4	770	26.6	280
-22233	Construction inspectors	1.3	1.0999999999999999	1.2	650	610	1260	69.19999999999999	880	30.8	390
+22233	Construction inspectors	1.3	1.1	1.2	650	610	1260	69.2	880	30.8	390
 22300	Civil engineering technologists and technicians	1.2	1.3	1.2	510	560	1060	63.4	670	36.6	390
-22301	Mechanical engineering technologists and technicians	1.0999999999999999	1.0999999999999999	1.0999999999999999	650	630	1280	68.89999999999999	880	31.1	400
+22301	Mechanical engineering technologists and technicians	1.1	1.1	1.1	650	630	1280	68.9	880	31.1	400
 22302	Industrial engineering and manufacturing technologists and technicians	0.6	1	0.8	240	300	550	74	410	26	140
-22303	Construction estimators	1.2	1.6	1.4000000000000001	740	840	1580	60.5	960	39.5	630
-22310	Electrical and electronics engineering technologists and technicians	1.0999999999999999	1.3	1.2	1060	1120	2180	68.2	1480	31.8	690
-22311	Electronic service technicians (household and business equipment)	0.8999999999999999	1.0999999999999999	1	1380	1500	2880	67.7	1950	32.300000000000004	930
+22303	Construction estimators	1.2	1.6	1.4	740	840	1580	60.5	960	39.5	630
+22310	Electrical and electronics engineering technologists and technicians	1.1	1.3	1.2	1060	1120	2180	68.2	1480	31.8	690
+22311	Electronic service technicians (household and business equipment)	0.9	1.1	1	1380	1500	2880	67.7	1950	32.3	930
 22312	Industrial instrument technicians and mechanics	0.6	0.5	0.6	150	150	310	80.9	250	19.1	60
 22313	Aircraft instrument, electrical and avionics mechanics, technicians and inspectors	0.6	0.4	0.5	120	110	230	80.5	190	19.5	50
-30010	Managers in health care	1.6	1.7999999999999998	1.7000000000000002	1940	2300	4240	67.9	2880	32.1	1360
-31100	Specialists in clinical and laboratory medicine	1.6	1.9	1.7000000000000002	1390	1640	3040	49.6	1510	50.4	1530
-31101	Specialists in surgery	1.6	1.9	1.7999999999999998	460	510	970	55.60000000000001	540	44.4	430
-31102	General practitioners and family physicians	1.6	1.9	1.7999999999999998	1980	2260	4240	48.699999999999996	2060	51.300000000000004	2170
-31103	Veterinarians	1.3	0.8999999999999999	1.0999999999999999	370	340	710	70.8	500	29.2	210
-31110	Dentists	1.6	2	1.7999999999999998	830	970	1800	49.2	880	50.8	910
-31111	Optometrists	1.7000000000000002	2	1.7999999999999998	230	260	480	58.199999999999996	280	41.8	200
-31112	Audiologists and speech-language pathologists	1.2	1.5	1.4000000000000001	330	370	700	61.3	430	38.7	270
-31120	Pharmacists	1.7999999999999998	1	1.4000000000000001	1440	1260	2690	57.9	1560	42.1	1130
-31121	Dietitians and nutritionists	1.5	1.7000000000000002	1.6	360	410	780	57.3	450	42.699999999999996	330
-31200	Psychologists	1.3	1.6	1.4000000000000001	480	510	990	60.3	600	39.7	390
-31201	Chiropractors	1.7000000000000002	2	1.7999999999999998	330	380	710	55.1	390	44.9	320
-31202	Physiotherapists	1.6	1.9	1.7000000000000002	1090	1310	2400	53.300000000000004	1280	46.7	1120
-31203	Occupational therapists	1.6	1.7999999999999998	1.7000000000000002	640	780	1420	51.2	730	48.8	690
-31204	Kinesiologists and other professional occupations in therapy and assessment	1.5	1.7000000000000002	1.6	330	410	750	45.800000000000004	340	54.2	400
-31209	Other professional occupations in health diagnosing and treating	1.7000000000000002	2	1.7999999999999998	210	250	450	53.800000000000004	240	46.2	210
-31300	Nursing coordinators and supervisors	1.5	1.7999999999999998	1.7000000000000002	620	750	1370	66.4	910	33.6	460
-31301	Registered nurses and registered psychiatric nurses	1.5	1.7999999999999998	1.6	11790	13820	25600	53.5	13700	46.5	11900
-31302	Nurse practitioners	1.6	1.9	1.7000000000000002	170	210	380	51.1	190	48.9	190
-31303	Physician assistants, midwives and allied health professionals	1.5	1.7999999999999998	1.6	70	80	150	57.8	90	42.199999999999996	60
-32100	Opticians	1.7999999999999998	1.0999999999999999	1.4000000000000001	360	300	660	66.2	440	33.800000000000004	220
-32101	Licensed practical nurses	1.5	1.7000000000000002	1.6	2090	2430	4510	54.2	2450	45.800000000000004	2070
-32102	Paramedical occupations	1.6	1.7999999999999998	1.7000000000000002	790	930	1720	53.900000000000006	930	46.1	790
-32103	Respiratory therapists, clinical perfusionists and cardiopulmonary technologists	1.5	1.7999999999999998	1.7000000000000002	410	500	910	53.5	480	46.5	420
-32104	Animal health technologists and veterinary technicians	1.3	0.8999999999999999	1.0999999999999999	490	480	970	55.900000000000006	540	44.1	430
-32109	Other technical occupations in therapy and assessment	1.5	1.7000000000000002	1.6	460	550	1000	53.1	530	46.9	470
-32110	Denturists	1.5	1.7999999999999998	1.7000000000000002	40	50	90	48.1	40	51.9	50
-32111	Dental hygienists and dental therapists	1.7000000000000002	2	1.7999999999999998	820	990	1800	53.300000000000004	960	46.7	840
-32112	Dental technologists and technicians	0.8999999999999999	1.4000000000000001	1.0999999999999999	160	180	340	65.3	220	34.699999999999996	120
-32120	Medical laboratory technologists	1.5	1.7999999999999998	1.7000000000000002	780	880	1660	56.3	930	43.7	730
-32121	Medical radiation technologists	1.5	1.7999999999999998	1.6	750	910	1660	53.1	880	46.9	780
-32122	Medical sonographers	1.6	1.9	1.7000000000000002	270	300	570	55.60000000000001	310	44.4	250
-32123	Cardiology technologists and electrophysiological diagnostic technologists	1.5	1.7999999999999998	1.6	150	180	330	49.3	160	50.7	170
-32124	Pharmacy technicians	1.6	1.2	1.4000000000000001	640	610	1250	59.099999999999994	740	40.9	510
+30010	Managers in health care	1.6	1.8	1.7	1940	2300	4240	67.9	2880	32.1	1360
+31100	Specialists in clinical and laboratory medicine	1.6	1.9	1.7	1390	1640	3040	49.6	1510	50.4	1530
+31101	Specialists in surgery	1.6	1.9	1.8	460	510	970	55.6	540	44.4	430
+31102	General practitioners and family physicians	1.6	1.9	1.8	1980	2260	4240	48.7	2060	51.3	2170
+31103	Veterinarians	1.3	0.9	1.1	370	340	710	70.8	500	29.2	210
+31110	Dentists	1.6	2	1.8	830	970	1800	49.2	880	50.8	910
+31111	Optometrists	1.7	2	1.8	230	260	480	58.2	280	41.8	200
+31112	Audiologists and speech-language pathologists	1.2	1.5	1.4	330	370	700	61.3	430	38.7	270
+31120	Pharmacists	1.8	1	1.4	1440	1260	2690	57.9	1560	42.1	1130
+31121	Dietitians and nutritionists	1.5	1.7	1.6	360	410	780	57.3	450	42.7	330
+31200	Psychologists	1.3	1.6	1.4	480	510	990	60.3	600	39.7	390
+31201	Chiropractors	1.7	2	1.8	330	380	710	55.1	390	44.9	320
+31202	Physiotherapists	1.6	1.9	1.7	1090	1310	2400	53.3	1280	46.7	1120
+31203	Occupational therapists	1.6	1.8	1.7	640	780	1420	51.2	730	48.8	690
+31204	Kinesiologists and other professional occupations in therapy and assessment	1.5	1.7	1.6	330	410	750	45.8	340	54.2	400
+31209	Other professional occupations in health diagnosing and treating	1.7	2	1.8	210	250	450	53.8	240	46.2	210
+31300	Nursing coordinators and supervisors	1.5	1.8	1.7	620	750	1370	66.4	910	33.6	460
+31301	Registered nurses and registered psychiatric nurses	1.5	1.8	1.6	11790	13820	25600	53.5	13700	46.5	11900
+31302	Nurse practitioners	1.6	1.9	1.7	170	210	380	51.1	190	48.9	190
+31303	Physician assistants, midwives and allied health professionals	1.5	1.8	1.6	70	80	150	57.8	90	42.2	60
+32100	Opticians	1.8	1.1	1.4	360	300	660	66.2	440	33.8	220
+32101	Licensed practical nurses	1.5	1.7	1.6	2090	2430	4510	54.2	2450	45.8	2070
+32102	Paramedical occupations	1.6	1.8	1.7	790	930	1720	53.9	930	46.1	790
+32103	Respiratory therapists, clinical perfusionists and cardiopulmonary technologists	1.5	1.8	1.7	410	500	910	53.5	480	46.5	420
+32104	Animal health technologists and veterinary technicians	1.3	0.9	1.1	490	480	970	55.9	540	44.1	430
+32109	Other technical occupations in therapy and assessment	1.5	1.7	1.6	460	550	1000	53.1	530	46.9	470
+32110	Denturists	1.5	1.8	1.7	40	50	90	48.1	40	51.9	50
+32111	Dental hygienists and dental therapists	1.7	2	1.8	820	990	1800	53.3	960	46.7	840
+32112	Dental technologists and technicians	0.9	1.4	1.1	160	180	340	65.3	220	34.7	120
+32120	Medical laboratory technologists	1.5	1.8	1.7	780	880	1660	56.3	930	43.7	730
+32121	Medical radiation technologists	1.5	1.8	1.6	750	910	1660	53.1	880	46.9	780
+32122	Medical sonographers	1.6	1.9	1.7	270	300	570	55.6	310	44.4	250
+32123	Cardiology technologists and electrophysiological diagnostic technologists	1.5	1.8	1.6	150	180	330	49.3	160	50.7	170
+32124	Pharmacy technicians	1.6	1.2	1.4	640	610	1250	59.1	740	40.9	510
 32129	Other medical technologists and technicians	1.2	1.5	1.3	80	90	170	61	100	39	60
-32200	Traditional Chinese medicine practitioners and acupuncturists	1.6	2	1.7999999999999998	310	370	690	48.5	330	51.5	350
-32201	Massage therapists	1.6	1.7999999999999998	1.7000000000000002	1530	1770	3300	56.599999999999994	1870	43.4	1430
-32209	Other practitioners of natural healing	1.6	1.7000000000000002	1.6	240	240	480	60.4	290	39.6	190
-33100	Dental assistants and dental laboratory assistants	1.6	1.9	1.7999999999999998	1290	1530	2820	50.5	1430	49.5	1400
-33101	Medical laboratory assistants and related technical occupations	1.6	1.7999999999999998	1.7000000000000002	900	1090	1990	50.6	1000	49.4	980
+32200	Traditional Chinese medicine practitioners and acupuncturists	1.6	2	1.8	310	370	690	48.5	330	51.5	350
+32201	Massage therapists	1.6	1.8	1.7	1530	1770	3300	56.6	1870	43.4	1430
+32209	Other practitioners of natural healing	1.6	1.7	1.6	240	240	480	60.4	290	39.6	190
+33100	Dental assistants and dental laboratory assistants	1.6	1.9	1.8	1290	1530	2820	50.5	1430	49.5	1400
+33101	Medical laboratory assistants and related technical occupations	1.6	1.8	1.7	900	1090	1990	50.6	1000	49.4	980
 33102	Nurse aides, orderlies and patient service associates	1.5	1.6	1.6	9820	10380	20200	58.5	11820	41.5	8380
-33103	Pharmacy technical assistants and pharmacy assistants	1.7999999999999998	0.8	1.3	760	570	1330	54.900000000000006	730	45.1	600
-33109	Other assisting occupations in support of health services	1.5	1.7000000000000002	1.6	1220	1340	2560	53.7	1380	46.300000000000004	1190
+33103	Pharmacy technical assistants and pharmacy assistants	1.8	0.8	1.3	760	570	1330	54.9	730	45.1	600
+33109	Other assisting occupations in support of health services	1.5	1.7	1.6	1220	1340	2560	53.7	1380	46.3	1190
 40010	Government managers - health and social policy development and program administration	-0.5	0.1	-0.2	200	260	460	100	490	0	-30
 40011	Government managers - economic analysis, policy development and program administration	-0.5	0.2	-0.1	300	380	680	100	710	0	-30
 40012	Government managers - education policy development and program administration	-0.5	0.3	-0.1	40	60	100	100	100	0	0
-40019	Other managers in public administration	0	0.3	0.2	120	140	260	96.3	250	3.6999999999999997	10
+40019	Other managers in public administration	0	0.3	0.2	120	140	260	96.3	250	3.7	10
 40020	Administrators - post-secondary education and vocational training	0.2	1	0.6	700	960	1660	84.6	1400	15.5	260
 40021	School principals and administrators of elementary and secondary education	-0.1	0.3	0.1	1040	1200	2240	98	2200	2	40
-40030	Managers in social, community and correctional services	1.0999999999999999	1	1.0999999999999999	1370	1500	2880	74.8	2150	25.2	730
-40040	Commissioned police officers and related occupations in public protection services	-0.1	0.6	0.2	40	50	90	96.3	90	3.6999999999999997	0
-40041	Fire chiefs and senior firefighting officers	0.7000000000000001	1	0.8999999999999999	190	200	390	87	340	13	50
+40030	Managers in social, community and correctional services	1.1	1	1.1	1370	1500	2880	74.8	2150	25.2	730
+40040	Commissioned police officers and related occupations in public protection services	-0.1	0.6	0.2	40	50	90	96.3	90	3.7	0
+40041	Fire chiefs and senior firefighting officers	0.7	1	0.9	190	200	390	87	340	13	50
 40042	Commissioned officers of the Canadian Armed Forces	-0.4	0.5	0	170	270	440	100	440	0	0
 41100	Judges	-1.3	0.2	-0.6	40	60	100	100	120	0	-20
-41101	Lawyers and Quebec notaries	1.2	0.7000000000000001	0.8999999999999999	2520	2180	4700	64.9	3050	35.099999999999994	1650
-41200	University professors and lecturers	0.7000000000000001	1.2	1	2200	2670	4870	69.39999999999999	3380	30.599999999999998	1490
-41201	Post-secondary teaching and research assistants	0.6	1.2	0.8999999999999999	1270	2020	3290	57.4	1890	42.6	1400
-41210	College and other vocational instructors	0.1	0.8999999999999999	0.5	2020	2590	4600	85	3920	15	690
-41220	Secondary school teachers	-0.1	0.4	0.1	2280	2890	5170	97.2	5030	2.8000000000000003	140
+41101	Lawyers and Quebec notaries	1.2	0.7	0.9	2520	2180	4700	64.9	3050	35.1	1650
+41200	University professors and lecturers	0.7	1.2	1	2200	2670	4870	69.4	3380	30.6	1490
+41201	Post-secondary teaching and research assistants	0.6	1.2	0.9	1270	2020	3290	57.4	1890	42.6	1400
+41210	College and other vocational instructors	0.1	0.9	0.5	2020	2590	4600	85	3920	15	690
+41220	Secondary school teachers	-0.1	0.4	0.1	2280	2890	5170	97.2	5030	2.8	140
 41221	Elementary school and kindergarten teachers	-0.1	0.4	0.1	4210	5330	9540	96.8	9230	3.2	310
-41300	Social workers	0.8999999999999999	1.2	1.0999999999999999	1500	1750	3250	66.60000000000001	2160	33.4	1080
-41301	Therapists in counselling and related specialized therapies	1.6	1.6	1.6	1820	1910	3730	53.7	2000	46.300000000000004	1730
-41302	Religious leaders	1.0999999999999999	0.7000000000000001	0.8999999999999999	770	650	1420	66.9	950	33.1	470
+41300	Social workers	0.9	1.2	1.1	1500	1750	3250	66.6	2160	33.4	1080
+41301	Therapists in counselling and related specialized therapies	1.6	1.6	1.6	1820	1910	3730	53.7	2000	46.3	1730
+41302	Religious leaders	1.1	0.7	0.9	770	650	1420	66.9	950	33.1	470
 41310	Police investigators and other investigative occupations	-0.8	0.3	-0.2	50	90	140	100	160	0	-10
-41311	Probation and parole officers	-1.0999999999999999	0	-0.6	40	110	150	100	210	0	-60
-41320	Educational counsellors	0.2	0.7000000000000001	0.5	750	900	1650	84.89999999999999	1400	15.1	250
-41321	Career development practitioners and career counsellors (except education)	1	1.0999999999999999	1	340	340	680	70.6	480	29.4	200
-41400	Natural and applied science policy researchers, consultants and program officers	0.5	0.8	0.7000000000000001	730	880	1600	77.60000000000001	1240	22.400000000000002	360
+41311	Probation and parole officers	-1.1	0	-0.6	40	110	150	100	210	0	-60
+41320	Educational counsellors	0.2	0.7	0.5	750	900	1650	84.9	1400	15.1	250
+41321	Career development practitioners and career counsellors (except education)	1	1.1	1	340	340	680	70.6	480	29.4	200
+41400	Natural and applied science policy researchers, consultants and program officers	0.5	0.8	0.7	730	880	1600	77.6	1240	22.4	360
 41401	Economists and economic policy researchers and analysts	0.4	0.8	0.6	270	330	600	77.8	460	22.2	130
 41402	Business development officers and market researchers and analysts	1.2	1.2	1.2	990	1090	2080	61.4	1280	38.6	800
 41403	Social policy researchers, consultants and program officers	0.5	0.6	0.5	760	850	1620	81.8	1320	18.2	290
-41404	Health policy researchers, consultants and program officers	1.0999999999999999	1.3	1.2	770	870	1640	63	1030	37	610
-41405	Education policy researchers, consultants and program officers	0.5	0.8999999999999999	0.7000000000000001	580	690	1270	74.3	940	25.7	330
-41406	Recreation, sports and fitness policy researchers, consultants and program officers	0.8999999999999999	1.0999999999999999	1	290	330	630	67.60000000000001	420	32.4	200
+41404	Health policy researchers, consultants and program officers	1.1	1.3	1.2	770	870	1640	63	1030	37	610
+41405	Education policy researchers, consultants and program officers	0.5	0.9	0.7	580	690	1270	74.3	940	25.7	330
+41406	Recreation, sports and fitness policy researchers, consultants and program officers	0.9	1.1	1	290	330	630	67.6	420	32.4	200
 41407	Program officers unique to government	-0.6	0.2	-0.2	100	130	230	100	260	0	-30
-41409	Other professional occupations in social science	0.7000000000000001	1	0.8	160	200	360	68.5	250	31.5	110
+41409	Other professional occupations in social science	0.7	1	0.8	160	200	360	68.5	250	31.5	110
 42100	Police officers (except commissioned)	-0.5	0.5	0	1270	1970	3240	100	3240	0	0
-42101	Firefighters	0.3	0.7000000000000001	0.5	860	1030	1890	84.1	1590	15.9	300
+42101	Firefighters	0.3	0.7	0.5	860	1030	1890	84.1	1590	15.9	300
 42102	Specialized members of the Canadian Armed Forces	0	0.5	0.2	30	40	70	92.9	60	7.1	0
 42200	Paralegals and related occupations	-0.5	0.3	-0.1	460	720	1180	100	1250	0	-70
-42201	Social and community service workers	1.3	1.3	1.3	6580	6890	13470	60.699999999999996	8170	39.300000000000004	5290
-42202	Early childhood educators and assistants	3.3000000000000003	1.7000000000000002	2.5	6730	5200	11920	40.699999999999996	4850	59.3	7070
-42203	Instructors of persons with disabilities	1.0999999999999999	1.0999999999999999	1.0999999999999999	260	300	550	54.2	300	45.800000000000004	250
-42204	Religion workers	1.0999999999999999	0.8	1	170	150	320	65.2	210	34.8	110
+42201	Social and community service workers	1.3	1.3	1.3	6580	6890	13470	60.7	8170	39.3	5290
+42202	Early childhood educators and assistants	3.3	1.7	2.5	6730	5200	11920	40.7	4850	59.3	7070
+42203	Instructors of persons with disabilities	1.1	1.1	1.1	260	300	550	54.2	300	45.8	250
+42204	Religion workers	1.1	0.8	1	170	150	320	65.2	210	34.8	110
 43100	Elementary and secondary school teacher assistants	-0.1	0.3	0.1	2370	2980	5350	99	5300	1	50
-43109	Other instructors	0.4	0.8	0.6	930	1160	2090	74.1	1550	25.900000000000002	540
+43109	Other instructors	0.4	0.8	0.6	930	1160	2090	74.1	1550	25.9	540
 43200	Sheriffs and bailiffs	-1	0.1	-0.5	50	90	140	100	170	0	-30
-43201	Correctional service officers	-1.0999999999999999	0.2	-0.4	210	460	670	100	840	0	-160
-43202	By-law enforcement and other regulatory officers	0.2	0.6	0.4	240	280	520	85.39999999999999	440	14.6	80
+43201	Correctional service officers	-1.1	0.2	-0.4	210	460	670	100	840	0	-160
+43202	By-law enforcement and other regulatory officers	0.2	0.6	0.4	240	280	520	85.4	440	14.6	80
 43203	Border services, customs, and immigration officers	-1.3	0.3	-0.5	50	210	260	100	350	0	-80
 43204	Operations members of the Canadian Armed Forces	-0.4	0.5	0	240	380	620	98.5	610	1.5	10
-44100	Home child care providers	-1.6	-1.7999999999999998	-1.7000000000000002	10	-10	0	0	1300	100	-1300
-44101	Home support workers, caregivers and related occupations	1.6	1.5	1.5	1810	1800	3610	57.99999999999999	2100	42	1520
-44200	Primary combat members of the Canadian Armed Forces	-0.8999999999999999	0.4	-0.2	0	30	30	100	40	0	-10
+44100	Home child care providers	-1.6	-1.8	-1.7	10	-10	0	0	1300	100	-1300
+44101	Home support workers, caregivers and related occupations	1.6	1.5	1.5	1810	1800	3610	58	2100	42	1520
+44200	Primary combat members of the Canadian Armed Forces	-0.9	0.4	-0.2	0	30	30	100	40	0	-10
 45100	Student monitors, crossing guards and related occupations	-0.2	0.4	0.1	190	250	440	100	440	0	0
-50010	Library, archive, museum and art gallery managers	0.6	0.8	0.7000000000000001	170	190	370	84.1	310	15.9	60
-50011	Managers - publishing, motion pictures, broadcasting and performing arts	1.2	0.8	1	380	400	780	76.2	590	23.799999999999997	180
-50012	Recreation, sports and fitness program and service directors	0.8999999999999999	1	1	590	700	1290	77.4	1000	22.6	290
-51100	Librarians	0.2	0.6	0.4	140	170	300	84.39999999999999	260	15.6	50
-51101	Conservators and curators	1	1.0999999999999999	1.0999999999999999	70	70	140	64	90	36	50
+50010	Library, archive, museum and art gallery managers	0.6	0.8	0.7	170	190	370	84.1	310	15.9	60
+50011	Managers - publishing, motion pictures, broadcasting and performing arts	1.2	0.8	1	380	400	780	76.2	590	23.8	180
+50012	Recreation, sports and fitness program and service directors	0.9	1	1	590	700	1290	77.4	1000	22.6	290
+51100	Librarians	0.2	0.6	0.4	140	170	300	84.4	260	15.6	50
+51101	Conservators and curators	1	1.1	1.1	70	70	140	64	90	36	50
 51102	Archivists	-0.1	0.6	0.3	10	20	30	91.4	30	8.6	0
-51110	Editors	0.7000000000000001	1	0.8	350	400	750	78.2	590	21.8	160
-51111	Authors and writers (except technical)	1.2	1	1.0999999999999999	800	720	1520	65.60000000000001	1000	34.4	520
+51110	Editors	0.7	1	0.8	350	400	750	78.2	590	21.8	160
+51111	Authors and writers (except technical)	1.2	1	1.1	800	720	1520	65.6	1000	34.4	520
 51112	Technical writers	1.5	1.5	1.5	260	270	530	60.6	320	39.4	210
-51113	Journalists	0.3	0.7000000000000001	0.5	160	170	330	83.2	270	16.8	60
-51114	Translators, terminologists and interpreters	1.2	0.7000000000000001	1	310	260	580	67	390	33	190
-51120	Producers, directors, choreographers and related occupations	1.4000000000000001	0.8999999999999999	1.0999999999999999	1340	1410	2760	71.1	1960	28.9	800
-51121	Conductors, composers and arrangers	1	0.7000000000000001	0.8999999999999999	80	70	160	66	100	34	50
-51122	Musicians and singers	0.7000000000000001	0.8	0.8	830	860	1690	66.9	1130	33.1	560
+51113	Journalists	0.3	0.7	0.5	160	170	330	83.2	270	16.8	60
+51114	Translators, terminologists and interpreters	1.2	0.7	1	310	260	580	67	390	33	190
+51120	Producers, directors, choreographers and related occupations	1.4	0.9	1.1	1340	1410	2760	71.1	1960	28.9	800
+51121	Conductors, composers and arrangers	1	0.7	0.9	80	70	160	66	100	34	50
+51122	Musicians and singers	0.7	0.8	0.8	830	860	1690	66.9	1130	33.1	560
 52100	Library and public archive technicians	0.1	0.5	0.3	140	160	300	92.2	280	7.8	20
-52110	Film and video camera operators	1.5	0.8999999999999999	1.2	180	160	340	58.599999999999994	200	41.4	140
-52111	Graphic arts technicians	1.6	1.2	1.4000000000000001	530	600	1130	51.1	580	48.9	550
-52112	Broadcast technicians	0.1	0.6	0.4	20	20	40	89.7	40	10.299999999999999	0
-52113	Audio and video recording technicians	1.4000000000000001	0.8999999999999999	1.0999999999999999	460	450	910	60.6	550	39.4	360
-52114	Announcers and other broadcasters	0.3	0.6	0.4	40	60	100	82.89999999999999	80	17.1	20
-52119	Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts	1.4000000000000001	0.8999999999999999	1.2	1120	1090	2210	61.8	1360	38.2	840
-52120	Graphic designers and illustrators	1.5	1.0999999999999999	1.3	2850	2970	5820	55.50000000000001	3230	44.5	2590
-52121	Interior designers and interior decorators	1.5	0.8	1.0999999999999999	990	860	1850	63.4	1170	36.6	680
-53100	Registrars, restorers, interpreters and other occupations related to museum and art galleries	0.6	0.8999999999999999	0.8	100	110	210	69.39999999999999	150	30.599999999999998	70
-53110	Photographers	1.4000000000000001	0.8	1.0999999999999999	500	460	960	56.3	540	43.7	420
-53111	Motion pictures, broadcasting, photography and performing arts assistants and operators	1.7000000000000002	0.8	1.2	740	620	1360	59.599999999999994	810	40.400000000000006	550
-53120	Dancers	0.6	0.7000000000000001	0.7000000000000001	150	190	330	64.7	210	35.3	120
-53121	Actors, comedians and circus performers	1.4000000000000001	0.7000000000000001	1.0999999999999999	540	450	990	60.4	600	39.6	390
-53122	Painters, sculptors and other visual artists	1	0.8	0.8999999999999999	780	710	1490	73.3	1090	26.700000000000003	400
-53123	Theatre, fashion, exhibit and other creative designers	1.0999999999999999	0.7000000000000001	0.8999999999999999	390	390	780	67.60000000000001	530	32.4	250
-53124	Artisans and craftspersons	0.6	0.7000000000000001	0.7000000000000001	580	570	1160	79.80000000000001	920	20.200000000000003	230
-53125	Patternmakers - textile, leather and fur products	0.4	0.7000000000000001	0.6	20	20	50	85.6	40	14.499999999999998	10
-53200	Athletes	1.0999999999999999	0.8999999999999999	1	100	130	220	63	140	37	80
-53201	Coaches	0.8	0.8999999999999999	0.8999999999999999	540	600	1140	72.3	820	27.700000000000003	320
-53202	Sports officials and referees	1	0.6	0.8	10	10	30	58.9	20	41.099999999999994	10
-54100	Program leaders and instructors in recreation, sport and fitness	0.8999999999999999	1	0.8999999999999999	2200	2580	4780	61.3	2930	38.7	1850
-55109	Other performers	1.2	0.8	1	130	140	270	69.69999999999999	190	30.3	80
-60010	Corporate sales managers	1.0999999999999999	1.2	1.0999999999999999	2480	2940	5410	72.39999999999999	3920	27.6	1500
-60020	Retail and wholesale trade managers	0.8	0.7000000000000001	0.7000000000000001	13240	14160	27390	80.10000000000001	21940	19.900000000000002	5450
-60030	Restaurant and food service managers	1.0999999999999999	0.5	0.8	4620	4470	9090	76.6	6960	23.400000000000002	2130
+52110	Film and video camera operators	1.5	0.9	1.2	180	160	340	58.6	200	41.4	140
+52111	Graphic arts technicians	1.6	1.2	1.4	530	600	1130	51.1	580	48.9	550
+52112	Broadcast technicians	0.1	0.6	0.4	20	20	40	89.7	40	10.3	0
+52113	Audio and video recording technicians	1.4	0.9	1.1	460	450	910	60.6	550	39.4	360
+52114	Announcers and other broadcasters	0.3	0.6	0.4	40	60	100	82.9	80	17.1	20
+52119	Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts	1.4	0.9	1.2	1120	1090	2210	61.8	1360	38.2	840
+52120	Graphic designers and illustrators	1.5	1.1	1.3	2850	2970	5820	55.5	3230	44.5	2590
+52121	Interior designers and interior decorators	1.5	0.8	1.1	990	860	1850	63.4	1170	36.6	680
+53100	Registrars, restorers, interpreters and other occupations related to museum and art galleries	0.6	0.9	0.8	100	110	210	69.4	150	30.6	70
+53110	Photographers	1.4	0.8	1.1	500	460	960	56.3	540	43.7	420
+53111	Motion pictures, broadcasting, photography and performing arts assistants and operators	1.7	0.8	1.2	740	620	1360	59.6	810	40.4	550
+53120	Dancers	0.6	0.7	0.7	150	190	330	64.7	210	35.3	120
+53121	Actors, comedians and circus performers	1.4	0.7	1.1	540	450	990	60.4	600	39.6	390
+53122	Painters, sculptors and other visual artists	1	0.8	0.9	780	710	1490	73.3	1090	26.7	400
+53123	Theatre, fashion, exhibit and other creative designers	1.1	0.7	0.9	390	390	780	67.6	530	32.4	250
+53124	Artisans and craftspersons	0.6	0.7	0.7	580	570	1160	79.8	920	20.2	230
+53125	Patternmakers - textile, leather and fur products	0.4	0.7	0.6	20	20	50	85.6	40	14.5	10
+53200	Athletes	1.1	0.9	1	100	130	220	63	140	37	80
+53201	Coaches	0.8	0.9	0.9	540	600	1140	72.3	820	27.7	320
+53202	Sports officials and referees	1	0.6	0.8	10	10	30	58.9	20	41.1	10
+54100	Program leaders and instructors in recreation, sport and fitness	0.9	1	0.9	2200	2580	4780	61.3	2930	38.7	1850
+55109	Other performers	1.2	0.8	1	130	140	270	69.7	190	30.3	80
+60010	Corporate sales managers	1.1	1.2	1.1	2480	2940	5410	72.4	3920	27.6	1500
+60020	Retail and wholesale trade managers	0.8	0.7	0.7	13240	14160	27390	80.1	21940	19.9	5450
+60030	Restaurant and food service managers	1.1	0.5	0.8	4620	4470	9090	76.6	6960	23.4	2130
 60031	Accommodation service managers	-0.3	0.6	0.1	1030	1410	2440	95.5	2330	4.5	110
 60040	Managers in customer and personal services	0.8	0.8	0.8	920	1050	1960	76.7	1510	23.3	460
-62010	Retail sales supervisors	0.8999999999999999	0.7000000000000001	0.8	1610	1780	3380	75.2	2540	24.8	840
-62020	Food service supervisors	1.0999999999999999	0.5	0.8	1510	1530	3040	67.5	2050	32.5	990
+62010	Retail sales supervisors	0.9	0.7	0.8	1610	1780	3380	75.2	2540	24.8	840
+62020	Food service supervisors	1.1	0.5	0.8	1510	1530	3040	67.5	2050	32.5	990
 62021	Executive housekeepers	0	0.5	0.2	60	80	140	94.6	130	5.4	10
 62022	Accommodation, travel, tourism and related services supervisors	0	0.6	0.3	120	160	280	91.5	250	8.5	20
-62023	Customer and information services supervisors	0.7000000000000001	0.8999999999999999	0.8	140	190	330	77	260	23	80
+62023	Customer and information services supervisors	0.7	0.9	0.8	140	190	330	77	260	23	80
 62024	Cleaning supervisors	0.2	0.8	0.5	280	360	640	86.7	560	13.3	90
-62029	Other services supervisors	0.3	0.8999999999999999	0.6	170	220	390	82	320	18	70
+62029	Other services supervisors	0.3	0.9	0.6	170	220	390	82	320	18	70
 62100	Technical sales specialists - wholesale trade	0.8	0.8	0.8	1500	1690	3190	79.5	2530	20.5	650
-62101	Retail and wholesale buyers	0.8	0.7000000000000001	0.7000000000000001	840	910	1750	78.60000000000001	1380	21.4	380
-62200	Chefs	1.0999999999999999	0.6	0.8	2370	2150	4510	73.1	3300	26.900000000000002	1220
-62201	Funeral directors and embalmers	1.3	0.7000000000000001	1	80	60	140	69.69999999999999	100	30.3	40
-62202	Jewellers, jewellery and watch repairers and related occupations	0.6	0.6	0.6	110	100	210	79.60000000000001	160	20.4	40
+62101	Retail and wholesale buyers	0.8	0.7	0.7	840	910	1750	78.6	1380	21.4	380
+62200	Chefs	1.1	0.6	0.8	2370	2150	4510	73.1	3300	26.9	1220
+62201	Funeral directors and embalmers	1.3	0.7	1	80	60	140	69.7	100	30.3	40
+62202	Jewellers, jewellery and watch repairers and related occupations	0.6	0.6	0.6	110	100	210	79.6	160	20.4	40
 63100	Insurance agents and brokers	1	1	1	2430	2470	4900	68.4	3360	31.6	1550
-63101	Real estate agents and salespersons	1.3	1	1.2	3680	3300	6980	57.3	4000	42.699999999999996	2980
-63102	Financial sales representatives	0.8999999999999999	1	0.8999999999999999	1370	1530	2890	67.60000000000001	1960	32.4	940
-63200	Cooks	1.0999999999999999	0.6	0.8	4020	3400	7420	68.10000000000001	5060	31.900000000000002	2370
-63201	Butchers - retail and wholesale	0.7000000000000001	0.7000000000000001	0.7000000000000001	110	120	240	68.60000000000001	160	31.4	70
-63202	Bakers	1	0.5	0.7000000000000001	1390	1130	2530	73.5	1860	26.5	670
-63210	Hairstylists and barbers	1.0999999999999999	0.7000000000000001	0.8999999999999999	2200	2010	4210	69.3	2920	30.7	1290
-63211	Estheticians, electrologists and related occupations	1.0999999999999999	0.7000000000000001	0.8999999999999999	1270	1300	2570	61.4	1580	38.6	990
-63220	Shoe repairers and shoemakers	0.5	0.7000000000000001	0.6	30	30	60	85	50	15	10
-63221	Upholsterers	0.7000000000000001	0.8	0.7000000000000001	60	60	120	77.7	90	22.3	30
-64100	Retail salespersons and visual merchandisers	0.8	0.7000000000000001	0.7000000000000001	12460	12260	24720	69.19999999999999	17110	30.8	7610
-64101	Sales and account representatives - wholesale trade (non-technical)	0.8	0.7000000000000001	0.7000000000000001	1770	1700	3470	76.1	2640	23.9	830
-64200	Tailors, dressmakers, furriers and milliners	0.8999999999999999	0.7000000000000001	0.8	410	350	760	79	600	21	160
-64201	Image, social and other personal consultants	0.8999999999999999	1	1	50	50	110	74.2	80	25.8	30
+63101	Real estate agents and salespersons	1.3	1	1.2	3680	3300	6980	57.3	4000	42.7	2980
+63102	Financial sales representatives	0.9	1	0.9	1370	1530	2890	67.6	1960	32.4	940
+63200	Cooks	1.1	0.6	0.8	4020	3400	7420	68.1	5060	31.9	2370
+63201	Butchers - retail and wholesale	0.7	0.7	0.7	110	120	240	68.6	160	31.4	70
+63202	Bakers	1	0.5	0.7	1390	1130	2530	73.5	1860	26.5	670
+63210	Hairstylists and barbers	1.1	0.7	0.9	2200	2010	4210	69.3	2920	30.7	1290
+63211	Estheticians, electrologists and related occupations	1.1	0.7	0.9	1270	1300	2570	61.4	1580	38.6	990
+63220	Shoe repairers and shoemakers	0.5	0.7	0.6	30	30	60	85	50	15	10
+63221	Upholsterers	0.7	0.8	0.7	60	60	120	77.7	90	22.3	30
+64100	Retail salespersons and visual merchandisers	0.8	0.7	0.7	12460	12260	24720	69.2	17110	30.8	7610
+64101	Sales and account representatives - wholesale trade (non-technical)	0.8	0.7	0.7	1770	1700	3470	76.1	2640	23.9	830
+64200	Tailors, dressmakers, furriers and milliners	0.9	0.7	0.8	410	350	760	79	600	21	160
+64201	Image, social and other personal consultants	0.9	1	1	50	50	110	74.2	80	25.8	30
 64300	Maîtres d'hôtel and hosts/hostesses	1.2	0.5	0.8	260	190	460	34.5	160	65.5	300
-64301	Bartenders	0.8999999999999999	0.5	0.7000000000000001	380	370	740	58.3	430	41.699999999999996	310
-64310	Travel counsellors	-0.3	0.8	0.3	670	780	1450	94.69999999999999	1370	5.3	80
+64301	Bartenders	0.9	0.5	0.7	380	370	740	58.3	430	41.7	310
+64310	Travel counsellors	-0.3	0.8	0.3	670	780	1450	94.7	1370	5.3	80
 64311	Pursers and flight attendants	0.6	0.3	0.5	340	290	630	88	550	12	80
 64312	Airline ticket and service agents	0.8	0.3	0.6	480	400	880	84.2	740	15.8	140
-64313	Ground and water transport ticket agents, cargo service representatives and related clerks	0.8	0.6	0.7000000000000001	80	70	150	77.4	120	22.6	30
+64313	Ground and water transport ticket agents, cargo service representatives and related clerks	0.8	0.6	0.7	80	70	150	77.4	120	22.6	30
 64314	Hotel front desk clerks	-0.4	0.5	0.1	150	410	570	100	590	0	-20
 64320	Tour and travel guides	0.2	1	0.6	50	70	120	76.7	90	23.3	30
-64321	Casino workers	0.8999999999999999	0.7000000000000001	0.8	90	90	170	71.3	120	28.7	50
-64322	Outdoor sport and recreational guides	0.7000000000000001	1	0.8	40	50	90	65.3	60	34.699999999999996	30
-64400	Customer services representatives - financial institutions	0.8	0.8999999999999999	0.8999999999999999	1010	1170	2180	65.5	1430	34.5	750
-64401	Postal services representatives	0.8999999999999999	0.4	0.7000000000000001	160	130	290	79.60000000000001	230	20.4	60
-64409	Other customer and information services representatives	0.6	0.8999999999999999	0.8	3350	4190	7540	70.5	5310	29.5	2230
+64321	Casino workers	0.9	0.7	0.8	90	90	170	71.3	120	28.7	50
+64322	Outdoor sport and recreational guides	0.7	1	0.8	40	50	90	65.3	60	34.7	30
+64400	Customer services representatives - financial institutions	0.8	0.9	0.9	1010	1170	2180	65.5	1430	34.5	750
+64401	Postal services representatives	0.9	0.4	0.7	160	130	290	79.6	230	20.4	60
+64409	Other customer and information services representatives	0.6	0.9	0.8	3350	4190	7540	70.5	5310	29.5	2230
 64410	Security guards and related security service occupations	0.2	0.8	0.5	1440	1710	3150	78.3	2460	21.7	680
-65100	Cashiers	0.8999999999999999	0.7000000000000001	0.8	5180	4910	10090	63.3	6390	36.7	3700
-65101	Service station attendants	0.6	0.7000000000000001	0.6	80	90	170	67.2	120	32.800000000000004	60
-65102	Store shelf stockers, clerks and order fillers	0.8	0.7000000000000001	0.7000000000000001	3570	3630	7190	68.5	4930	31.5	2260
-65109	Other sales related occupations	0.8	0.8	0.8	430	430	850	68.30000000000001	580	31.7	270
+65100	Cashiers	0.9	0.7	0.8	5180	4910	10090	63.3	6390	36.7	3700
+65101	Service station attendants	0.6	0.7	0.6	80	90	170	67.2	120	32.8	60
+65102	Store shelf stockers, clerks and order fillers	0.8	0.7	0.7	3570	3630	7190	68.5	4930	31.5	2260
+65109	Other sales related occupations	0.8	0.8	0.8	430	430	850	68.3	580	31.7	270
 65200	Food and beverage servers	1	0.5	0.8	2260	2030	4290	60.4	2590	39.6	1700
-65201	Food counter attendants, kitchen helpers and related support occupations	1.0999999999999999	0.6	0.8999999999999999	6640	5410	12050	56.49999999999999	6820	43.5	5240
-65202	Meat cutters and fishmongers - retail and wholesale	0.7000000000000001	0.7000000000000001	0.7000000000000001	190	180	370	78.5	290	21.5	80
-65210	Support occupations in accommodation, travel and facilities set-up services	0.8	0.4	0.6	70	70	140	68.30000000000001	100	31.7	40
-65211	Operators and attendants in amusement, recreation and sport	0.7000000000000001	1	0.8999999999999999	590	690	1270	60.5	770	39.5	500
-65220	Pet groomers and animal care workers	1.0999999999999999	0.8	0.8999999999999999	570	540	1110	63.7	710	36.3	400
+65201	Food counter attendants, kitchen helpers and related support occupations	1.1	0.6	0.9	6640	5410	12050	56.5	6820	43.5	5240
+65202	Meat cutters and fishmongers - retail and wholesale	0.7	0.7	0.7	190	180	370	78.5	290	21.5	80
+65210	Support occupations in accommodation, travel and facilities set-up services	0.8	0.4	0.6	70	70	140	68.3	100	31.7	40
+65211	Operators and attendants in amusement, recreation and sport	0.7	1	0.9	590	690	1270	60.5	770	39.5	500
+65220	Pet groomers and animal care workers	1.1	0.8	0.9	570	540	1110	63.7	710	36.3	400
 65229	Other support occupations in personal services	1.3	1.2	1.2	140	140	280	68	190	32	90
-65310	Light duty cleaners	0.5	0.8999999999999999	0.7000000000000001	5190	5620	10810	77.4	8360	22.6	2440
-65311	Specialized cleaners	0.5	0.8	0.7000000000000001	600	700	1290	70.7	920	29.299999999999997	380
-65312	Janitors, caretakers and heavy-duty cleaners	0.4	0.7000000000000001	0.6	2980	2970	5950	83.3	4960	16.7	990
-65320	Dry cleaning, laundry and related occupations	0.8999999999999999	1	0.8999999999999999	520	480	990	76.4	760	23.599999999999998	230
-65329	Other service support occupations	0.8	0.8999999999999999	0.8	300	310	600	61.5	370	38.5	230
-70010	Construction managers	1.7000000000000002	1.4000000000000001	1.5	4890	5220	10110	65.9	6660	34.1	3450
-70011	Home building and renovation managers	3	0.6	1.7999999999999998	3830	2590	6410	62.1	3990	37.9	2430
-70012	Facility operation and maintenance managers	0.8	0.8999999999999999	0.8999999999999999	3340	3600	6940	80.2	5570	19.8	1370
-70020	Managers in transportation	0.7000000000000001	0.5	0.6	1290	1390	2680	84.39999999999999	2260	15.6	420
-70021	Postal and courier services managers	1	0.4	0.7000000000000001	160	150	310	83.39999999999999	260	16.6	50
-72010	Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations	0.8999999999999999	1.0999999999999999	1	440	500	940	77.10000000000001	720	22.900000000000002	210
-72011	Contractors and supervisors, electrical trades and telecommunications occupations	0.8	1.4000000000000001	1.0999999999999999	880	1180	2070	74	1530	26	540
-72012	Contractors and supervisors, pipefitting trades	0.8999999999999999	1.6	1.2	250	390	640	56.8	360	43.2	280
-72013	Contractors and supervisors, carpentry trades	1.6	1.0999999999999999	1.4000000000000001	710	740	1450	63.1	920	36.9	540
-72014	Contractors and supervisors, other construction trades, installers, repairers and servicers	0.8999999999999999	1.4000000000000001	1.2	2180	2830	5010	70.89999999999999	3550	29.099999999999998	1460
-72020	Contractors and supervisors, mechanic trades	0.7000000000000001	1	0.8	660	790	1460	78.8	1150	21.2	310
+65310	Light duty cleaners	0.5	0.9	0.7	5190	5620	10810	77.4	8360	22.6	2440
+65311	Specialized cleaners	0.5	0.8	0.7	600	700	1290	70.7	920	29.3	380
+65312	Janitors, caretakers and heavy-duty cleaners	0.4	0.7	0.6	2980	2970	5950	83.3	4960	16.7	990
+65320	Dry cleaning, laundry and related occupations	0.9	1	0.9	520	480	990	76.4	760	23.6	230
+65329	Other service support occupations	0.8	0.9	0.8	300	310	600	61.5	370	38.5	230
+70010	Construction managers	1.7	1.4	1.5	4890	5220	10110	65.9	6660	34.1	3450
+70011	Home building and renovation managers	3	0.6	1.8	3830	2590	6410	62.1	3990	37.9	2430
+70012	Facility operation and maintenance managers	0.8	0.9	0.9	3340	3600	6940	80.2	5570	19.8	1370
+70020	Managers in transportation	0.7	0.5	0.6	1290	1390	2680	84.4	2260	15.6	420
+70021	Postal and courier services managers	1	0.4	0.7	160	150	310	83.4	260	16.6	50
+72010	Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations	0.9	1.1	1	440	500	940	77.1	720	22.9	210
+72011	Contractors and supervisors, electrical trades and telecommunications occupations	0.8	1.4	1.1	880	1180	2070	74	1530	26	540
+72012	Contractors and supervisors, pipefitting trades	0.9	1.6	1.2	250	390	640	56.8	360	43.2	280
+72013	Contractors and supervisors, carpentry trades	1.6	1.1	1.4	710	740	1450	63.1	920	36.9	540
+72014	Contractors and supervisors, other construction trades, installers, repairers and servicers	0.9	1.4	1.2	2180	2830	5010	70.9	3550	29.1	1460
+72020	Contractors and supervisors, mechanic trades	0.7	1	0.8	660	790	1460	78.8	1150	21.2	310
 72021	Contractors and supervisors, heavy equipment operator crews	1	1	1	1670	1800	3470	76.9	2670	23.1	800
-72022	Supervisors, printing and related occupations	0.4	0.8	0.6	20	30	50	83.39999999999999	40	16.6	10
+72022	Supervisors, printing and related occupations	0.4	0.8	0.6	20	30	50	83.4	40	16.6	10
 72023	Supervisors, railway transport operations	-0.2	0.2	0	30	40	70	100	70	0	0
-72024	Supervisors, motor transport and other ground transit operators	0.8	0.5	0.6	260	250	520	83.89999999999999	430	16	80
-72025	Supervisors, mail and message distribution occupations	1	0.5	0.7000000000000001	220	210	430	84.89999999999999	360	15.1	70
-72100	Machinists and machining and tooling inspectors	0.8	0.7000000000000001	0.7000000000000001	580	560	1140	76.4	870	23.599999999999998	270
-72101	Tool and die makers	0.7000000000000001	0.7000000000000001	0.7000000000000001	60	50	110	81.8	90	18.2	20
-72102	Sheet metal workers	0.8999999999999999	1.2	1.0999999999999999	450	580	1040	62.7	650	37.3	390
+72024	Supervisors, motor transport and other ground transit operators	0.8	0.5	0.6	260	250	520	83.9	430	16	80
+72025	Supervisors, mail and message distribution occupations	1	0.5	0.7	220	210	430	84.9	360	15.1	70
+72100	Machinists and machining and tooling inspectors	0.8	0.7	0.7	580	560	1140	76.4	870	23.6	270
+72101	Tool and die makers	0.7	0.7	0.7	60	50	110	81.8	90	18.2	20
+72102	Sheet metal workers	0.9	1.2	1.1	450	580	1040	62.7	650	37.3	390
 72103	Boilermakers	0.1	0.6	0.4	30	40	70	86.7	60	13.3	10
-72104	Structural metal and platework fabricators and fitters	0.8	0.7000000000000001	0.7000000000000001	310	310	620	73.1	450	26.900000000000002	170
-72105	Ironworkers	1.2	1.5	1.3	350	460	810	57.199999999999996	460	42.8	350
-72106	Welders and related machine operators	0.8	0.7000000000000001	0.8	1440	1490	2930	70.39999999999999	2060	29.599999999999998	870
-72200	Electricians (except industrial and power system)	0.8	1.4000000000000001	1.0999999999999999	1900	2840	4740	51.9	2460	48.1	2280
-72201	Industrial electricians	0.7000000000000001	0.5	0.6	550	520	1070	82.6	880	17.4	190
-72202	Power system electricians	0.8999999999999999	1.2	1.0999999999999999	100	110	210	73.7	160	26.3	60
-72203	Electrical power line and cable workers	1	1	1	250	270	520	70.19999999999999	360	29.799999999999997	150
-72204	Telecommunications line and cable installers and repairers	0	1.0999999999999999	0.5	120	190	310	83.1	260	16.900000000000002	50
-72205	Telecommunications equipment installation and cable television service technicians	-0.5	1.0999999999999999	0.3	200	380	580	90.5	530	9.5	50
-72300	Plumbers	0.8999999999999999	1.6	1.2	1510	2190	3700	57.49999999999999	2130	42.5	1570
-72301	Steamfitters, pipefitters and sprinkler system installers	1.2	1.7000000000000002	1.5	460	580	1040	56.99999999999999	590	43	450
+72104	Structural metal and platework fabricators and fitters	0.8	0.7	0.7	310	310	620	73.1	450	26.9	170
+72105	Ironworkers	1.2	1.5	1.3	350	460	810	57.2	460	42.8	350
+72106	Welders and related machine operators	0.8	0.7	0.8	1440	1490	2930	70.4	2060	29.6	870
+72200	Electricians (except industrial and power system)	0.8	1.4	1.1	1900	2840	4740	51.9	2460	48.1	2280
+72201	Industrial electricians	0.7	0.5	0.6	550	520	1070	82.6	880	17.4	190
+72202	Power system electricians	0.9	1.2	1.1	100	110	210	73.7	160	26.3	60
+72203	Electrical power line and cable workers	1	1	1	250	270	520	70.2	360	29.8	150
+72204	Telecommunications line and cable installers and repairers	0	1.1	0.5	120	190	310	83.1	260	16.9	50
+72205	Telecommunications equipment installation and cable television service technicians	-0.5	1.1	0.3	200	380	580	90.5	530	9.5	50
+72300	Plumbers	0.9	1.6	1.2	1510	2190	3700	57.5	2130	42.5	1570
+72301	Steamfitters, pipefitters and sprinkler system installers	1.2	1.7	1.5	460	580	1040	57	590	43	450
 72302	Gas fitters	1	1.5	1.3	180	210	390	62.6	250	37.4	150
-72310	Carpenters	1.3	1.0999999999999999	1.2	5830	5850	11680	61.8	7220	38.2	4460
-72311	Cabinetmakers	0.4	0.8999999999999999	0.6	370	430	810	81.5	660	18.5	150
-72320	Bricklayers	0.8999999999999999	1.6	1.2	250	340	590	61.3	360	38.7	230
-72321	Insulators	0.8999999999999999	1.4000000000000001	1.0999999999999999	200	260	460	64	290	36	160
-72400	Construction millwrights and industrial mechanics	0.7000000000000001	0.4	0.6	1510	1290	2790	83.3	2330	16.7	470
-72401	Heavy-duty equipment mechanics	1	0.7000000000000001	0.8	1270	1160	2430	70.8	1720	29.2	710
-72402	Heating, refrigeration and air conditioning mechanics	1.6	1.9	1.7000000000000002	710	860	1570	49.4	780	50.6	800
+72310	Carpenters	1.3	1.1	1.2	5830	5850	11680	61.8	7220	38.2	4460
+72311	Cabinetmakers	0.4	0.9	0.6	370	430	810	81.5	660	18.5	150
+72320	Bricklayers	0.9	1.6	1.2	250	340	590	61.3	360	38.7	230
+72321	Insulators	0.9	1.4	1.1	200	260	460	64	290	36	160
+72400	Construction millwrights and industrial mechanics	0.7	0.4	0.6	1510	1290	2790	83.3	2330	16.7	470
+72401	Heavy-duty equipment mechanics	1	0.7	0.8	1270	1160	2430	70.8	1720	29.2	710
+72402	Heating, refrigeration and air conditioning mechanics	1.6	1.9	1.7	710	860	1570	49.4	780	50.6	800
 72403	Railway carmen/women	0.1	0.2	0.1	30	40	70	96	70	4	0
-72404	Aircraft mechanics and aircraft inspectors	0.6	0.3	0.5	740	670	1410	83.6	1180	16.400000000000002	230
-72405	Machine fitters	1	0.8	0.8999999999999999	10	10	20	70.89999999999999	10	29.2	10
-72406	Elevator constructors and mechanics	0.8999999999999999	2.1	1.5	230	330	560	60.199999999999996	340	39.800000000000004	220
+72404	Aircraft mechanics and aircraft inspectors	0.6	0.3	0.5	740	670	1410	83.6	1180	16.4	230
+72405	Machine fitters	1	0.8	0.9	10	10	20	70.9	10	29.2	10
+72406	Elevator constructors and mechanics	0.9	2.1	1.5	230	330	560	60.2	340	39.8	220
 72410	Automotive service technicians, truck and bus mechanics and mechanical repairers	0.5	0.6	0.5	2330	2550	4880	77.7	3790	22.3	1090
 72411	Auto body collision, refinishing and glass technicians and damage repair estimators	0.3	0.6	0.4	530	590	1120	82.3	920	17.7	200
 72420	Oil and solid fuel heating mechanics	1.5	1.5	1.5	10	10	30	63.1	20	36.8	10
-72421	Appliance servicers and repairers	1.0999999999999999	0.8	0.8999999999999999	160	140	300	73.3	220	26.700000000000003	80
-72422	Electrical mechanics	1	1.0999999999999999	1	60	60	110	70.7	80	29.299999999999997	30
-72423	Motorcycle, all-terrain vehicle and other related mechanics	0.4	0.7000000000000001	0.6	200	230	440	78.7	340	21.3	90
-72429	Other small engine and small equipment repairers	0.7000000000000001	0.7000000000000001	0.7000000000000001	20	20	50	76.5	30	23.400000000000002	10
-72500	Crane operators	1	0.8999999999999999	0.8999999999999999	440	440	880	70.8	620	29.2	260
-72501	Water well drillers	-0.1	0.2	0.1	0	0	0	96.5	0	3.5000000000000004	0
+72421	Appliance servicers and repairers	1.1	0.8	0.9	160	140	300	73.3	220	26.7	80
+72422	Electrical mechanics	1	1.1	1	60	60	110	70.7	80	29.3	30
+72423	Motorcycle, all-terrain vehicle and other related mechanics	0.4	0.7	0.6	200	230	440	78.7	340	21.3	90
+72429	Other small engine and small equipment repairers	0.7	0.7	0.7	20	20	50	76.5	30	23.4	10
+72500	Crane operators	1	0.9	0.9	440	440	880	70.8	620	29.2	260
+72501	Water well drillers	-0.1	0.2	0.1	0	0	0	96.5	0	3.5	0
 72600	Air pilots, flight engineers and flying instructors	0.8	0.3	0.6	760	670	1440	81	1160	19	270
 72601	Air traffic controllers and related occupations	1	0.3	0.6	220	180	410	81.2	330	18.8	80
-72602	Deck officers, water transport	1.7999999999999998	0.6	1.2	500	360	860	67.5	580	32.5	280
-72603	Engineer officers, water transport	0.7000000000000001	0.7000000000000001	0.7000000000000001	30	30	60	79.4	50	20.599999999999998	10
-72604	Railway traffic controllers and marine traffic regulators	0.1	0.3	0.2	30	30	60	92.30000000000001	50	7.6	0
-72999	Other technical trades and related occupations	0.2	0.5	0.4	210	240	450	85.1	380	14.899999999999999	70
-73100	Concrete finishers	1.4000000000000001	1.6	1.5	240	290	530	51.7	270	48.3	260
-73101	Tilesetters	1.3	1.6	1.4000000000000001	380	450	830	59.699999999999996	500	40.300000000000004	340
-73102	Plasterers, drywall installers and finishers and lathers	1.0999999999999999	1.4000000000000001	1.3	700	830	1530	56.2	860	43.8	670
-73110	Roofers and shinglers	0.7000000000000001	1.2	0.8999999999999999	460	590	1050	67.9	710	32.1	340
-73111	Glaziers	0.8999999999999999	1.6	1.3	260	390	650	57.4	370	42.6	280
-73112	Painters and decorators (except interior decorators)	0.8999999999999999	1.5	1.2	1410	1740	3150	61.3	1930	38.7	1220
-73113	Floor covering installers	0.8999999999999999	1.3	1.0999999999999999	370	430	800	65.3	520	34.699999999999996	280
-73200	Residential and commercial installers and servicers	1	1.2	1.0999999999999999	1240	1410	2660	59.9	1590	40.1	1070
-73201	General building maintenance workers and building superintendents	0.8	0.8999999999999999	0.8	2490	2360	4850	75.2	3650	24.8	1210
-73202	Pest controllers and fumigators	0.3	1	0.7000000000000001	70	90	160	80.30000000000001	130	19.7	30
-73209	Other repairers and servicers	0.8	0.8	0.8	250	250	490	69.89999999999999	350	30.099999999999998	150
-73300	Transport truck drivers	0.8	0.5	0.6	7570	6780	14350	79.4	11400	20.599999999999998	2950
-73301	Bus drivers, subway operators and other transit operators	0.8	0.4	0.6	1940	1540	3480	81.69999999999999	2840	18.3	640
-73310	Railway and yard locomotive engineers	1.0999999999999999	0.4	0.7000000000000001	320	310	630	82.6	520	17.4	110
+72602	Deck officers, water transport	1.8	0.6	1.2	500	360	860	67.5	580	32.5	280
+72603	Engineer officers, water transport	0.7	0.7	0.7	30	30	60	79.4	50	20.6	10
+72604	Railway traffic controllers and marine traffic regulators	0.1	0.3	0.2	30	30	60	92.3	50	7.6	0
+72999	Other technical trades and related occupations	0.2	0.5	0.4	210	240	450	85.1	380	14.9	70
+73100	Concrete finishers	1.4	1.6	1.5	240	290	530	51.7	270	48.3	260
+73101	Tilesetters	1.3	1.6	1.4	380	450	830	59.7	500	40.3	340
+73102	Plasterers, drywall installers and finishers and lathers	1.1	1.4	1.3	700	830	1530	56.2	860	43.8	670
+73110	Roofers and shinglers	0.7	1.2	0.9	460	590	1050	67.9	710	32.1	340
+73111	Glaziers	0.9	1.6	1.3	260	390	650	57.4	370	42.6	280
+73112	Painters and decorators (except interior decorators)	0.9	1.5	1.2	1410	1740	3150	61.3	1930	38.7	1220
+73113	Floor covering installers	0.9	1.3	1.1	370	430	800	65.3	520	34.7	280
+73200	Residential and commercial installers and servicers	1	1.2	1.1	1240	1410	2660	59.9	1590	40.1	1070
+73201	General building maintenance workers and building superintendents	0.8	0.9	0.8	2490	2360	4850	75.2	3650	24.8	1210
+73202	Pest controllers and fumigators	0.3	1	0.7	70	90	160	80.3	130	19.7	30
+73209	Other repairers and servicers	0.8	0.8	0.8	250	250	490	69.9	350	30.1	150
+73300	Transport truck drivers	0.8	0.5	0.6	7570	6780	14350	79.4	11400	20.6	2950
+73301	Bus drivers, subway operators and other transit operators	0.8	0.4	0.6	1940	1540	3480	81.7	2840	18.3	640
+73310	Railway and yard locomotive engineers	1.1	0.4	0.7	320	310	630	82.6	520	17.4	110
 73311	Railway conductors and brakemen/women	0.8	0.3	0.5	200	220	430	82.6	350	17.4	70
-73400	Heavy equipment operators	1.0999999999999999	0.8	0.8999999999999999	2850	2490	5330	72.39999999999999	3860	27.6	1470
+73400	Heavy equipment operators	1.1	0.8	0.9	2850	2490	5330	72.4	3860	27.6	1470
 73401	Printing press operators	0.1	0.8	0.4	180	220	400	88.7	360	11.3	50
-73402	Drillers and blasters - surface mining, quarrying and construction	1	1.4000000000000001	1.2	90	120	220	58.4	130	41.6	90
-74100	Mail and parcel sorters and related occupations	0.8999999999999999	0.4	0.6	550	430	980	78.8	780	21.2	210
-74101	Letter carriers	0.8999999999999999	0.4	0.7000000000000001	940	790	1730	80.60000000000001	1400	19.400000000000002	340
-74102	Couriers and messengers	0.8	0.5	0.7000000000000001	830	710	1540	75.8	1160	24.2	370
+73402	Drillers and blasters - surface mining, quarrying and construction	1	1.4	1.2	90	120	220	58.4	130	41.6	90
+74100	Mail and parcel sorters and related occupations	0.9	0.4	0.6	550	430	980	78.8	780	21.2	210
+74101	Letter carriers	0.9	0.4	0.7	940	790	1730	80.6	1400	19.4	340
+74102	Couriers and messengers	0.8	0.5	0.7	830	710	1540	75.8	1160	24.2	370
 74200	Railway yard and track maintenance workers	0.4	0.3	0.4	110	140	260	87.5	220	12.5	30
-74201	Water transport deck and engine room crew	1.5	0.7000000000000001	1.0999999999999999	220	180	400	64	250	36	140
-74202	Air transport ramp attendants	0.7000000000000001	0.3	0.5	300	270	580	81.89999999999999	470	18.099999999999998	100
+74201	Water transport deck and engine room crew	1.5	0.7	1.1	220	180	400	64	250	36	140
+74202	Air transport ramp attendants	0.7	0.3	0.5	300	270	580	81.9	470	18.1	100
 74203	Automotive and heavy truck and equipment parts installers and servicers	0.6	0.6	0.6	150	190	350	61.1	210	38.9	130
-74204	Utility maintenance workers	0.7000000000000001	1	0.8999999999999999	100	110	200	76.1	150	23.9	50
+74204	Utility maintenance workers	0.7	1	0.9	100	110	200	76.1	150	23.9	50
 74205	Public works maintenance equipment operators and related workers	0.5	0.8	0.6	220	240	460	81.6	370	18.4	80
-75100	Longshore workers	0.7000000000000001	0.3	0.5	590	570	1160	83	960	17	200
-75101	Material handlers	0.7000000000000001	0.8	0.7000000000000001	4300	4910	9200	74.8	6890	25.2	2320
-75110	Construction trades helpers and labourers	1.6	1.2	1.4000000000000001	6020	5800	11820	54.300000000000004	6420	45.7	5400
-75119	Other trades helpers and labourers	0.7000000000000001	1.0999999999999999	0.8999999999999999	130	190	320	60.9	190	39.1	120
-75200	Taxi and limousine drivers and chauffeurs	1	0.5	0.7000000000000001	1360	1110	2470	77.2	1910	22.8	560
-75201	Delivery service drivers and door-to-door distributors	0.8	0.6	0.7000000000000001	2190	2010	4190	70.39999999999999	2950	29.599999999999998	1240
-75210	Boat and cable ferry operators and related occupations	1.3	0.7000000000000001	1	250	200	450	68.2	310	31.8	140
+75100	Longshore workers	0.7	0.3	0.5	590	570	1160	83	960	17	200
+75101	Material handlers	0.7	0.8	0.7	4300	4910	9200	74.8	6890	25.2	2320
+75110	Construction trades helpers and labourers	1.6	1.2	1.4	6020	5800	11820	54.3	6420	45.7	5400
+75119	Other trades helpers and labourers	0.7	1.1	0.9	130	190	320	60.9	190	39.1	120
+75200	Taxi and limousine drivers and chauffeurs	1	0.5	0.7	1360	1110	2470	77.2	1910	22.8	560
+75201	Delivery service drivers and door-to-door distributors	0.8	0.6	0.7	2190	2010	4190	70.4	2950	29.6	1240
+75210	Boat and cable ferry operators and related occupations	1.3	0.7	1	250	200	450	68.2	310	31.8	140
 75211	Railway and motor transport labourers	0.3	0.6	0.4	70	80	150	83.3	120	16.7	20
-75212	Public works and maintenance labourers	0.6	0.8	0.7000000000000001	520	570	1090	77.10000000000001	840	22.900000000000002	250
-80010	Managers in natural resources production and fishing	1	1	1	510	550	1060	80.30000000000001	850	19.7	210
-80020	Managers in agriculture	-0.8999999999999999	-0.8999999999999999	-0.8999999999999999	720	630	1360	100	1980	0	-620
-80021	Managers in horticulture	-1.0999999999999999	-0.8999999999999999	-1	60	60	110	100	170	0	-50
+75212	Public works and maintenance labourers	0.6	0.8	0.7	520	570	1090	77.1	840	22.9	250
+80010	Managers in natural resources production and fishing	1	1	1	510	550	1060	80.3	850	19.7	210
+80020	Managers in agriculture	-0.9	-0.9	-0.9	720	630	1360	100	1980	0	-620
+80021	Managers in horticulture	-1.1	-0.9	-1	60	60	110	100	170	0	-50
 80022	Managers in aquaculture	-1	-0.3	-0.6	40	50	80	100	100	0	-20
 82010	Supervisors, logging and forestry	-0.3	0.8	0.2	250	360	610	94.8	580	5.2	30
-82020	Supervisors, mining and quarrying	2.8000000000000003	1.2	2	490	430	920	63.7	590	36.3	330
-82021	Contractors and supervisors, oil and gas drilling and services	1.9	0.8	1.4000000000000001	220	200	410	74.1	310	25.900000000000002	110
-82030	Agricultural service contractors and farm supervisors	-1.7000000000000002	-1.4000000000000001	-1.5	0	10	10	100	40	0	-40
-82031	Contractors and supervisors, landscaping, grounds maintenance and horticulture services	0.3	0.8999999999999999	0.6	570	740	1310	83.8	1100	16.2	210
-83100	Underground production and development miners	3.4000000000000004	1.0999999999999999	2.3	490	310	800	49.1	390	50.9	410
-83101	Oil and gas well drillers, servicers, testers and related workers	2.1	1.2	1.6	140	130	270	51.800000000000004	140	48.199999999999996	130
+82020	Supervisors, mining and quarrying	2.8	1.2	2	490	430	920	63.7	590	36.3	330
+82021	Contractors and supervisors, oil and gas drilling and services	1.9	0.8	1.4	220	200	410	74.1	310	25.9	110
+82030	Agricultural service contractors and farm supervisors	-1.7	-1.4	-1.5	0	10	10	100	40	0	-40
+82031	Contractors and supervisors, landscaping, grounds maintenance and horticulture services	0.3	0.9	0.6	570	740	1310	83.8	1100	16.2	210
+83100	Underground production and development miners	3.4	1.1	2.3	490	310	800	49.1	390	50.9	410
+83101	Oil and gas well drillers, servicers, testers and related workers	2.1	1.2	1.6	140	130	270	51.8	140	48.2	130
 83110	Logging machinery operators	-1.3	0.8	-0.2	120	270	400	100	450	0	-60
 83120	Fishing masters and officers	-1.5	1.2	-0.2	10	20	30	100	30	0	0
 83121	Fishermen/women	-1.3	1.3	0	20	50	70	100	70	0	0
-84100	Underground mine service and support workers	3.3000000000000003	1	2.1	130	80	200	46.7	90	53.300000000000004	110
-84101	Oil and gas well drilling and related workers and services operators	1.0999999999999999	0.8	0.8999999999999999	50	50	100	60.4	60	39.5	40
+84100	Underground mine service and support workers	3.3	1	2.1	130	80	200	46.7	90	53.3	110
+84101	Oil and gas well drilling and related workers and services operators	1.1	0.8	0.9	50	50	100	60.4	60	39.5	40
 84110	Chain saw and skidder operators	-1.5	0.8	-0.3	40	290	330	100	440	0	-110
 84111	Silviculture and forestry workers	-0.6	0.5	-0.1	30	140	170	100	220	0	-40
-84120	Specialized livestock workers and farm machinery operators	-0.8999999999999999	-0.6	-0.8	70	100	170	100	390	0	-210
+84120	Specialized livestock workers and farm machinery operators	-0.9	-0.6	-0.8	70	100	170	100	390	0	-210
 84121	Fishing vessel deckhands	-2.1	1.5	-0.3	-10	40	30	100	40	0	-10
-85100	Livestock labourers	-0.5	-0.7000000000000001	-0.6	100	80	180	100	340	0	-150
-85101	Harvesting labourers	-1.6	-1.2	-1.4000000000000001	30	50	80	100	270	0	-190
+85100	Livestock labourers	-0.5	-0.7	-0.6	100	80	180	100	340	0	-150
+85101	Harvesting labourers	-1.6	-1.2	-1.4	30	50	80	100	270	0	-190
 85102	Aquaculture and marine harvest labourers	-0.8	0.1	-0.4	20	30	50	100	60	0	-20
-85103	Nursery and greenhouse labourers	-1.3	-0.5	-0.8999999999999999	70	170	240	100	500	0	-260
+85103	Nursery and greenhouse labourers	-1.3	-0.5	-0.9	70	170	240	100	500	0	-260
 85104	Trappers and hunters	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-85110	Mine labourers	2.4	0.8999999999999999	1.7000000000000002	140	100	240	49.4	120	50.7	120
-85111	Oil and gas drilling, servicing and related labourers	1.3	0.8999999999999999	1.0999999999999999	70	70	130	51.6	70	48.4	60
+85110	Mine labourers	2.4	0.9	1.7	140	100	240	49.4	120	50.7	120
+85111	Oil and gas drilling, servicing and related labourers	1.3	0.9	1.1	70	70	130	51.6	70	48.4	60
 85120	Logging and forestry labourers	-1.5	0.8	-0.3	-50	120	70	100	140	0	-70
-85121	Landscaping and grounds maintenance labourers	0.4	1	0.7000000000000001	1950	2620	4560	72.39999999999999	3300	27.6	1260
-90010	Manufacturing managers	0.4	0.5	0.5	2310	2570	4880	88.8	4330	11.200000000000001	550
-90011	Utilities managers	0.8999999999999999	1.0999999999999999	1	400	450	840	81.10000000000001	680	18.9	160
+85121	Landscaping and grounds maintenance labourers	0.4	1	0.7	1950	2620	4560	72.4	3300	27.6	1260
+90010	Manufacturing managers	0.4	0.5	0.5	2310	2570	4880	88.8	4330	11.2	550
+90011	Utilities managers	0.9	1.1	1	400	450	840	81.1	680	18.9	160
 92010	Supervisors, mineral and metal processing	0.5	0	0.3	100	90	190	93.4	180	6.7	10
 92011	Supervisors, petroleum, gas and chemical processing and utilities	1.3	1	1.2	280	290	560	76	430	24	140
-92012	Supervisors, food and beverage processing	0.8	0.6	0.7000000000000001	280	320	610	74.8	450	25.2	150
+92012	Supervisors, food and beverage processing	0.8	0.6	0.7	280	320	610	74.8	450	25.2	150
 92013	Supervisors, plastic and rubber products manufacturing	-0.1	0.8	0.3	40	50	90	92.7	90	7.3	10
 92014	Supervisors, forest products processing	-0.4	0.1	-0.1	220	260	490	100	510	0	-20
-92015	Supervisors, textile, fabric, fur and leather products processing and manufacturing	0.8	0.8	0.8	20	20	50	82	40	18.099999999999998	10
-92020	Supervisors, motor vehicle assembling	-0.8999999999999999	0.8999999999999999	0	10	20	30	100	30	0	0
-92021	Supervisors, electronics and electrical products manufacturing	0.5	0.8	0.7000000000000001	50	60	110	83.39999999999999	90	16.7	20
+92015	Supervisors, textile, fabric, fur and leather products processing and manufacturing	0.8	0.8	0.8	20	20	50	82	40	18.1	10
+92020	Supervisors, motor vehicle assembling	-0.9	0.9	0	10	20	30	100	30	0	0
+92021	Supervisors, electronics and electrical products manufacturing	0.5	0.8	0.7	50	60	110	83.4	90	16.7	20
 92022	Supervisors, furniture and fixtures manufacturing	0.3	0.8	0.6	10	20	30	79	20	21	10
-92023	Supervisors, other mechanical and metal products manufacturing	1.0999999999999999	0.8	0.8999999999999999	40	40	70	77.60000000000001	60	22.400000000000002	20
+92023	Supervisors, other mechanical and metal products manufacturing	1.1	0.8	0.9	40	40	70	77.6	60	22.4	20
 92024	Supervisors, other products manufacturing and assembly	0.2	0.6	0.4	30	40	70	86.2	60	13.8	10
-92100	Power engineers and power systems operators	0.7000000000000001	0.7000000000000001	0.7000000000000001	1240	1270	2510	83.1	2090	16.900000000000002	420
-92101	Water and waste treatment plant operators	1.0999999999999999	1.2	1.0999999999999999	390	440	840	73.8	620	26.200000000000003	220
-93100	Central control and process operators, mineral and metal processing	1.7999999999999998	0	0.8999999999999999	190	150	340	82.3	280	17.7	60
-93101	Central control and process operators, petroleum, gas and chemical processing	1.3	0.5	0.8999999999999999	530	460	990	76.9	760	23.1	230
-93102	Pulping, papermaking and coating control operators	-1	-0.3	-0.7000000000000001	30	30	60	100	70	0	-10
-93200	Aircraft assemblers and aircraft assembly inspectors	0.8	0.6	0.7000000000000001	10	10	20	79.60000000000001	10	20.4	0
-94100	Machine operators, mineral and metal processing	1.0999999999999999	0.1	0.6	150	110	260	84.2	220	15.8	40
+92100	Power engineers and power systems operators	0.7	0.7	0.7	1240	1270	2510	83.1	2090	16.9	420
+92101	Water and waste treatment plant operators	1.1	1.2	1.1	390	440	840	73.8	620	26.2	220
+93100	Central control and process operators, mineral and metal processing	1.8	0	0.9	190	150	340	82.3	280	17.7	60
+93101	Central control and process operators, petroleum, gas and chemical processing	1.3	0.5	0.9	530	460	990	76.9	760	23.1	230
+93102	Pulping, papermaking and coating control operators	-1	-0.3	-0.7	30	30	60	100	70	0	-10
+93200	Aircraft assemblers and aircraft assembly inspectors	0.8	0.6	0.7	10	10	20	79.6	10	20.4	0
+94100	Machine operators, mineral and metal processing	1.1	0.1	0.6	150	110	260	84.2	220	15.8	40
 94101	Foundry workers	2.1	0.4	1.2	20	10	40	59.4	20	40.6	20
-94102	Glass forming and finishing machine operators and glass cutters	0.2	0.8	0.5	30	50	80	79.4	60	20.599999999999998	20
-94103	Concrete, clay and stone forming operators	0.6	1.0999999999999999	0.8999999999999999	60	80	140	68.8	100	31.2	40
-94104	Inspectors and testers, mineral and metal processing	0.7000000000000001	1.0999999999999999	0.8999999999999999	20	30	50	77.4	40	22.5	10
-94105	Metalworking and forging machine operators	1	0.7000000000000001	0.8999999999999999	150	140	290	71.1	210	28.9	80
-94106	Machining tool operators	0.8999999999999999	0.8	0.8	60	60	120	71.6	80	28.4	30
-94107	Machine operators of other metal products	0.7000000000000001	0.8	0.8	20	20	40	76.7	30	23.3	10
-94110	Chemical plant machine operators	0.7000000000000001	0.6	0.7000000000000001	60	60	130	79.80000000000001	100	20.1	30
-94111	Plastics processing machine operators	0.3	0.8	0.5	110	130	240	85.6	210	14.399999999999999	30
+94102	Glass forming and finishing machine operators and glass cutters	0.2	0.8	0.5	30	50	80	79.4	60	20.6	20
+94103	Concrete, clay and stone forming operators	0.6	1.1	0.9	60	80	140	68.8	100	31.2	40
+94104	Inspectors and testers, mineral and metal processing	0.7	1.1	0.9	20	30	50	77.4	40	22.5	10
+94105	Metalworking and forging machine operators	1	0.7	0.9	150	140	290	71.1	210	28.9	80
+94106	Machining tool operators	0.9	0.8	0.8	60	60	120	71.6	80	28.4	30
+94107	Machine operators of other metal products	0.7	0.8	0.8	20	20	40	76.7	30	23.3	10
+94110	Chemical plant machine operators	0.7	0.6	0.7	60	60	130	79.8	100	20.1	30
+94111	Plastics processing machine operators	0.3	0.8	0.5	110	130	240	85.6	210	14.4	30
 94112	Rubber processing machine operators and related workers	-0.1	0.6	0.3	20	20	40	91.3	40	8.7	0
 94120	Sawmill machine operators	-0.6	0	-0.3	240	270	510	100	580	0	-70
 94121	Pulp mill, papermaking and finishing machine operators	-1	0.1	-0.5	120	170	280	100	340	0	-50
-94122	Paper converting machine operators	-1.7000000000000002	0.8	-0.4	10	30	40	100	50	0	-10
+94122	Paper converting machine operators	-1.7	0.8	-0.4	10	30	40	100	50	0	-10
 94123	Lumber graders and other wood processing inspectors and graders	-0.2	0.3	0	110	130	240	100	240	0	0
-94124	Woodworking machine operators	0	0.6	0.3	90	100	190	90.4	180	9.700000000000001	20
+94124	Woodworking machine operators	0	0.6	0.3	90	100	190	90.4	180	9.7	20
 94129	Other wood processing machine operators	-0.4	0	-0.2	80	90	170	100	190	0	-20
-94130	Textile fibre and yarn, hide and pelt processing machine operators and workers	0.6	0.7000000000000001	0.6	20	20	40	73.3	30	26.8	10
-94131	Weavers, knitters and other fabric making occupations	0.4	0.7000000000000001	0.6	20	20	40	81.39999999999999	30	18.5	10
-94132	Industrial sewing machine operators	0.5	0.8	0.6	310	290	600	84.89999999999999	510	15.1	90
-94133	Inspectors and graders, textile, fabric, fur and leather products manufacturing	0.4	0.7000000000000001	0.6	20	30	50	80	40	20	10
-94140	Process control and machine operators, food and beverage processing	0.7000000000000001	0.5	0.6	960	940	1900	80.2	1530	19.8	380
-94141	Industrial butchers and meat cutters, poultry preparers and related workers	1.3	0.4	0.8999999999999999	330	240	570	74.7	430	25.3	150
-94142	Fish and seafood plant workers	0.7000000000000001	0.3	0.5	200	160	360	87.5	320	12.5	50
-94143	Testers and graders, food and beverage processing	0.7000000000000001	0.3	0.5	130	110	240	82	200	18	40
-94150	Plateless printing equipment operators	0.1	0.7000000000000001	0.4	90	100	190	87.4	170	12.6	20
-94151	Camera, platemaking and other prepress occupations	0.4	0.8	0.6	20	30	50	83.39999999999999	40	16.6	10
+94130	Textile fibre and yarn, hide and pelt processing machine operators and workers	0.6	0.7	0.6	20	20	40	73.3	30	26.8	10
+94131	Weavers, knitters and other fabric making occupations	0.4	0.7	0.6	20	20	40	81.4	30	18.5	10
+94132	Industrial sewing machine operators	0.5	0.8	0.6	310	290	600	84.9	510	15.1	90
+94133	Inspectors and graders, textile, fabric, fur and leather products manufacturing	0.4	0.7	0.6	20	30	50	80	40	20	10
+94140	Process control and machine operators, food and beverage processing	0.7	0.5	0.6	960	940	1900	80.2	1530	19.8	380
+94141	Industrial butchers and meat cutters, poultry preparers and related workers	1.3	0.4	0.9	330	240	570	74.7	430	25.3	150
+94142	Fish and seafood plant workers	0.7	0.3	0.5	200	160	360	87.5	320	12.5	50
+94143	Testers and graders, food and beverage processing	0.7	0.3	0.5	130	110	240	82	200	18	40
+94150	Plateless printing equipment operators	0.1	0.7	0.4	90	100	190	87.4	170	12.6	20
+94151	Camera, platemaking and other prepress occupations	0.4	0.8	0.6	20	30	50	83.4	40	16.6	10
 94152	Binding and finishing machine operators	0.3	0.8	0.5	40	40	80	82.6	70	17.4	10
-94153	Photographic and film processors	1.5	0.7000000000000001	1.0999999999999999	70	50	120	66.7	80	33.300000000000004	40
-94200	Motor vehicle assemblers, inspectors and testers	0.2	0.7000000000000001	0.4	140	170	310	86.6	270	13.4	40
+94153	Photographic and film processors	1.5	0.7	1.1	70	50	120	66.7	80	33.3	40
+94200	Motor vehicle assemblers, inspectors and testers	0.2	0.7	0.4	140	170	310	86.6	270	13.4	40
 94201	Electronics assemblers, fabricators, inspectors and testers	0.6	1	0.8	240	250	490	75.2	370	24.8	120
-94202	Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing	0.7000000000000001	1.0999999999999999	0.8999999999999999	70	80	150	75.4	110	24.6	40
+94202	Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing	0.7	1.1	0.9	70	80	150	75.4	110	24.6	40
 94203	Assemblers, fabricators and inspectors, industrial electrical motors and transformers	0.6	1.3	1	10	10	30	66.3	20	33.7	10
-94204	Mechanical assemblers and inspectors	1.3	0.7000000000000001	1	160	140	300	69.89999999999999	210	30.099999999999998	90
-94205	Machine operators and inspectors, electrical apparatus manufacturing	0.4	0.8	0.6	20	20	40	84.89999999999999	40	15.1	10
-94210	Furniture and fixture assemblers, finishers, refinishers and inspectors	0.3	0.8	0.5	200	250	440	79.4	350	20.599999999999998	90
+94204	Mechanical assemblers and inspectors	1.3	0.7	1	160	140	300	69.9	210	30.1	90
+94205	Machine operators and inspectors, electrical apparatus manufacturing	0.4	0.8	0.6	20	20	40	84.9	40	15.1	10
+94210	Furniture and fixture assemblers, finishers, refinishers and inspectors	0.3	0.8	0.5	200	250	440	79.4	350	20.6	90
 94211	Assemblers and inspectors of other wood products	0.5	0.6	0.5	160	160	310	81.5	250	18.5	60
-94212	Plastic products assemblers, finishers and inspectors	0.2	0.7000000000000001	0.5	40	50	90	85.6	70	14.399999999999999	10
-94213	Industrial painters, coaters and metal finishing process operators	0.7000000000000001	0.7000000000000001	0.7000000000000001	300	300	600	76.8	460	23.200000000000003	140
-94219	Other products assemblers, finishers and inspectors	0.8999999999999999	0.7000000000000001	0.8	420	390	820	72.7	590	27.3	220
+94212	Plastic products assemblers, finishers and inspectors	0.2	0.7	0.5	40	50	90	85.6	70	14.4	10
+94213	Industrial painters, coaters and metal finishing process operators	0.7	0.7	0.7	300	300	600	76.8	460	23.2	140
+94219	Other products assemblers, finishers and inspectors	0.9	0.7	0.8	420	390	820	72.7	590	27.3	220
 95100	Labourers in mineral and metal processing	0.5	0.5	0.5	140	150	290	84	250	16	50
-95101	Labourers in metal fabrication	0.3	0.7000000000000001	0.5	190	230	420	81.3	340	18.7	80
-95102	Labourers in chemical products processing and utilities	0.8999999999999999	1	1	130	140	270	71.6	190	28.4	80
+95101	Labourers in metal fabrication	0.3	0.7	0.5	190	230	420	81.3	340	18.7	80
+95102	Labourers in chemical products processing and utilities	0.9	1	1	130	140	270	71.6	190	28.4	80
 95103	Labourers in wood, pulp and paper processing	-0.5	-0.1	-0.3	470	550	1020	100	1260	0	-230
-95104	Labourers in rubber and plastic products manufacturing	0.2	0.8	0.5	50	80	130	80.30000000000001	110	19.7	30
-95105	Labourers in textile processing and cutting	0.6	0.8	0.7000000000000001	90	100	190	79.7	150	20.3	40
-95106	Labourers in food and beverage processing	1.0999999999999999	0.6	0.8	2460	2110	4570	75.8	3470	24.2	1110
-95107	Labourers in fish and seafood processing	0.6	0.3	0.4	140	110	250	89.60000000000001	220	10.4	30
-95109	Other labourers in processing, manufacturing and utilities	0.5	0.7000000000000001	0.6	1060	1230	2290	78.5	1800	21.5	490
+95104	Labourers in rubber and plastic products manufacturing	0.2	0.8	0.5	50	80	130	80.3	110	19.7	30
+95105	Labourers in textile processing and cutting	0.6	0.8	0.7	90	100	190	79.7	150	20.3	40
+95106	Labourers in food and beverage processing	1.1	0.6	0.8	2460	2110	4570	75.8	3470	24.2	1110
+95107	Labourers in fish and seafood processing	0.6	0.3	0.4	140	110	250	89.6	220	10.4	30
+95109	Other labourers in processing, manufacturing and utilities	0.5	0.7	0.6	1060	1230	2290	78.5	1800	21.5	490
 \.
 
 
@@ -7247,518 +7247,518 @@ COPY public.career_provincial (noc, description, forecasted_average_employment_g
 --
 
 COPY public.career_regional (noc, description, cariboo_employment_current, cariboo_average_annual_employment_growth_10y_pct, cariboo_expected_number_of_job_openings_10y, kootenay_employment_current, kootenay_average_annual_employment_growth_10y_pct, kootenay_expected_number_of_job_openings_10y, mainland_southwest_employment_current, mainland_southwest_annual_employment_growth_10y_pct, mainland_southwest_expected_number_of_job_openings_10y, north_coast_nechako_employment_current, north_coast_nechako_annual_employment_growth_10y_pct, north_coast_nechako_expected_number_of_job_openings_10y, northeast_employment_current, northeast_annual_employment_growth_10y_pct, northeast_expected_number_of_job_openings_10y, thompson_okanagan_employment_current, thompson_okanagan_annual_employment_growth_10y_pct, thompson_okanagan_expected_number_of_job_openings_10y, vancouver_island_coast_employment_current, vancouver_island_coast_annual_employment_growth_10y_pct, vancouver_island_coast_expected_number_of_job_openings_10y) FROM stdin;
-00010	Legislators	60	0.3	20	70	0.7000000000000001	30	530	0.1	180	60	0.5	20	30	0.6	10	200	0.8999999999999999	110	430	1.7999999999999998	250
-00018	Senior managers - public and private sector	540	0.5	250	540	0.7000000000000001	300	27610	1.2	13570	210	0.4	100	210	0.6	100	3300	1.3	2060	5610	1	2990
-10010	Financial managers	150	0.1	60	200	0.7000000000000001	70	7430	1	2690	70	-0.1	30	50	-0.3	20	780	1	320	1430	0.8	580
-10011	Human resources managers	170	0.2	70	120	0.2	60	5200	1	2220	90	1.0999999999999999	50	70	1.5	40	650	1.0999999999999999	390	1090	0.8	530
-10012	Purchasing managers	50	0	30	60	0.8999999999999999	40	2730	1	1270	\N	\N	\N	60	-3.2	10	250	1	180	480	0.7000000000000001	250
-10019	Other administrative services managers	100	-0.1	30	100	0.3	50	5730	0	1750	60	0	20	30	0.8999999999999999	10	580	0.7000000000000001	310	1240	0.4	550
-10020	Insurance, real estate and financial brokerage managers	50	-0.3	20	70	2.4	60	6830	1.0999999999999999	3150	\N	\N	\N	\N	\N	\N	590	0.8999999999999999	370	760	0.8	380
-10021	Banking, credit and other investment managers	200	1	90	180	0	70	8470	0.8999999999999999	3500	90	-0.2	30	90	2.4	60	1050	0.8999999999999999	550	1320	0.8999999999999999	610
-10022	Advertising, marketing and public relations managers	100	0.8999999999999999	30	160	0.4	60	13200	1.0999999999999999	4650	20	1.9	10	\N	\N	\N	1200	1.0999999999999999	530	1810	1.2	830
-10029	Other business services managers	50	0.1	20	70	0.2	30	2470	0.8999999999999999	1040	\N	\N	\N	\N	\N	\N	260	1.3	150	610	0.8999999999999999	320
+00010	Legislators	60	0.3	20	70	0.7	30	530	0.1	180	60	0.5	20	30	0.6	10	200	0.9	110	430	1.8	250
+00018	Senior managers - public and private sector	540	0.5	250	540	0.7	300	27610	1.2	13570	210	0.4	100	210	0.6	100	3300	1.3	2060	5610	1	2990
+10010	Financial managers	150	0.1	60	200	0.7	70	7430	1	2690	70	-0.1	30	50	-0.3	20	780	1	320	1430	0.8	580
+10011	Human resources managers	170	0.2	70	120	0.2	60	5200	1	2220	90	1.1	50	70	1.5	40	650	1.1	390	1090	0.8	530
+10012	Purchasing managers	50	0	30	60	0.9	40	2730	1	1270	\N	\N	\N	60	-3.2	10	250	1	180	480	0.7	250
+10019	Other administrative services managers	100	-0.1	30	100	0.3	50	5730	0	1750	60	0	20	30	0.9	10	580	0.7	310	1240	0.4	550
+10020	Insurance, real estate and financial brokerage managers	50	-0.3	20	70	2.4	60	6830	1.1	3150	\N	\N	\N	\N	\N	\N	590	0.9	370	760	0.8	380
+10021	Banking, credit and other investment managers	200	1	90	180	0	70	8470	0.9	3500	90	-0.2	30	90	2.4	60	1050	0.9	550	1320	0.9	610
+10022	Advertising, marketing and public relations managers	100	0.9	30	160	0.4	60	13200	1.1	4650	20	1.9	10	\N	\N	\N	1200	1.1	530	1810	1.2	830
+10029	Other business services managers	50	0.1	20	70	0.2	30	2470	0.9	1040	\N	\N	\N	\N	\N	\N	260	1.3	150	610	0.9	320
 10030	Telecommunication carriers managers	\N	\N	\N	\N	\N	\N	730	0	230	\N	\N	\N	\N	\N	\N	110	0.3	50	50	-0.1	10
-11100	Financial auditors and accountants	410	0	90	410	0.8	130	27830	1	8230	260	-0.7000000000000001	40	70	-0.1	10	2720	0.7000000000000001	830	3860	1.3	1420
-11101	Financial and investment analysts	50	1	20	\N	\N	\N	5140	0.8999999999999999	1500	\N	\N	\N	\N	\N	\N	320	0.8999999999999999	130	850	0.5	250
-11102	Financial advisors	170	1.5	60	550	0.1	160	12160	1	3590	110	-0.5	10	130	1.7999999999999998	50	1810	1	710	2210	0.8999999999999999	770
-11103	Securities agents, investment dealers and brokers	\N	\N	\N	50	-0.2	10	2750	1	920	\N	\N	\N	\N	\N	\N	160	0.8999999999999999	60	270	0.8999999999999999	110
-11109	Other financial officers	\N	\N	\N	100	-0.1	30	4460	0.8999999999999999	1450	\N	\N	\N	\N	\N	\N	510	0.8999999999999999	210	660	0.8	250
-11200	Human resources professionals	180	0.5	50	190	0.6	70	7710	0.8	2480	50	-0.7000000000000001	10	60	1.0999999999999999	20	870	1.2	410	1870	0.8	750
-11201	Professional occupations in business management consulting	60	2.1	40	170	-0.5	30	9840	1.0999999999999999	3420	60	-0.1	20	\N	\N	\N	740	2.1	350	2100	1.3	940
-11202	Professional occupations in advertising, marketing and public relations	170	0.8999999999999999	50	320	0.8	90	19480	1.0999999999999999	5400	80	-0.8	10	80	1.0999999999999999	30	1830	1.0999999999999999	600	3430	1.2	1140
-12010	Supervisors, general office and administrative support workers	30	-0.3	10	60	1.2	30	2040	0.8	830	\N	\N	\N	30	0.2	10	280	1.0999999999999999	160	390	0.8	190
-12011	Supervisors, finance and insurance office workers	20	1.6	10	\N	\N	\N	1760	0.8	700	20	-0.4	10	40	1.4000000000000001	20	160	0.7000000000000001	90	230	0.8999999999999999	110
-12012	Supervisors, library, correspondence and related information workers	20	0.3	10	\N	\N	\N	240	-0.1	90	\N	\N	\N	\N	\N	\N	20	0.7000000000000001	20	110	0.4	60
-12013	Supervisors, supply chain, tracking and scheduling coordination occupations	70	0.5	20	60	0.4	20	3410	0.6	1110	20	3.4000000000000004	20	20	1.2	10	250	1.0999999999999999	120	350	0.6	140
-12100	Executive assistants	120	0.1	50	150	0.4	60	4860	0.8999999999999999	1890	70	-0.1	20	\N	\N	\N	520	1.0999999999999999	250	1070	0.6	460
-12101	Human resources and recruitment officers	40	1.2	20	\N	\N	\N	3470	0.8	1070	\N	\N	\N	\N	\N	\N	350	1.4000000000000001	180	580	1	240
-12102	Procurement and purchasing agents and officers	180	0	70	70	0.4	30	4220	0.8999999999999999	1740	20	-0.8999999999999999	0	140	1.5	90	530	0.8	300	1010	0.6	440
-12103	Conference and event planners	50	-0.6	10	40	0.8999999999999999	10	2370	0.8	780	\N	\N	\N	\N	\N	\N	280	1.0999999999999999	120	460	0.8999999999999999	180
-12104	Employment insurance and revenue officers	130	0.3	50	\N	\N	\N	3040	-0.7000000000000001	630	\N	\N	\N	\N	\N	\N	330	0.6	170	660	0.1	230
-12110	Court reporters, medical transcriptionists and related occupations	30	0.2	10	60	1.5	30	740	0.7000000000000001	250	\N	\N	\N	\N	\N	\N	230	1.7000000000000002	120	240	1.0999999999999999	110
-12111	Health information management occupations	\N	\N	\N	30	1.7999999999999998	10	400	1.6	190	20	0.8999999999999999	10	\N	\N	\N	70	1	30	120	1.3	60
+11100	Financial auditors and accountants	410	0	90	410	0.8	130	27830	1	8230	260	-0.7	40	70	-0.1	10	2720	0.7	830	3860	1.3	1420
+11101	Financial and investment analysts	50	1	20	\N	\N	\N	5140	0.9	1500	\N	\N	\N	\N	\N	\N	320	0.9	130	850	0.5	250
+11102	Financial advisors	170	1.5	60	550	0.1	160	12160	1	3590	110	-0.5	10	130	1.8	50	1810	1	710	2210	0.9	770
+11103	Securities agents, investment dealers and brokers	\N	\N	\N	50	-0.2	10	2750	1	920	\N	\N	\N	\N	\N	\N	160	0.9	60	270	0.9	110
+11109	Other financial officers	\N	\N	\N	100	-0.1	30	4460	0.9	1450	\N	\N	\N	\N	\N	\N	510	0.9	210	660	0.8	250
+11200	Human resources professionals	180	0.5	50	190	0.6	70	7710	0.8	2480	50	-0.7	10	60	1.1	20	870	1.2	410	1870	0.8	750
+11201	Professional occupations in business management consulting	60	2.1	40	170	-0.5	30	9840	1.1	3420	60	-0.1	20	\N	\N	\N	740	2.1	350	2100	1.3	940
+11202	Professional occupations in advertising, marketing and public relations	170	0.9	50	320	0.8	90	19480	1.1	5400	80	-0.8	10	80	1.1	30	1830	1.1	600	3430	1.2	1140
+12010	Supervisors, general office and administrative support workers	30	-0.3	10	60	1.2	30	2040	0.8	830	\N	\N	\N	30	0.2	10	280	1.1	160	390	0.8	190
+12011	Supervisors, finance and insurance office workers	20	1.6	10	\N	\N	\N	1760	0.8	700	20	-0.4	10	40	1.4	20	160	0.7	90	230	0.9	110
+12012	Supervisors, library, correspondence and related information workers	20	0.3	10	\N	\N	\N	240	-0.1	90	\N	\N	\N	\N	\N	\N	20	0.7	20	110	0.4	60
+12013	Supervisors, supply chain, tracking and scheduling coordination occupations	70	0.5	20	60	0.4	20	3410	0.6	1110	20	3.4	20	20	1.2	10	250	1.1	120	350	0.6	140
+12100	Executive assistants	120	0.1	50	150	0.4	60	4860	0.9	1890	70	-0.1	20	\N	\N	\N	520	1.1	250	1070	0.6	460
+12101	Human resources and recruitment officers	40	1.2	20	\N	\N	\N	3470	0.8	1070	\N	\N	\N	\N	\N	\N	350	1.4	180	580	1	240
+12102	Procurement and purchasing agents and officers	180	0	70	70	0.4	30	4220	0.9	1740	20	-0.9	0	140	1.5	90	530	0.8	300	1010	0.6	440
+12103	Conference and event planners	50	-0.6	10	40	0.9	10	2370	0.8	780	\N	\N	\N	\N	\N	\N	280	1.1	120	460	0.9	180
+12104	Employment insurance and revenue officers	130	0.3	50	\N	\N	\N	3040	-0.7	630	\N	\N	\N	\N	\N	\N	330	0.6	170	660	0.1	230
+12110	Court reporters, medical transcriptionists and related occupations	30	0.2	10	60	1.5	30	740	0.7	250	\N	\N	\N	\N	\N	\N	230	1.7	120	240	1.1	110
+12111	Health information management occupations	\N	\N	\N	30	1.8	10	400	1.6	190	20	0.9	10	\N	\N	\N	70	1	30	120	1.3	60
 12112	Records management technicians	\N	\N	\N	\N	\N	\N	140	1.3	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	60	0.8	30
-12113	Statistical officers and related research support occupations	\N	\N	\N	\N	\N	\N	470	1.2	130	\N	\N	\N	\N	\N	\N	30	0.8	10	80	1.4000000000000001	30
-12200	Accounting technicians and bookkeepers	1070	-0.2	280	940	0.8	340	16450	1	5530	610	0	170	640	0.7000000000000001	240	4010	0.8	1480	4820	1.3	1950
-12201	Insurance adjusters and claims examiners	40	0.3	10	40	4.7	40	3790	1	1200	20	-2.1	0	\N	\N	\N	460	0.8999999999999999	180	470	1.0999999999999999	190
-12202	Insurance underwriters	\N	\N	\N	\N	\N	\N	1700	1	510	\N	\N	\N	\N	\N	\N	120	0.8999999999999999	50	190	1.0999999999999999	80
-12203	Assessors, business valuators and appraisers	90	-0.8999999999999999	10	90	0.7000000000000001	40	1410	0.8	410	40	-1.7999999999999998	0	\N	\N	\N	190	0.8	80	350	0.5	100
-13100	Administrative officers	1220	0.4	540	1390	0.7000000000000001	730	27150	1	11450	550	0.5	260	620	0.5	280	4700	1.0999999999999999	2750	7410	1	3770
-13101	Property administrators	220	-0.6	70	190	1.3	120	7280	1.3	3380	110	-0.8	30	130	2.1	90	870	1.0999999999999999	520	1710	0.7000000000000001	810
-13102	Payroll administrators	160	0.3	50	100	0.8999999999999999	40	4450	1	1600	20	1.7999999999999998	10	70	1	30	700	0.7000000000000001	290	1060	1	420
-13110	Administrative assistants	1110	0.5	350	900	0.8999999999999999	390	22150	0.8999999999999999	7090	470	0.2	130	640	1.3	270	3530	0.8999999999999999	1520	5580	1	2190
-13111	Legal administrative assistants	110	-0.6	10	80	1.3	30	6910	0.8999999999999999	1840	30	-1.6	0	20	-0.2	0	1040	0.5	290	1290	1.6	530
-13112	Medical administrative assistants	80	1.7000000000000002	30	110	1.9	60	3810	1.7000000000000002	1470	70	1.3	30	30	1	10	760	1.5	340	870	1.7000000000000002	380
+12113	Statistical officers and related research support occupations	\N	\N	\N	\N	\N	\N	470	1.2	130	\N	\N	\N	\N	\N	\N	30	0.8	10	80	1.4	30
+12200	Accounting technicians and bookkeepers	1070	-0.2	280	940	0.8	340	16450	1	5530	610	0	170	640	0.7	240	4010	0.8	1480	4820	1.3	1950
+12201	Insurance adjusters and claims examiners	40	0.3	10	40	4.7	40	3790	1	1200	20	-2.1	0	\N	\N	\N	460	0.9	180	470	1.1	190
+12202	Insurance underwriters	\N	\N	\N	\N	\N	\N	1700	1	510	\N	\N	\N	\N	\N	\N	120	0.9	50	190	1.1	80
+12203	Assessors, business valuators and appraisers	90	-0.9	10	90	0.7	40	1410	0.8	410	40	-1.8	0	\N	\N	\N	190	0.8	80	350	0.5	100
+13100	Administrative officers	1220	0.4	540	1390	0.7	730	27150	1	11450	550	0.5	260	620	0.5	280	4700	1.1	2750	7410	1	3770
+13101	Property administrators	220	-0.6	70	190	1.3	120	7280	1.3	3380	110	-0.8	30	130	2.1	90	870	1.1	520	1710	0.7	810
+13102	Payroll administrators	160	0.3	50	100	0.9	40	4450	1	1600	20	1.8	10	70	1	30	700	0.7	290	1060	1	420
+13110	Administrative assistants	1110	0.5	350	900	0.9	390	22150	0.9	7090	470	0.2	130	640	1.3	270	3530	0.9	1520	5580	1	2190
+13111	Legal administrative assistants	110	-0.6	10	80	1.3	30	6910	0.9	1840	30	-1.6	0	20	-0.2	0	1040	0.5	290	1290	1.6	530
+13112	Medical administrative assistants	80	1.7	30	110	1.9	60	3810	1.7	1470	70	1.3	30	30	1	10	760	1.5	340	870	1.7	380
 13200	Customs, ship and other brokers	\N	\N	\N	\N	\N	\N	700	0.3	170	20	3.1	10	\N	\N	\N	40	0.6	10	60	0.2	20
-13201	Production and transportation logistics coordinators	40	0.2	10	70	0.5	30	5640	0.7000000000000001	1610	30	0.7000000000000001	10	\N	\N	\N	360	0.7000000000000001	140	370	0.5	130
-14100	General office support workers	840	0.7000000000000001	290	900	1	340	22450	1	7080	480	0.5	150	440	1	170	3200	1	1220	4850	1	1730
-14101	Receptionists	990	1	310	740	1.6	310	18200	1.4000000000000001	5680	440	1	140	370	0.8999999999999999	110	3210	1.3	1180	4740	1.5	1770
-14102	Personnel clerks	100	1.7000000000000002	50	\N	\N	\N	1250	0.8999999999999999	380	50	0.7000000000000001	20	40	1.9	20	140	0.8	50	220	0.8999999999999999	80
+13201	Production and transportation logistics coordinators	40	0.2	10	70	0.5	30	5640	0.7	1610	30	0.7	10	\N	\N	\N	360	0.7	140	370	0.5	130
+14100	General office support workers	840	0.7	290	900	1	340	22450	1	7080	480	0.5	150	440	1	170	3200	1	1220	4850	1	1730
+14101	Receptionists	990	1	310	740	1.6	310	18200	1.4	5680	440	1	140	370	0.9	110	3210	1.3	1180	4740	1.5	1770
+14102	Personnel clerks	100	1.7	50	\N	\N	\N	1250	0.9	380	50	0.7	20	40	1.9	20	140	0.8	50	220	0.9	80
 14103	Court clerks and related court services occupations	30	-0.3	0	20	-0.3	0	390	-0.8	50	20	-0.2	0	\N	\N	\N	90	0.3	30	150	0	40
-14110	Survey interviewers and statistical clerks	90	0.3	20	60	0.1	10	470	0.5	110	30	0.4	10	20	1.7000000000000002	10	200	1	70	220	0.6	70
-14111	Data entry clerks	160	-0.2	40	90	-0.8999999999999999	10	3720	-0.1	620	30	-1.5	0	50	1.2	20	570	-0.4	120	800	-0.1	180
+14110	Survey interviewers and statistical clerks	90	0.3	20	60	0.1	10	470	0.5	110	30	0.4	10	20	1.7	10	200	1	70	220	0.6	70
+14111	Data entry clerks	160	-0.2	40	90	-0.9	10	3720	-0.1	620	30	-1.5	0	50	1.2	20	570	-0.4	120	800	-0.1	180
 14112	Desktop publishing operators and related occupations	\N	\N	\N	\N	\N	\N	50	0.6	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-14200	Accounting and related clerks	630	0.1	180	580	0.7000000000000001	200	18310	0.8999999999999999	6160	390	0.3	120	370	0.7000000000000001	130	2480	0.8999999999999999	920	3710	1	1400
-14201	Banking, insurance and other financial clerks	40	0.1	10	40	2.4	30	1920	0.8999999999999999	620	20	-1.4000000000000001	0	\N	\N	\N	190	1	90	280	0.8	90
+14200	Accounting and related clerks	630	0.1	180	580	0.7	200	18310	0.9	6160	390	0.3	120	370	0.7	130	2480	0.9	920	3710	1	1400
+14201	Banking, insurance and other financial clerks	40	0.1	10	40	2.4	30	1920	0.9	620	20	-1.4	0	\N	\N	\N	190	1	90	280	0.8	90
 14202	Collection clerks	\N	\N	\N	\N	\N	\N	840	0.8	290	\N	\N	\N	\N	\N	\N	110	1.5	50	220	0.4	70
-14300	Library assistants and clerks	80	-0.7000000000000001	0	110	0.8	20	930	0.3	190	40	0.8	10	\N	\N	\N	350	0.5	60	230	1	110
-14301	Correspondence, publication and regulatory clerks	50	0.2	10	20	-0.3	0	1970	0.5	540	40	-0.7000000000000001	10	50	1.2	20	220	1	100	630	0.6	200
-14400	Shippers and receivers	390	0.3	100	320	0.6	90	11010	0.7000000000000001	3020	180	0.6	60	160	1	50	1210	0.8	380	1540	0.6	450
-14401	Storekeepers and partspersons	520	0.1	120	250	1.0999999999999999	80	2930	0.7000000000000001	840	260	0	60	260	0.8	80	980	0.6	250	940	0.7000000000000001	320
-14402	Production logistics workers	\N	\N	\N	\N	\N	\N	820	1	280	\N	\N	\N	\N	\N	\N	70	1.3	30	170	1.0999999999999999	70
-14403	Purchasing and inventory control workers	60	-0.3	10	60	0	10	3550	0.7000000000000001	1010	\N	\N	\N	\N	\N	\N	380	1	150	600	0.8	200
-14404	Dispatchers	110	0.2	30	20	1.0999999999999999	10	2650	0.6	680	30	3.9	30	60	1.0999999999999999	20	360	0.8	160	600	1.2	230
-14405	Transportation route and crew schedulers	\N	\N	\N	\N	\N	\N	410	0.7000000000000001	120	\N	\N	\N	\N	\N	\N	30	-0.3	10	90	0.8999999999999999	40
-20010	Engineering managers	30	-0.8999999999999999	10	140	0.3	60	3870	1.3	1810	30	-0.2	10	40	1.0999999999999999	20	350	1.3	200	560	1.6	330
-20011	Architecture and science managers	\N	\N	\N	30	0.7000000000000001	10	1760	1.0999999999999999	760	\N	\N	\N	\N	\N	\N	120	0.8999999999999999	50	340	1.3	170
-20012	Computer and information systems managers	40	1.9	30	130	0.6	70	12200	1.9	7010	\N	\N	\N	\N	\N	\N	970	1.7999999999999998	670	1760	1.5	1060
-21100	Physicists and astronomers	\N	\N	\N	\N	\N	\N	420	1.5	140	\N	\N	\N	\N	\N	\N	30	0.8999999999999999	10	120	1.0999999999999999	50
-21101	Chemists	\N	\N	\N	\N	\N	\N	1620	1	510	\N	\N	\N	\N	\N	\N	160	0.7000000000000001	50	200	1.4000000000000001	90
-21102	Geoscientists and oceanographers	50	2.6	30	210	0.5	50	1500	0.8	450	40	1.7000000000000002	20	\N	\N	\N	400	2.1	180	600	2.1	290
+14300	Library assistants and clerks	80	-0.7	0	110	0.8	20	930	0.3	190	40	0.8	10	\N	\N	\N	350	0.5	60	230	1	110
+14301	Correspondence, publication and regulatory clerks	50	0.2	10	20	-0.3	0	1970	0.5	540	40	-0.7	10	50	1.2	20	220	1	100	630	0.6	200
+14400	Shippers and receivers	390	0.3	100	320	0.6	90	11010	0.7	3020	180	0.6	60	160	1	50	1210	0.8	380	1540	0.6	450
+14401	Storekeepers and partspersons	520	0.1	120	250	1.1	80	2930	0.7	840	260	0	60	260	0.8	80	980	0.6	250	940	0.7	320
+14402	Production logistics workers	\N	\N	\N	\N	\N	\N	820	1	280	\N	\N	\N	\N	\N	\N	70	1.3	30	170	1.1	70
+14403	Purchasing and inventory control workers	60	-0.3	10	60	0	10	3550	0.7	1010	\N	\N	\N	\N	\N	\N	380	1	150	600	0.8	200
+14404	Dispatchers	110	0.2	30	20	1.1	10	2650	0.6	680	30	3.9	30	60	1.1	20	360	0.8	160	600	1.2	230
+14405	Transportation route and crew schedulers	\N	\N	\N	\N	\N	\N	410	0.7	120	\N	\N	\N	\N	\N	\N	30	-0.3	10	90	0.9	40
+20010	Engineering managers	30	-0.9	10	140	0.3	60	3870	1.3	1810	30	-0.2	10	40	1.1	20	350	1.3	200	560	1.6	330
+20011	Architecture and science managers	\N	\N	\N	30	0.7	10	1760	1.1	760	\N	\N	\N	\N	\N	\N	120	0.9	50	340	1.3	170
+20012	Computer and information systems managers	40	1.9	30	130	0.6	70	12200	1.9	7010	\N	\N	\N	\N	\N	\N	970	1.8	670	1760	1.5	1060
+21100	Physicists and astronomers	\N	\N	\N	\N	\N	\N	420	1.5	140	\N	\N	\N	\N	\N	\N	30	0.9	10	120	1.1	50
+21101	Chemists	\N	\N	\N	\N	\N	\N	1620	1	510	\N	\N	\N	\N	\N	\N	160	0.7	50	200	1.4	90
+21102	Geoscientists and oceanographers	50	2.6	30	210	0.5	50	1500	0.8	450	40	1.7	20	\N	\N	\N	400	2.1	180	600	2.1	290
 21103	Meteorologists and climatologists	\N	\N	\N	\N	\N	\N	90	-0.1	20	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	0.8	10
-21109	Other professional occupations in physical sciences	\N	\N	\N	\N	\N	\N	20	1.2	10	\N	\N	\N	\N	\N	\N	20	3.3000000000000003	10	\N	\N	\N
-21110	Biologists and related scientists	110	0.8999999999999999	20	280	-0.5	50	4340	0.8999999999999999	1120	230	0.3	30	90	-0.7000000000000001	0	500	1.4000000000000001	200	1130	1.0999999999999999	370
+21109	Other professional occupations in physical sciences	\N	\N	\N	\N	\N	\N	20	1.2	10	\N	\N	\N	\N	\N	\N	20	3.3	10	\N	\N	\N
+21110	Biologists and related scientists	110	0.9	20	280	-0.5	50	4340	0.9	1120	230	0.3	30	90	-0.7	0	500	1.4	200	1130	1.1	370
 21111	Forestry professionals	420	0.3	140	230	-0.4	70	320	-0.1	70	260	0.8	110	50	0.3	20	520	-0.8	120	550	0.6	180
-21112	Agricultural representatives, consultants and specialists	\N	\N	\N	\N	\N	\N	140	0.4	40	\N	\N	\N	20	-1.3	0	140	0.4	40	30	0.7000000000000001	10
-21120	Public and environmental health and safety professionals	130	1.3	50	90	0.5	30	1920	0.8	600	50	-0.4	10	120	-0.1	20	290	1.3	130	440	1.0999999999999999	180
-21200	Architects	\N	\N	\N	70	-0.1	10	3350	1.5	1140	\N	\N	\N	\N	\N	\N	210	1.7999999999999998	90	500	2.3	270
-21201	Landscape architects	\N	\N	\N	\N	\N	\N	270	1.2	90	\N	\N	\N	\N	\N	\N	50	1.7000000000000002	20	40	2.1999999999999997	20
-21202	Urban and land use planners	60	0.1	10	80	0.7000000000000001	30	2290	0.6	650	30	-0.4	0	20	0.4	10	210	1.3	90	790	1.5	350
-21203	Land surveyors	30	2.6	10	50	-0.2	10	590	1.5	220	50	1.4000000000000001	20	70	1.0999999999999999	20	230	1.4000000000000001	100	290	1.9	140
-21210	Mathematicians, statisticians and actuaries	\N	\N	\N	\N	\N	\N	750	1	210	\N	\N	\N	\N	\N	\N	30	0.8999999999999999	10	70	1.5	30
-21211	Data scientists	\N	\N	\N	\N	\N	\N	2280	1.7000000000000002	820	\N	\N	\N	\N	\N	\N	40	2.4	20	160	1.3	70
-21220	Cybersecurity specialists	\N	\N	\N	\N	\N	\N	1460	1.7000000000000002	550	\N	\N	\N	\N	\N	\N	50	0.8999999999999999	20	210	1.0999999999999999	100
-21221	Business systems specialists	60	1.3	30	\N	\N	\N	3830	1.5	1510	\N	\N	\N	\N	\N	\N	180	1.4000000000000001	80	860	1.2	370
-21222	Information systems specialists	220	1.0999999999999999	80	170	0.8999999999999999	60	15030	2	6800	30	3.5999999999999996	20	\N	\N	\N	1060	1.6	470	2350	1.6	1130
-21223	Database analysts and data administrators	\N	\N	\N	\N	\N	\N	2290	1.4000000000000001	880	\N	\N	\N	\N	\N	\N	170	1.4000000000000001	70	590	1.2	240
-21230	Computer systems developers and programmers	30	1.2	10	30	1	10	3860	2	1580	\N	\N	\N	\N	\N	\N	340	1.7999999999999998	160	650	1.6	280
-21231	Software engineers and designers	60	1.0999999999999999	20	90	0.4	20	24050	2.1	9200	\N	\N	\N	\N	\N	\N	890	2.1	420	1890	2	840
-21232	Software developers and programmers	\N	\N	\N	120	0.8999999999999999	30	16590	2.3	7010	\N	\N	\N	\N	\N	\N	1200	2.1	530	2270	2.1	1020
-21233	Web designers	\N	\N	\N	40	1.0999999999999999	10	2910	2.5	1220	\N	\N	\N	\N	\N	\N	250	2.3	130	410	2	180
-21234	Web developers and programmers	50	1.2	20	60	1.0999999999999999	20	9510	2.3	3860	\N	\N	\N	\N	\N	\N	650	2.1	290	1550	2.1	660
-21300	Civil engineers	120	2.8000000000000003	50	250	0	50	7750	1.4000000000000001	2710	150	0.6	20	110	1.2	20	1110	1.4000000000000001	430	1590	1.7999999999999998	700
+21112	Agricultural representatives, consultants and specialists	\N	\N	\N	\N	\N	\N	140	0.4	40	\N	\N	\N	20	-1.3	0	140	0.4	40	30	0.7	10
+21120	Public and environmental health and safety professionals	130	1.3	50	90	0.5	30	1920	0.8	600	50	-0.4	10	120	-0.1	20	290	1.3	130	440	1.1	180
+21200	Architects	\N	\N	\N	70	-0.1	10	3350	1.5	1140	\N	\N	\N	\N	\N	\N	210	1.8	90	500	2.3	270
+21201	Landscape architects	\N	\N	\N	\N	\N	\N	270	1.2	90	\N	\N	\N	\N	\N	\N	50	1.7	20	40	2.2	20
+21202	Urban and land use planners	60	0.1	10	80	0.7	30	2290	0.6	650	30	-0.4	0	20	0.4	10	210	1.3	90	790	1.5	350
+21203	Land surveyors	30	2.6	10	50	-0.2	10	590	1.5	220	50	1.4	20	70	1.1	20	230	1.4	100	290	1.9	140
+21210	Mathematicians, statisticians and actuaries	\N	\N	\N	\N	\N	\N	750	1	210	\N	\N	\N	\N	\N	\N	30	0.9	10	70	1.5	30
+21211	Data scientists	\N	\N	\N	\N	\N	\N	2280	1.7	820	\N	\N	\N	\N	\N	\N	40	2.4	20	160	1.3	70
+21220	Cybersecurity specialists	\N	\N	\N	\N	\N	\N	1460	1.7	550	\N	\N	\N	\N	\N	\N	50	0.9	20	210	1.1	100
+21221	Business systems specialists	60	1.3	30	\N	\N	\N	3830	1.5	1510	\N	\N	\N	\N	\N	\N	180	1.4	80	860	1.2	370
+21222	Information systems specialists	220	1.1	80	170	0.9	60	15030	2	6800	30	3.6	20	\N	\N	\N	1060	1.6	470	2350	1.6	1130
+21223	Database analysts and data administrators	\N	\N	\N	\N	\N	\N	2290	1.4	880	\N	\N	\N	\N	\N	\N	170	1.4	70	590	1.2	240
+21230	Computer systems developers and programmers	30	1.2	10	30	1	10	3860	2	1580	\N	\N	\N	\N	\N	\N	340	1.8	160	650	1.6	280
+21231	Software engineers and designers	60	1.1	20	90	0.4	20	24050	2.1	9200	\N	\N	\N	\N	\N	\N	890	2.1	420	1890	2	840
+21232	Software developers and programmers	\N	\N	\N	120	0.9	30	16590	2.3	7010	\N	\N	\N	\N	\N	\N	1200	2.1	530	2270	2.1	1020
+21233	Web designers	\N	\N	\N	40	1.1	10	2910	2.5	1220	\N	\N	\N	\N	\N	\N	250	2.3	130	410	2	180
+21234	Web developers and programmers	50	1.2	20	60	1.1	20	9510	2.3	3860	\N	\N	\N	\N	\N	\N	650	2.1	290	1550	2.1	660
+21300	Civil engineers	120	2.8	50	250	0	50	7750	1.4	2710	150	0.6	20	110	1.2	20	1110	1.4	430	1590	1.8	700
 21301	Mechanical engineers	70	2	30	220	0.6	50	5530	1.3	1700	\N	\N	\N	30	0.2	0	440	1.2	140	850	1.3	280
-21310	Electrical and electronics engineers	70	1.0999999999999999	20	130	0	30	6100	1.4000000000000001	2170	\N	\N	\N	30	1.7000000000000002	10	470	1.4000000000000001	190	880	1.4000000000000001	340
-21311	Computer engineers (except software engineers and designers)	\N	\N	\N	20	1.0999999999999999	10	2850	1.7999999999999998	1270	\N	\N	\N	\N	\N	\N	110	1.4000000000000001	50	270	1.4000000000000001	120
+21310	Electrical and electronics engineers	70	1.1	20	130	0	30	6100	1.4	2170	\N	\N	\N	30	1.7	10	470	1.4	190	880	1.4	340
+21311	Computer engineers (except software engineers and designers)	\N	\N	\N	20	1.1	10	2850	1.8	1270	\N	\N	\N	\N	\N	\N	110	1.4	50	270	1.4	120
 21320	Chemical engineers	40	-1.3	0	40	1.3	20	940	1	230	\N	\N	\N	\N	\N	\N	100	0.8	40	50	1.2	30
 21321	Industrial and manufacturing engineers	\N	\N	\N	40	0.3	10	1320	1.2	460	\N	\N	\N	\N	\N	\N	30	2.1	10	120	1.5	40
 21322	Metallurgical and materials engineers	\N	\N	\N	30	1	10	250	1.3	70	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	2.5	10
 21330	Mining engineers	\N	\N	\N	170	0.8	30	540	1.3	140	\N	\N	\N	\N	\N	\N	100	2.5	40	30	2.3	20
-21331	Geological engineers	\N	\N	\N	70	-0.2	10	780	1.5	220	\N	\N	\N	\N	\N	\N	150	1.7000000000000002	60	220	2.1	90
-21332	Petroleum engineers	\N	\N	\N	\N	\N	\N	70	1.9	30	\N	\N	\N	\N	\N	\N	30	1.7000000000000002	10	20	2.3	10
+21331	Geological engineers	\N	\N	\N	70	-0.2	10	780	1.5	220	\N	\N	\N	\N	\N	\N	150	1.7	60	220	2.1	90
+21332	Petroleum engineers	\N	\N	\N	\N	\N	\N	70	1.9	30	\N	\N	\N	\N	\N	\N	30	1.7	10	20	2.3	10
 21390	Aerospace engineers	\N	\N	\N	\N	\N	\N	190	0.4	60	\N	\N	\N	\N	\N	\N	20	0.3	10	80	1.6	30
 21399	Other professional engineers	\N	\N	\N	30	-0.2	0	1200	1.3	380	30	4.2	20	\N	\N	\N	40	9.2	60	590	0.6	180
 22100	Chemical technologists and technicians	\N	\N	\N	30	1	10	730	1	260	\N	\N	\N	\N	\N	\N	70	-0.6	10	60	2	30
-22101	Geological and mineral technologists and technicians	80	1.4000000000000001	30	130	1.2	50	510	1	180	20	1.7999999999999998	10	30	1.5	10	240	2.1999999999999997	130	150	2.1	90
+22101	Geological and mineral technologists and technicians	80	1.4	30	130	1.2	50	510	1	180	20	1.8	10	30	1.5	10	240	2.2	130	150	2.1	90
 22110	Biological technologists and technicians	30	0.3	0	40	0.4	10	770	0.5	140	50	-1	0	\N	\N	\N	100	0.8	30	470	0.3	90
 22111	Agricultural and fish products inspectors	\N	\N	\N	\N	\N	\N	410	-0.1	90	30	1	10	\N	\N	\N	30	0.2	10	30	0.4	10
-22112	Forestry technologists and technicians	460	0.5	130	250	-0.2	60	300	-0.3	50	180	1.7999999999999998	90	30	0.6	10	540	-0.7000000000000001	90	460	0.1	140
+22112	Forestry technologists and technicians	460	0.5	130	250	-0.2	60	300	-0.3	50	180	1.8	90	30	0.6	10	540	-0.7	90	460	0.1	140
 22113	Conservation and fishery officers	60	-0.1	20	50	-0.4	10	210	-0.4	40	70	0.3	20	\N	\N	\N	140	1.3	60	190	0.5	70
 22114	Landscape and horticulture technicians and specialists	60	0.2	20	220	0.3	40	2430	0.3	440	20	0.1	10	\N	\N	\N	700	1.5	250	1410	1	450
-22210	Architectural technologists and technicians	\N	\N	\N	80	0.5	20	1610	1.4000000000000001	530	\N	\N	\N	\N	\N	\N	230	1.7000000000000002	90	230	2.1999999999999997	120
+22210	Architectural technologists and technicians	\N	\N	\N	80	0.5	20	1610	1.4	530	\N	\N	\N	\N	\N	\N	230	1.7	90	230	2.2	120
 22211	Industrial designers	\N	\N	\N	\N	\N	\N	1420	1.5	440	\N	\N	\N	\N	\N	\N	80	0.5	20	200	1.9	80
-22212	Drafting technologists and technicians	50	2.6	30	150	0.2	40	3320	1.4000000000000001	1140	\N	\N	\N	40	1.0999999999999999	10	520	1.4000000000000001	210	690	1.7000000000000002	290
-22213	Land survey technologists and technicians	\N	\N	\N	\N	\N	\N	240	1.4000000000000001	80	\N	\N	\N	40	1.4000000000000001	20	60	1.5	20	120	2.1999999999999997	60
-22214	Technical occupations in geomatics and meteorology	100	0.8999999999999999	50	150	0.1	50	860	0.7000000000000001	260	90	0	30	60	0.8	30	220	0.8	100	460	1.5	210
-22220	Computer network and web technicians	290	0.8999999999999999	90	160	-0.3	30	6860	1.6	2700	70	3	40	70	0	20	770	1.4000000000000001	310	1380	1.4000000000000001	570
-22221	User support technicians	70	0.1	20	60	0.8999999999999999	20	6790	1.7000000000000002	2610	70	3.4000000000000004	50	\N	\N	\N	720	1.6	300	1330	1.5	560
-22222	Information systems testing technicians	\N	\N	\N	\N	\N	\N	1390	2.1999999999999997	620	\N	\N	\N	\N	\N	\N	110	2.1	60	120	2.3	60
-22230	Non-destructive testers and inspectors	20	3.6999999999999997	20	50	0.2	10	230	1.3	90	\N	\N	\N	60	1.0999999999999999	20	110	1.4000000000000001	50	100	2.1	50
-22231	Engineering inspectors and regulatory officers	30	0.3	10	\N	\N	\N	410	0.8	130	\N	\N	\N	30	2	10	\N	\N	\N	90	0.8999999999999999	40
-22232	Occupational health and safety specialists	70	0.4	20	80	1.2	40	1690	1	620	50	0.8	20	70	-0.7000000000000001	10	330	1.3	160	410	0.8999999999999999	170
-22233	Construction inspectors	60	0.1	20	140	0.5	50	1790	1.3	730	20	-0.1	0	100	-0.3	20	480	1.0999999999999999	220	450	1.7000000000000002	230
-22300	Civil engineering technologists and technicians	140	2.1999999999999997	60	190	-0.3	40	1490	1.0999999999999999	490	40	0.8	10	80	-0.6	10	520	1.4000000000000001	220	510	1.9	240
-22301	Mechanical engineering technologists and technicians	80	1.4000000000000001	30	70	-0.2	20	2270	1.3	890	40	-1.6	0	90	-0.3	20	320	1	120	570	0.8999999999999999	190
-22302	Industrial engineering and manufacturing technologists and technicians	40	-1	10	\N	\N	\N	1370	0.8999999999999999	440	\N	\N	\N	\N	\N	\N	100	0.4	30	210	0.6	70
-22303	Construction estimators	50	0	10	60	0.5	20	2800	1.7999999999999998	1160	\N	\N	\N	\N	\N	\N	580	0.8999999999999999	210	640	0.4	180
-22310	Electrical and electronics engineering technologists and technicians	110	1.2	40	140	0.4	50	3830	1.2	1470	50	2.1999999999999997	20	80	1	20	520	1.0999999999999999	230	910	1	350
-22311	Electronic service technicians (household and business equipment)	280	0.7000000000000001	90	180	0.4	50	5450	1.0999999999999999	1790	100	0.8	30	150	0.6	50	1030	1.4000000000000001	420	1290	0.8999999999999999	440
-22312	Industrial instrument technicians and mechanics	100	-0.8999999999999999	10	130	0.8999999999999999	50	230	1.0999999999999999	80	\N	\N	\N	210	-0.3	30	170	1.2	70	180	0.8	70
-22313	Aircraft instrument, electrical and avionics mechanics, technicians and inspectors	\N	\N	\N	\N	\N	\N	610	0.4	140	\N	\N	\N	\N	\N	\N	140	0.7000000000000001	40	160	0.7000000000000001	50
-30010	Managers in health care	230	1.6	130	110	2	80	4580	1.7999999999999998	2490	110	1.0999999999999999	50	30	1.7999999999999998	20	750	1.4000000000000001	470	1570	1.6	1000
-31100	Specialists in clinical and laboratory medicine	190	2	80	140	1.9	60	5630	1.7999999999999998	2070	50	1.9	20	50	1.3	20	690	1.4000000000000001	280	1240	1.7000000000000002	500
-31101	Specialists in surgery	50	1.9	30	70	1.9	40	1550	1.7999999999999998	650	\N	\N	\N	\N	\N	\N	230	1.6	110	300	1.7999999999999998	130
-31102	General practitioners and family physicians	220	1.9	90	340	2	160	7470	1.7999999999999998	2680	130	1.6	50	90	1.2	30	920	1.6	380	2040	1.7999999999999998	860
-31103	Veterinarians	30	-0.6	10	50	1.2	20	990	0.8999999999999999	370	20	-1.6	0	\N	\N	\N	220	0.4	70	450	2.1	240
-31110	Dentists	70	1.7000000000000002	30	140	2	60	3310	1.7999999999999998	1280	60	2.1	30	40	1	10	390	1.7000000000000002	160	520	1.9	220
-31111	Optometrists	20	1.7000000000000002	10	30	2	20	680	1.7999999999999998	310	20	2.1	10	\N	\N	\N	90	1.7000000000000002	40	160	1.7999999999999998	80
-31112	Audiologists and speech-language pathologists	50	1.0999999999999999	20	50	0.8	20	1160	1.4000000000000001	420	\N	\N	\N	\N	\N	\N	200	1.2	80	390	1.4000000000000001	160
-31120	Pharmacists	200	0	40	340	1.0999999999999999	140	4530	1.7999999999999998	1740	80	-1	10	60	-1.5	0	700	1.0999999999999999	290	1380	1	470
+22212	Drafting technologists and technicians	50	2.6	30	150	0.2	40	3320	1.4	1140	\N	\N	\N	40	1.1	10	520	1.4	210	690	1.7	290
+22213	Land survey technologists and technicians	\N	\N	\N	\N	\N	\N	240	1.4	80	\N	\N	\N	40	1.4	20	60	1.5	20	120	2.2	60
+22214	Technical occupations in geomatics and meteorology	100	0.9	50	150	0.1	50	860	0.7	260	90	0	30	60	0.8	30	220	0.8	100	460	1.5	210
+22220	Computer network and web technicians	290	0.9	90	160	-0.3	30	6860	1.6	2700	70	3	40	70	0	20	770	1.4	310	1380	1.4	570
+22221	User support technicians	70	0.1	20	60	0.9	20	6790	1.7	2610	70	3.4	50	\N	\N	\N	720	1.6	300	1330	1.5	560
+22222	Information systems testing technicians	\N	\N	\N	\N	\N	\N	1390	2.2	620	\N	\N	\N	\N	\N	\N	110	2.1	60	120	2.3	60
+22230	Non-destructive testers and inspectors	20	3.7	20	50	0.2	10	230	1.3	90	\N	\N	\N	60	1.1	20	110	1.4	50	100	2.1	50
+22231	Engineering inspectors and regulatory officers	30	0.3	10	\N	\N	\N	410	0.8	130	\N	\N	\N	30	2	10	\N	\N	\N	90	0.9	40
+22232	Occupational health and safety specialists	70	0.4	20	80	1.2	40	1690	1	620	50	0.8	20	70	-0.7	10	330	1.3	160	410	0.9	170
+22233	Construction inspectors	60	0.1	20	140	0.5	50	1790	1.3	730	20	-0.1	0	100	-0.3	20	480	1.1	220	450	1.7	230
+22300	Civil engineering technologists and technicians	140	2.2	60	190	-0.3	40	1490	1.1	490	40	0.8	10	80	-0.6	10	520	1.4	220	510	1.9	240
+22301	Mechanical engineering technologists and technicians	80	1.4	30	70	-0.2	20	2270	1.3	890	40	-1.6	0	90	-0.3	20	320	1	120	570	0.9	190
+22302	Industrial engineering and manufacturing technologists and technicians	40	-1	10	\N	\N	\N	1370	0.9	440	\N	\N	\N	\N	\N	\N	100	0.4	30	210	0.6	70
+22303	Construction estimators	50	0	10	60	0.5	20	2800	1.8	1160	\N	\N	\N	\N	\N	\N	580	0.9	210	640	0.4	180
+22310	Electrical and electronics engineering technologists and technicians	110	1.2	40	140	0.4	50	3830	1.2	1470	50	2.2	20	80	1	20	520	1.1	230	910	1	350
+22311	Electronic service technicians (household and business equipment)	280	0.7	90	180	0.4	50	5450	1.1	1790	100	0.8	30	150	0.6	50	1030	1.4	420	1290	0.9	440
+22312	Industrial instrument technicians and mechanics	100	-0.9	10	130	0.9	50	230	1.1	80	\N	\N	\N	210	-0.3	30	170	1.2	70	180	0.8	70
+22313	Aircraft instrument, electrical and avionics mechanics, technicians and inspectors	\N	\N	\N	\N	\N	\N	610	0.4	140	\N	\N	\N	\N	\N	\N	140	0.7	40	160	0.7	50
+30010	Managers in health care	230	1.6	130	110	2	80	4580	1.8	2490	110	1.1	50	30	1.8	20	750	1.4	470	1570	1.6	1000
+31100	Specialists in clinical and laboratory medicine	190	2	80	140	1.9	60	5630	1.8	2070	50	1.9	20	50	1.3	20	690	1.4	280	1240	1.7	500
+31101	Specialists in surgery	50	1.9	30	70	1.9	40	1550	1.8	650	\N	\N	\N	\N	\N	\N	230	1.6	110	300	1.8	130
+31102	General practitioners and family physicians	220	1.9	90	340	2	160	7470	1.8	2680	130	1.6	50	90	1.2	30	920	1.6	380	2040	1.8	860
+31103	Veterinarians	30	-0.6	10	50	1.2	20	990	0.9	370	20	-1.6	0	\N	\N	\N	220	0.4	70	450	2.1	240
+31110	Dentists	70	1.7	30	140	2	60	3310	1.8	1280	60	2.1	30	40	1	10	390	1.7	160	520	1.9	220
+31111	Optometrists	20	1.7	10	30	2	20	680	1.8	310	20	2.1	10	\N	\N	\N	90	1.7	40	160	1.8	80
+31112	Audiologists and speech-language pathologists	50	1.1	20	50	0.8	20	1160	1.4	420	\N	\N	\N	\N	\N	\N	200	1.2	80	390	1.4	160
+31120	Pharmacists	200	0	40	340	1.1	140	4530	1.8	1740	80	-1	10	60	-1.5	0	700	1.1	290	1380	1	470
 31121	Dietitians and nutritionists	40	1.9	20	50	1.9	20	1240	1.6	490	20	1.6	10	\N	\N	\N	230	1.3	90	320	1.5	140
-31200	Psychologists	\N	\N	\N	40	2	20	1840	1.4000000000000001	700	\N	\N	\N	\N	\N	\N	170	1.2	70	430	1.6	200
-31201	Chiropractors	70	1.7000000000000002	30	30	2	10	1000	1.7999999999999998	420	20	2.1	10	\N	\N	\N	220	1.6	110	230	1.9	120
-31202	Physiotherapists	120	1.6	50	190	1.9	90	3830	1.7999999999999998	1520	60	1.9	30	40	1.4000000000000001	20	590	1.5	260	970	1.7000000000000002	430
-31203	Occupational therapists	70	2	40	70	1.9	30	2550	1.7000000000000002	960	40	1.6	20	\N	\N	\N	310	1.5	120	650	1.6	260
-31204	Kinesiologists and other professional occupations in therapy and assessment	\N	\N	\N	30	2	10	1720	1.6	530	\N	\N	\N	\N	\N	\N	280	1.5	100	290	1.7999999999999998	110
-31209	Other professional occupations in health diagnosing and treating	20	1.7000000000000002	10	70	2	40	660	1.7999999999999998	270	\N	\N	\N	\N	\N	\N	140	1.7000000000000002	70	150	1.9	70
-31300	Nursing coordinators and supervisors	20	2	20	30	1.7999999999999998	20	1680	1.7999999999999998	890	20	0.6	10	50	1.5	30	210	1.3	120	480	1.6	290
-31301	Registered nurses and registered psychiatric nurses	2200	2	960	1770	1.9	790	40700	1.7000000000000002	15680	690	1.0999999999999999	230	720	1.7000000000000002	290	7260	1.2	2610	13110	1.5	5040
-31302	Nurse practitioners	40	2	20	40	1.9	20	600	1.7999999999999998	220	\N	\N	\N	\N	\N	\N	100	1.5	40	200	1.6	80
-31303	Physician assistants, midwives and allied health professionals	\N	\N	\N	\N	\N	\N	240	1.7000000000000002	100	\N	\N	\N	\N	\N	\N	20	1.4000000000000001	10	100	1.5	40
-32100	Opticians	50	-0.7000000000000001	10	20	1.3	10	980	1.6	470	\N	\N	\N	\N	\N	\N	180	1.3	90	230	1	90
-32101	Licensed practical nurses	470	2.1	230	460	2.1	220	6100	1.7000000000000002	2330	120	0.8	40	190	1.6	80	1580	1.3	580	2660	1.6	1050
-32102	Paramedical occupations	180	1.7999999999999998	80	270	2	130	1950	1.7000000000000002	720	160	2.1	80	110	1	40	600	1.6	260	970	1.7000000000000002	410
-32103	Respiratory therapists, clinical perfusionists and cardiopulmonary technologists	40	2	20	40	1.9	20	1580	1.7999999999999998	590	\N	\N	\N	\N	\N	\N	260	1.2	110	420	1.5	160
+31200	Psychologists	\N	\N	\N	40	2	20	1840	1.4	700	\N	\N	\N	\N	\N	\N	170	1.2	70	430	1.6	200
+31201	Chiropractors	70	1.7	30	30	2	10	1000	1.8	420	20	2.1	10	\N	\N	\N	220	1.6	110	230	1.9	120
+31202	Physiotherapists	120	1.6	50	190	1.9	90	3830	1.8	1520	60	1.9	30	40	1.4	20	590	1.5	260	970	1.7	430
+31203	Occupational therapists	70	2	40	70	1.9	30	2550	1.7	960	40	1.6	20	\N	\N	\N	310	1.5	120	650	1.6	260
+31204	Kinesiologists and other professional occupations in therapy and assessment	\N	\N	\N	30	2	10	1720	1.6	530	\N	\N	\N	\N	\N	\N	280	1.5	100	290	1.8	110
+31209	Other professional occupations in health diagnosing and treating	20	1.7	10	70	2	40	660	1.8	270	\N	\N	\N	\N	\N	\N	140	1.7	70	150	1.9	70
+31300	Nursing coordinators and supervisors	20	2	20	30	1.8	20	1680	1.8	890	20	0.6	10	50	1.5	30	210	1.3	120	480	1.6	290
+31301	Registered nurses and registered psychiatric nurses	2200	2	960	1770	1.9	790	40700	1.7	15680	690	1.1	230	720	1.7	290	7260	1.2	2610	13110	1.5	5040
+31302	Nurse practitioners	40	2	20	40	1.9	20	600	1.8	220	\N	\N	\N	\N	\N	\N	100	1.5	40	200	1.6	80
+31303	Physician assistants, midwives and allied health professionals	\N	\N	\N	\N	\N	\N	240	1.7	100	\N	\N	\N	\N	\N	\N	20	1.4	10	100	1.5	40
+32100	Opticians	50	-0.7	10	20	1.3	10	980	1.6	470	\N	\N	\N	\N	\N	\N	180	1.3	90	230	1	90
+32101	Licensed practical nurses	470	2.1	230	460	2.1	220	6100	1.7	2330	120	0.8	40	190	1.6	80	1580	1.3	580	2660	1.6	1050
+32102	Paramedical occupations	180	1.8	80	270	2	130	1950	1.7	720	160	2.1	80	110	1	40	600	1.6	260	970	1.7	410
+32103	Respiratory therapists, clinical perfusionists and cardiopulmonary technologists	40	2	20	40	1.9	20	1580	1.8	590	\N	\N	\N	\N	\N	\N	260	1.2	110	420	1.5	160
 32104	Animal health technologists and veterinary technicians	60	-0.6	0	70	1.2	20	2190	1	510	60	-1.6	0	30	0	0	500	0.4	110	790	2.1	320
-32109	Other technical occupations in therapy and assessment	60	1.9	20	90	1.3	30	1710	1.7000000000000002	620	\N	\N	\N	60	1.3	20	380	1.3	140	420	1.6	170
-32110	Denturists	\N	\N	\N	\N	\N	\N	150	1.6	50	\N	\N	\N	\N	\N	\N	50	1.7000000000000002	20	50	1.9	20
-32111	Dental hygienists and dental therapists	110	1.7000000000000002	40	170	2	90	2600	1.7999999999999998	1030	80	2.1	40	70	1	20	470	1.6	230	740	1.9	350
-32112	Dental technologists and technicians	\N	\N	\N	\N	\N	\N	790	1.2	280	\N	\N	\N	\N	\N	\N	80	0.2	20	120	1.0999999999999999	50
-32120	Medical laboratory technologists	100	1.9	40	110	1.9	50	2720	1.7999999999999998	1140	50	1.5	20	\N	\N	\N	340	1.3	150	610	1.6	250
-32121	Medical radiation technologists	200	2	90	100	1.7999999999999998	50	2560	1.7000000000000002	970	50	0.8999999999999999	10	80	1.7999999999999998	30	530	1.2	190	870	1.5	330
-32122	Medical sonographers	40	1.9	10	60	1.7999999999999998	30	880	1.7999999999999998	370	\N	\N	\N	\N	\N	\N	100	1.3	40	270	1.5	110
-32123	Cardiology technologists and electrophysiological diagnostic technologists	\N	\N	\N	\N	\N	\N	620	1.7999999999999998	230	\N	\N	\N	\N	\N	\N	120	1.2	30	190	1.5	70
-32124	Pharmacy technicians	90	0.4	20	200	1.3	80	1900	1.7000000000000002	740	50	-0.1	10	50	0	10	390	1.0999999999999999	150	660	1.0999999999999999	230
-32129	Other medical technologists and technicians	\N	\N	\N	20	2	10	340	1.4000000000000001	110	\N	\N	\N	\N	\N	\N	50	0.8999999999999999	20	50	1.0999999999999999	20
-32200	Traditional Chinese medicine practitioners and acupuncturists	30	1.7000000000000002	10	60	2	30	1330	1.7999999999999998	510	\N	\N	\N	\N	\N	\N	70	1.7000000000000002	20	290	1.7999999999999998	110
-32201	Massage therapists	150	1.7000000000000002	60	360	1.9	190	4770	1.7000000000000002	1950	110	2.1	50	60	1.3	20	820	1.6	390	1400	1.7000000000000002	650
-32209	Other practitioners of natural healing	40	0.5	10	30	2	20	560	1.7000000000000002	250	\N	\N	\N	\N	\N	\N	120	1.6	60	310	1.7000000000000002	150
-33100	Dental assistants and dental laboratory assistants	220	1.7999999999999998	70	210	2	100	4920	1.7999999999999998	1900	100	2.1	40	120	1	20	630	1.6	270	1000	1.7999999999999998	410
-33101	Medical laboratory assistants and related technical occupations	210	2	90	140	1.9	60	3420	1.7000000000000002	1250	70	1.3	20	110	1.6	40	440	1.4000000000000001	170	920	1.6	350
-33102	Nurse aides, orderlies and patient service associates	1450	1.7999999999999998	650	1680	2	790	27510	1.6	11410	650	1	220	500	1.6	210	5920	1.4000000000000001	2330	11610	1.6	4590
-33103	Pharmacy technical assistants and pharmacy assistants	120	-0.6	10	200	0.8999999999999999	70	2570	1.7000000000000002	850	60	-1	0	80	-1.2	0	470	1.0999999999999999	180	810	0.8999999999999999	210
-33109	Other assisting occupations in support of health services	240	2	120	190	1.9	90	3900	1.7000000000000002	1450	50	1.6	20	40	1	20	800	1.4000000000000001	320	1400	1.6	540
+32109	Other technical occupations in therapy and assessment	60	1.9	20	90	1.3	30	1710	1.7	620	\N	\N	\N	60	1.3	20	380	1.3	140	420	1.6	170
+32110	Denturists	\N	\N	\N	\N	\N	\N	150	1.6	50	\N	\N	\N	\N	\N	\N	50	1.7	20	50	1.9	20
+32111	Dental hygienists and dental therapists	110	1.7	40	170	2	90	2600	1.8	1030	80	2.1	40	70	1	20	470	1.6	230	740	1.9	350
+32112	Dental technologists and technicians	\N	\N	\N	\N	\N	\N	790	1.2	280	\N	\N	\N	\N	\N	\N	80	0.2	20	120	1.1	50
+32120	Medical laboratory technologists	100	1.9	40	110	1.9	50	2720	1.8	1140	50	1.5	20	\N	\N	\N	340	1.3	150	610	1.6	250
+32121	Medical radiation technologists	200	2	90	100	1.8	50	2560	1.7	970	50	0.9	10	80	1.8	30	530	1.2	190	870	1.5	330
+32122	Medical sonographers	40	1.9	10	60	1.8	30	880	1.8	370	\N	\N	\N	\N	\N	\N	100	1.3	40	270	1.5	110
+32123	Cardiology technologists and electrophysiological diagnostic technologists	\N	\N	\N	\N	\N	\N	620	1.8	230	\N	\N	\N	\N	\N	\N	120	1.2	30	190	1.5	70
+32124	Pharmacy technicians	90	0.4	20	200	1.3	80	1900	1.7	740	50	-0.1	10	50	0	10	390	1.1	150	660	1.1	230
+32129	Other medical technologists and technicians	\N	\N	\N	20	2	10	340	1.4	110	\N	\N	\N	\N	\N	\N	50	0.9	20	50	1.1	20
+32200	Traditional Chinese medicine practitioners and acupuncturists	30	1.7	10	60	2	30	1330	1.8	510	\N	\N	\N	\N	\N	\N	70	1.7	20	290	1.8	110
+32201	Massage therapists	150	1.7	60	360	1.9	190	4770	1.7	1950	110	2.1	50	60	1.3	20	820	1.6	390	1400	1.7	650
+32209	Other practitioners of natural healing	40	0.5	10	30	2	20	560	1.7	250	\N	\N	\N	\N	\N	\N	120	1.6	60	310	1.7	150
+33100	Dental assistants and dental laboratory assistants	220	1.8	70	210	2	100	4920	1.8	1900	100	2.1	40	120	1	20	630	1.6	270	1000	1.8	410
+33101	Medical laboratory assistants and related technical occupations	210	2	90	140	1.9	60	3420	1.7	1250	70	1.3	20	110	1.6	40	440	1.4	170	920	1.6	350
+33102	Nurse aides, orderlies and patient service associates	1450	1.8	650	1680	2	790	27510	1.6	11410	650	1	220	500	1.6	210	5920	1.4	2330	11610	1.6	4590
+33103	Pharmacy technical assistants and pharmacy assistants	120	-0.6	10	200	0.9	70	2570	1.7	850	60	-1	0	80	-1.2	0	470	1.1	180	810	0.9	210
+33109	Other assisting occupations in support of health services	240	2	120	190	1.9	90	3900	1.7	1450	50	1.6	20	40	1	20	800	1.4	320	1400	1.6	540
 40010	Government managers - health and social policy development and program administration	30	-0.1	10	\N	\N	\N	600	-0.3	190	\N	\N	\N	\N	\N	\N	90	0.5	50	520	-0.3	200
 40011	Government managers - economic analysis, policy development and program administration	60	0	30	50	-0.1	20	910	-0.4	310	60	-0.3	20	20	0.3	10	130	0.5	80	440	0	210
 40012	Government managers - education policy development and program administration	\N	\N	\N	\N	\N	\N	170	-0.3	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	110	0.2	40
 40019	Other managers in public administration	30	-0.1	10	\N	\N	\N	210	-0.2	60	20	-0.2	10	20	0.4	10	100	0.6	50	250	0.4	110
-40020	Administrators - post-secondary education and vocational training	80	0.8	30	60	0.6	30	3120	0.4	1070	40	-0.8	10	40	2.3	30	290	1.0999999999999999	170	540	1.4000000000000001	320
+40020	Administrators - post-secondary education and vocational training	80	0.8	30	60	0.6	30	3120	0.4	1070	40	-0.8	10	40	2.3	30	290	1.1	170	540	1.4	320
 40021	School principals and administrators of elementary and secondary education	180	-0.5	80	200	0	110	2790	0	1170	110	-0.3	50	70	0.8	40	450	0.2	260	980	0.4	540
-40030	Managers in social, community and correctional services	220	0.1	80	160	0	60	4090	1.0999999999999999	1750	120	0.4	50	20	1	10	610	1.3	350	1220	1.0999999999999999	580
-40040	Commissioned police officers and related occupations in public protection services	\N	\N	\N	\N	\N	\N	130	-0.1	60	\N	\N	\N	\N	\N	\N	\N	\N	\N	40	0.8999999999999999	30
-40041	Fire chiefs and senior firefighting officers	\N	\N	\N	60	0.4	50	210	0.1	110	20	0.6	10	20	0.6	10	100	0.8999999999999999	80	150	2.1	120
-40042	Commissioned officers of the Canadian Armed Forces	\N	\N	\N	\N	\N	\N	510	-0.7000000000000001	70	\N	\N	\N	\N	\N	\N	40	0.6	10	1270	0.3	360
-41100	Judges	\N	\N	\N	\N	\N	\N	290	-0.7000000000000001	70	\N	\N	\N	\N	\N	\N	30	0.4	10	40	-0.1	10
-41101	Lawyers and Quebec notaries	190	-0.6	20	120	1.2	50	13010	0.8999999999999999	3390	90	-1.6	0	40	-0.1	10	1020	0.5	280	2470	1.6	950
+40030	Managers in social, community and correctional services	220	0.1	80	160	0	60	4090	1.1	1750	120	0.4	50	20	1	10	610	1.3	350	1220	1.1	580
+40040	Commissioned police officers and related occupations in public protection services	\N	\N	\N	\N	\N	\N	130	-0.1	60	\N	\N	\N	\N	\N	\N	\N	\N	\N	40	0.9	30
+40041	Fire chiefs and senior firefighting officers	\N	\N	\N	60	0.4	50	210	0.1	110	20	0.6	10	20	0.6	10	100	0.9	80	150	2.1	120
+40042	Commissioned officers of the Canadian Armed Forces	\N	\N	\N	\N	\N	\N	510	-0.7	70	\N	\N	\N	\N	\N	\N	40	0.6	10	1270	0.3	360
+41100	Judges	\N	\N	\N	\N	\N	\N	290	-0.7	70	\N	\N	\N	\N	\N	\N	30	0.4	10	40	-0.1	10
+41101	Lawyers and Quebec notaries	190	-0.6	20	120	1.2	50	13010	0.9	3390	90	-1.6	0	40	-0.1	10	1020	0.5	280	2470	1.6	950
 41200	University professors and lecturers	360	1.2	140	90	5.3	90	9690	0.8	2830	\N	\N	\N	\N	\N	\N	2060	0.8	620	2630	1.3	1190
-41201	Post-secondary teaching and research assistants	240	1	60	160	2.1	60	11560	0.8	2210	140	4.6	110	210	-2.5	-20	1560	0.8	380	1720	1.4000000000000001	490
-41210	College and other vocational instructors	350	-0.5	70	590	0.6	240	10630	0.2	2710	190	-0.8	30	240	2.1999999999999997	130	910	1.6	480	2010	1.5	950
+41201	Post-secondary teaching and research assistants	240	1	60	160	2.1	60	11560	0.8	2210	140	4.6	110	210	-2.5	-20	1560	0.8	380	1720	1.4	490
+41210	College and other vocational instructors	350	-0.5	70	590	0.6	240	10630	0.2	2710	190	-0.8	30	240	2.2	130	910	1.6	480	2010	1.5	950
 41220	Secondary school teachers	610	-0.5	120	640	-0.1	180	12830	0	2940	350	-0.3	70	150	0.8	50	2020	0.2	610	3740	0.5	1200
 41221	Elementary school and kindergarten teachers	1210	-0.5	250	1400	0	390	22300	0	5080	750	-0.3	170	690	0.8	240	3920	0.2	1190	7020	0.5	2210
-41300	Social workers	450	0.6	140	330	0.7000000000000001	100	5500	1.0999999999999999	1730	250	0	60	110	1.2	40	1270	1.2	480	1830	1.2	680
-41301	Therapists in counselling and related specialized therapies	290	0.8999999999999999	90	340	0.8999999999999999	90	5830	1.5	2050	130	1	40	80	1.3	30	1020	1.7999999999999998	390	2420	1.7999999999999998	1040
-41302	Religious leaders	220	1.4000000000000001	80	140	1.7000000000000002	60	2850	0.8999999999999999	810	110	0.3	20	100	1.7000000000000002	40	660	1.3	230	680	0.5	180
+41300	Social workers	450	0.6	140	330	0.7	100	5500	1.1	1730	250	0	60	110	1.2	40	1270	1.2	480	1830	1.2	680
+41301	Therapists in counselling and related specialized therapies	290	0.9	90	340	0.9	90	5830	1.5	2050	130	1	40	80	1.3	30	1020	1.8	390	2420	1.8	1040
+41302	Religious leaders	220	1.4	80	140	1.7	60	2850	0.9	810	110	0.3	20	100	1.7	40	660	1.3	230	680	0.5	180
 41310	Police investigators and other investigative occupations	\N	\N	\N	\N	\N	\N	430	-0.4	90	\N	\N	\N	\N	\N	\N	40	0.5	20	90	0.3	30
-41311	Probation and parole officers	50	-0.1	10	30	-0.8	10	540	-0.8999999999999999	60	70	-0.4	10	\N	\N	\N	90	0.2	30	180	-0.2	40
-41320	Educational counsellors	140	0	50	90	0.2	30	3590	0.3	920	60	-0.6	20	40	1.7999999999999998	20	460	0.6	180	1040	1	430
-41321	Career development practitioners and career counsellors (except education)	80	0.6	30	60	1.2	30	1130	0.8999999999999999	380	30	0	10	\N	\N	\N	180	1.9	90	320	1.4000000000000001	150
-41400	Natural and applied science policy researchers, consultants and program officers	120	0.5	30	270	-0.1	50	2710	0.6	710	260	0.6	70	140	-0.6	20	590	1.4000000000000001	240	1370	0.8	470
-41401	Economists and economic policy researchers and analysts	\N	\N	\N	\N	\N	\N	1520	0.7000000000000001	400	\N	\N	\N	\N	\N	\N	60	1.4000000000000001	20	570	0.3	170
-41402	Business development officers and market researchers and analysts	20	1.2	10	\N	\N	\N	5180	1.0999999999999999	1580	60	0.1	10	\N	\N	\N	540	1.2	230	660	1.4000000000000001	250
+41311	Probation and parole officers	50	-0.1	10	30	-0.8	10	540	-0.9	60	70	-0.4	10	\N	\N	\N	90	0.2	30	180	-0.2	40
+41320	Educational counsellors	140	0	50	90	0.2	30	3590	0.3	920	60	-0.6	20	40	1.8	20	460	0.6	180	1040	1	430
+41321	Career development practitioners and career counsellors (except education)	80	0.6	30	60	1.2	30	1130	0.9	380	30	0	10	\N	\N	\N	180	1.9	90	320	1.4	150
+41400	Natural and applied science policy researchers, consultants and program officers	120	0.5	30	270	-0.1	50	2710	0.6	710	260	0.6	70	140	-0.6	20	590	1.4	240	1370	0.8	470
+41401	Economists and economic policy researchers and analysts	\N	\N	\N	\N	\N	\N	1520	0.7	400	\N	\N	\N	\N	\N	\N	60	1.4	20	570	0.3	170
+41402	Business development officers and market researchers and analysts	20	1.2	10	\N	\N	\N	5180	1.1	1580	60	0.1	10	\N	\N	\N	540	1.2	230	660	1.4	250
 41403	Social policy researchers, consultants and program officers	80	0.3	30	30	0.8	10	3720	0.5	990	40	-0.2	10	30	0.6	10	350	0.8	120	1570	0.4	450
-41404	Health policy researchers, consultants and program officers	180	1.9	100	60	1.4000000000000001	30	2880	1.3	940	50	1.0999999999999999	20	\N	\N	\N	370	1.3	160	1200	0.8999999999999999	390
-41405	Education policy researchers, consultants and program officers	80	0.3	20	60	0.3	20	2950	0.5	710	80	3.4000000000000004	60	50	0.5	10	330	0.8999999999999999	110	970	1	340
-41406	Recreation, sports and fitness policy researchers, consultants and program officers	40	0.2	10	30	0	10	1150	0.8	330	50	0.3	10	30	1.3	10	240	1.0999999999999999	90	400	1.6	160
+41404	Health policy researchers, consultants and program officers	180	1.9	100	60	1.4	30	2880	1.3	940	50	1.1	20	\N	\N	\N	370	1.3	160	1200	0.9	390
+41405	Education policy researchers, consultants and program officers	80	0.3	20	60	0.3	20	2950	0.5	710	80	3.4	60	50	0.5	10	330	0.9	110	970	1	340
+41406	Recreation, sports and fitness policy researchers, consultants and program officers	40	0.2	10	30	0	10	1150	0.8	330	50	0.3	10	30	1.3	10	240	1.1	90	400	1.6	160
 41407	Program officers unique to government	\N	\N	\N	\N	\N	\N	530	-0.5	90	\N	\N	\N	\N	\N	\N	50	0.4	20	440	0	110
-41409	Other professional occupations in social science	50	-0.5	0	\N	\N	\N	770	0.8	200	60	-1.4000000000000001	0	40	-0.5	0	120	1.0999999999999999	40	350	1.3	130
+41409	Other professional occupations in social science	50	-0.5	0	\N	\N	\N	770	0.8	200	60	-1.4	0	40	-0.5	0	120	1.1	40	350	1.3	130
 42100	Police officers (except commissioned)	430	0.3	130	120	0.2	40	8160	-0.3	1840	280	0.3	90	90	1.5	40	990	0.6	380	1610	1	720
-42101	Firefighters	110	0	20	150	0.7000000000000001	60	4100	0.1	1090	70	1.6	30	80	0.6	20	680	0.8999999999999999	280	790	1.7000000000000002	390
+42101	Firefighters	110	0	20	150	0.7	60	4100	0.1	1090	70	1.6	30	80	0.6	20	680	0.9	280	790	1.7	390
 42102	Specialized members of the Canadian Armed Forces	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	190	0.2	70
 42200	Paralegals and related occupations	50	-0.4	10	50	0.3	20	4230	-0.3	750	20	0.4	10	20	0.4	0	420	0.5	160	720	0.5	240
-42201	Social and community service workers	1760	0.5	500	1240	0.7000000000000001	330	20530	1.3	7290	860	0.4	230	420	1.3	160	4130	1.6	1590	8470	1.5	3360
-42202	Early childhood educators and assistants	910	0.8999999999999999	260	860	0.5	190	16060	2.8000000000000003	8300	670	2.4	330	250	2.4	120	2250	1.7999999999999998	890	4010	2.3	1830
-42203	Instructors of persons with disabilities	80	0.2	10	60	1.0999999999999999	20	1610	1.0999999999999999	400	30	-0.1	0	\N	\N	\N	200	1.6	70	220	1.0999999999999999	70
-42204	Religion workers	20	1.4000000000000001	10	30	0.5	10	840	0.8999999999999999	230	\N	\N	\N	\N	\N	\N	70	1.3	30	140	0.8999999999999999	40
+42201	Social and community service workers	1760	0.5	500	1240	0.7	330	20530	1.3	7290	860	0.4	230	420	1.3	160	4130	1.6	1590	8470	1.5	3360
+42202	Early childhood educators and assistants	910	0.9	260	860	0.5	190	16060	2.8	8300	670	2.4	330	250	2.4	120	2250	1.8	890	4010	2.3	1830
+42203	Instructors of persons with disabilities	80	0.2	10	60	1.1	20	1610	1.1	400	30	-0.1	0	\N	\N	\N	200	1.6	70	220	1.1	70
+42204	Religion workers	20	1.4	10	30	0.5	10	840	0.9	230	\N	\N	\N	\N	\N	\N	70	1.3	30	140	0.9	40
 43100	Elementary and secondary school teacher assistants	860	-0.5	180	1010	0	270	12380	0	2720	490	-0.3	110	410	0.8	150	2280	0.2	680	3880	0.4	1240
-43109	Other instructors	70	-0.2	10	\N	\N	\N	7530	0.6	1590	\N	\N	\N	60	0.2	10	320	1.0999999999999999	160	970	0.8999999999999999	310
+43109	Other instructors	70	-0.2	10	\N	\N	\N	7530	0.6	1590	\N	\N	\N	60	0.2	10	320	1.1	160	970	0.9	310
 43200	Sheriffs and bailiffs	\N	\N	\N	20	-0.8	0	500	-0.6	70	\N	\N	\N	\N	\N	\N	50	0.3	20	130	-0.2	40
-43201	Correctional service officers	140	-0.2	30	30	-0.3	10	2540	-0.7000000000000001	330	30	0.2	10	20	0.8999999999999999	10	370	0.3	140	470	0.1	140
-43202	By-law enforcement and other regulatory officers	60	-0.1	10	70	0.3	30	1260	0.2	270	40	0.1	10	20	-0.1	0	150	0.7000000000000001	70	290	1.4000000000000001	130
+43201	Correctional service officers	140	-0.2	30	30	-0.3	10	2540	-0.7	330	30	0.2	10	20	0.9	10	370	0.3	140	470	0.1	140
+43202	By-law enforcement and other regulatory officers	60	-0.1	10	70	0.3	30	1260	0.2	270	40	0.1	10	20	-0.1	0	150	0.7	70	290	1.4	130
 43203	Border services, customs, and immigration officers	\N	\N	\N	40	0.1	10	1400	-0.6	210	30	0.3	10	\N	\N	\N	60	0.6	10	70	0.1	20
-43204	Operations members of the Canadian Armed Forces	30	0.3	10	30	0.1	0	640	-0.7000000000000001	100	20	0.4	10	\N	\N	\N	90	0.6	20	1780	0.2	470
-44100	Home child care providers	230	-3.5999999999999996	-50	230	-3.2	-30	5150	-2	-110	130	-2.4	-10	80	-1.7000000000000002	0	630	-2.3	-40	1120	0.4	240
-44101	Home support workers, caregivers and related occupations	230	1	80	330	1.5	130	4800	1.5	1940	140	1.0999999999999999	50	110	1.5	50	920	1.6	370	2430	1.7000000000000002	990
-44200	Primary combat members of the Canadian Armed Forces	20	0.3	0	\N	\N	\N	200	-0.7000000000000001	0	\N	\N	\N	\N	\N	\N	20	0.6	0	120	0.2	20
+43204	Operations members of the Canadian Armed Forces	30	0.3	10	30	0.1	0	640	-0.7	100	20	0.4	10	\N	\N	\N	90	0.6	20	1780	0.2	470
+44100	Home child care providers	230	-3.6	-50	230	-3.2	-30	5150	-2	-110	130	-2.4	-10	80	-1.7	0	630	-2.3	-40	1120	0.4	240
+44101	Home support workers, caregivers and related occupations	230	1	80	330	1.5	130	4800	1.5	1940	140	1.1	50	110	1.5	50	920	1.6	370	2430	1.7	990
+44200	Primary combat members of the Canadian Armed Forces	20	0.3	0	\N	\N	\N	200	-0.7	0	\N	\N	\N	\N	\N	\N	20	0.6	0	120	0.2	20
 45100	Student monitors, crossing guards and related occupations	80	-0.5	20	60	0	10	1390	0	310	20	-0.3	0	20	0.8	10	170	0.2	30	230	0.4	70
-95103	Labourers in wood, pulp and paper processing	1090	-1	80	340	-1.5	50	1770	0.8999999999999999	580	320	-3.1	-50	180	-0.5	20	980	-0.6	260	430	0	80
-50010	Library, archive, museum and art gallery managers	20	-0.7000000000000001	10	70	0.5	30	460	0.6	180	30	0.3	20	20	2.1999999999999997	10	110	0.8999999999999999	60	110	1.2	70
-50011	Managers - publishing, motion pictures, broadcasting and performing arts	\N	\N	\N	40	2.1	30	1310	0.8999999999999999	540	30	1.5	20	\N	\N	\N	120	1.9	90	180	1.0999999999999999	90
-50012	Recreation, sports and fitness program and service directors	80	0.2	30	70	0.1	30	1650	0.8	640	20	0.3	10	50	1.7000000000000002	20	500	1.0999999999999999	270	540	1.5	290
-51100	Librarians	20	-0.7000000000000001	0	60	0.8	10	810	0.3	210	\N	\N	\N	\N	\N	\N	190	0.5	40	90	0.8999999999999999	30
-51101	Conservators and curators	\N	\N	\N	\N	\N	\N	270	0.8999999999999999	80	\N	\N	\N	\N	\N	\N	60	1.0999999999999999	20	110	1.6	40
+50010	Library, archive, museum and art gallery managers	20	-0.7	10	70	0.5	30	460	0.6	180	30	0.3	20	20	2.2	10	110	0.9	60	110	1.2	70
+50011	Managers - publishing, motion pictures, broadcasting and performing arts	\N	\N	\N	40	2.1	30	1310	0.9	540	30	1.5	20	\N	\N	\N	120	1.9	90	180	1.1	90
+50012	Recreation, sports and fitness program and service directors	80	0.2	30	70	0.1	30	1650	0.8	640	20	0.3	10	50	1.7	20	500	1.1	270	540	1.5	290
+51100	Librarians	20	-0.7	0	60	0.8	10	810	0.3	210	\N	\N	\N	\N	\N	\N	190	0.5	40	90	0.9	30
+51101	Conservators and curators	\N	\N	\N	\N	\N	\N	270	0.9	80	\N	\N	\N	\N	\N	\N	60	1.1	20	110	1.6	40
 51102	Archivists	\N	\N	\N	\N	\N	\N	50	0.1	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	50	0.5	20
-51110	Editors	\N	\N	\N	40	-0.1	10	1300	0.7000000000000001	450	\N	\N	\N	\N	\N	\N	120	1.9	80	450	0.8999999999999999	210
-51111	Authors and writers (except technical)	40	-0.1	10	40	1.5	20	3120	1	930	30	-2.1	0	\N	\N	\N	410	1.7000000000000002	200	960	1.2	370
-51112	Technical writers	\N	\N	\N	\N	\N	\N	990	1.5	390	\N	\N	\N	\N	\N	\N	70	1.4000000000000001	30	220	1.6	110
-51113	Journalists	20	1.0999999999999999	10	30	-1.0999999999999999	0	820	0.3	210	\N	\N	\N	\N	\N	\N	130	1.3	50	140	1.2	60
-51114	Translators, terminologists and interpreters	\N	\N	\N	\N	\N	\N	1580	0.8999999999999999	470	\N	\N	\N	\N	\N	\N	70	0.4	20	200	1.9	90
-51120	Producers, directors, choreographers and related occupations	20	-0.7000000000000001	0	70	1.7999999999999998	40	5350	1.0999999999999999	2090	50	1.5	20	\N	\N	\N	350	1.5	180	860	1	420
-51121	Conductors, composers and arrangers	\N	\N	\N	\N	\N	\N	460	0.8999999999999999	120	\N	\N	\N	\N	\N	\N	\N	\N	\N	120	0.8	40
-51122	Musicians and singers	40	0.4	10	30	-0.1	10	5260	0.7000000000000001	1070	20	-0.6	0	\N	\N	\N	440	1.3	190	1380	1	410
-52100	Library and public archive technicians	20	-0.5	0	20	0.5	10	660	0.2	180	\N	\N	\N	\N	\N	\N	100	0.6	40	150	0.7000000000000001	60
-52110	Film and video camera operators	\N	\N	\N	\N	\N	\N	840	1.2	260	\N	\N	\N	\N	\N	\N	90	1.4000000000000001	20	190	1.0999999999999999	60
-52111	Graphic arts technicians	\N	\N	\N	\N	\N	\N	3320	1.4000000000000001	1050	\N	\N	\N	\N	\N	\N	80	2.1999999999999997	30	140	1.4000000000000001	50
+51110	Editors	\N	\N	\N	40	-0.1	10	1300	0.7	450	\N	\N	\N	\N	\N	\N	120	1.9	80	450	0.9	210
+51111	Authors and writers (except technical)	40	-0.1	10	40	1.5	20	3120	1	930	30	-2.1	0	\N	\N	\N	410	1.7	200	960	1.2	370
+51112	Technical writers	\N	\N	\N	\N	\N	\N	990	1.5	390	\N	\N	\N	\N	\N	\N	70	1.4	30	220	1.6	110
+51113	Journalists	20	1.1	10	30	-1.1	0	820	0.3	210	\N	\N	\N	\N	\N	\N	130	1.3	50	140	1.2	60
+51114	Translators, terminologists and interpreters	\N	\N	\N	\N	\N	\N	1580	0.9	470	\N	\N	\N	\N	\N	\N	70	0.4	20	200	1.9	90
+51120	Producers, directors, choreographers and related occupations	20	-0.7	0	70	1.8	40	5350	1.1	2090	50	1.5	20	\N	\N	\N	350	1.5	180	860	1	420
+51121	Conductors, composers and arrangers	\N	\N	\N	\N	\N	\N	460	0.9	120	\N	\N	\N	\N	\N	\N	\N	\N	\N	120	0.8	40
+51122	Musicians and singers	40	0.4	10	30	-0.1	10	5260	0.7	1070	20	-0.6	0	\N	\N	\N	440	1.3	190	1380	1	410
+52100	Library and public archive technicians	20	-0.5	0	20	0.5	10	660	0.2	180	\N	\N	\N	\N	\N	\N	100	0.6	40	150	0.7	60
+52110	Film and video camera operators	\N	\N	\N	\N	\N	\N	840	1.2	260	\N	\N	\N	\N	\N	\N	90	1.4	20	190	1.1	60
+52111	Graphic arts technicians	\N	\N	\N	\N	\N	\N	3320	1.4	1050	\N	\N	\N	\N	\N	\N	80	2.2	30	140	1.4	50
 52112	Broadcast technicians	\N	\N	\N	\N	\N	\N	110	0.3	30	\N	\N	\N	\N	\N	\N	20	0.5	10	\N	\N	\N
-52113	Audio and video recording technicians	\N	\N	\N	30	3.2	20	2360	1.0999999999999999	740	\N	\N	\N	\N	\N	\N	140	1.5	30	390	1	120
-52114	Announcers and other broadcasters	20	-0.7000000000000001	0	\N	\N	\N	270	0.3	60	\N	\N	\N	\N	\N	\N	100	0.5	20	50	0.8999999999999999	20
-52119	Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts	70	0.8	30	80	1.9	30	5560	1.2	1840	\N	\N	\N	\N	\N	\N	280	1.7000000000000002	100	580	1	210
-52120	Graphic designers and illustrators	140	0.5	40	170	1.4000000000000001	50	15230	1.2	4610	50	-1.4000000000000001	0	30	-0.6	0	970	1.2	260	2070	1.6	860
-52121	Interior designers and interior decorators	20	0.2	0	70	1.2	20	4340	1.0999999999999999	1380	\N	\N	\N	\N	\N	\N	490	0.8	140	720	1.6	310
-53100	Registrars, restorers, interpreters and other occupations related to museum and art galleries	30	-1.0999999999999999	0	20	0.7000000000000001	10	540	0.7000000000000001	120	40	-0.1	10	\N	\N	\N	70	1.0999999999999999	30	150	1.6	50
-53110	Photographers	20	-0.6	0	70	1.2	20	2470	0.8999999999999999	580	\N	\N	\N	30	0	10	320	0.5	60	690	2	290
-53111	Motion pictures, broadcasting, photography and performing arts assistants and operators	\N	\N	\N	\N	\N	\N	3650	1.2	1220	\N	\N	\N	\N	\N	\N	190	1.7000000000000002	50	280	1	80
-53120	Dancers	\N	\N	\N	\N	\N	\N	1240	0.6	210	\N	\N	\N	70	-0.3	10	160	1.0999999999999999	40	280	0.8999999999999999	70
-53121	Actors, comedians and circus performers	50	-1.6	0	\N	\N	\N	3080	1.0999999999999999	880	\N	\N	\N	\N	\N	\N	130	1.6	40	260	0.8999999999999999	70
-53122	Painters, sculptors and other visual artists	110	-1.6	0	60	1.4000000000000001	30	2510	0.8999999999999999	790	30	-2.6	0	70	-0.5	10	420	1.7000000000000002	240	1120	1	420
-53123	Theatre, fashion, exhibit and other creative designers	\N	\N	\N	30	0.4	10	2330	0.8999999999999999	660	\N	\N	\N	\N	\N	\N	70	1.0999999999999999	30	240	1.2	80
-53124	Artisans and craftspersons	100	-1	10	140	0.2	40	1880	0.8	620	50	-2.1	0	\N	\N	\N	390	0.8999999999999999	160	990	0.6	330
+52113	Audio and video recording technicians	\N	\N	\N	30	3.2	20	2360	1.1	740	\N	\N	\N	\N	\N	\N	140	1.5	30	390	1	120
+52114	Announcers and other broadcasters	20	-0.7	0	\N	\N	\N	270	0.3	60	\N	\N	\N	\N	\N	\N	100	0.5	20	50	0.9	20
+52119	Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts	70	0.8	30	80	1.9	30	5560	1.2	1840	\N	\N	\N	\N	\N	\N	280	1.7	100	580	1	210
+52120	Graphic designers and illustrators	140	0.5	40	170	1.4	50	15230	1.2	4610	50	-1.4	0	30	-0.6	0	970	1.2	260	2070	1.6	860
+52121	Interior designers and interior decorators	20	0.2	0	70	1.2	20	4340	1.1	1380	\N	\N	\N	\N	\N	\N	490	0.8	140	720	1.6	310
+53100	Registrars, restorers, interpreters and other occupations related to museum and art galleries	30	-1.1	0	20	0.7	10	540	0.7	120	40	-0.1	10	\N	\N	\N	70	1.1	30	150	1.6	50
+53110	Photographers	20	-0.6	0	70	1.2	20	2470	0.9	580	\N	\N	\N	30	0	10	320	0.5	60	690	2	290
+53111	Motion pictures, broadcasting, photography and performing arts assistants and operators	\N	\N	\N	\N	\N	\N	3650	1.2	1220	\N	\N	\N	\N	\N	\N	190	1.7	50	280	1	80
+53120	Dancers	\N	\N	\N	\N	\N	\N	1240	0.6	210	\N	\N	\N	70	-0.3	10	160	1.1	40	280	0.9	70
+53121	Actors, comedians and circus performers	50	-1.6	0	\N	\N	\N	3080	1.1	880	\N	\N	\N	\N	\N	\N	130	1.6	40	260	0.9	70
+53122	Painters, sculptors and other visual artists	110	-1.6	0	60	1.4	30	2510	0.9	790	30	-2.6	0	70	-0.5	10	420	1.7	240	1120	1	420
+53123	Theatre, fashion, exhibit and other creative designers	\N	\N	\N	30	0.4	10	2330	0.9	660	\N	\N	\N	\N	\N	\N	70	1.1	30	240	1.2	80
+53124	Artisans and craftspersons	100	-1	10	140	0.2	40	1880	0.8	620	50	-2.1	0	\N	\N	\N	390	0.9	160	990	0.6	330
 53125	Patternmakers - textile, leather and fur products	\N	\N	\N	\N	\N	\N	100	0.6	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	0.2	10
-53200	Athletes	30	0.2	0	\N	\N	\N	460	0.8	120	\N	\N	\N	\N	\N	\N	100	1.7000000000000002	40	180	1.2	60
+53200	Athletes	30	0.2	0	\N	\N	\N	460	0.8	120	\N	\N	\N	\N	\N	\N	100	1.7	40	180	1.2	60
 53201	Coaches	40	0.2	10	70	0.1	20	2450	0.8	690	30	0.2	10	30	0.2	10	420	1.3	180	500	1.2	220
 53202	Sports officials and referees	\N	\N	\N	\N	\N	\N	140	0.8	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-54100	Program leaders and instructors in recreation, sport and fitness	320	0.4	60	460	0.4	90	12740	0.8	2760	250	0.1	40	160	1.7000000000000002	60	2210	1.0999999999999999	620	3300	1.4000000000000001	1140
-55109	Other performers	\N	\N	\N	\N	\N	\N	530	0.8999999999999999	170	\N	\N	\N	\N	\N	\N	80	1.5	40	150	1.2	50
-60010	Corporate sales managers	140	0	50	100	0.1	40	9810	1.2	4130	\N	\N	\N	30	0.4	10	1000	1.0999999999999999	560	1250	1	620
-60020	Retail and wholesale trade managers	2190	0.5	810	2600	0.7000000000000001	1160	45550	0.7000000000000001	15930	1070	-0.6	260	950	1.0999999999999999	430	8450	0.8999999999999999	4000	11870	0.7000000000000001	4800
-60030	Restaurant and food service managers	540	1	200	960	0.5	360	16560	0.8999999999999999	5960	270	0.3	80	260	0.8999999999999999	90	2160	1.4000000000000001	1100	4270	0.1	1290
-60031	Accommodation service managers	160	-0.3	50	550	0.7000000000000001	210	4380	0.4	1290	180	0.4	80	110	1.5	70	1300	-0.5	280	1640	-0.4	470
-60040	Managers in customer and personal services	120	0.8	50	100	2.1	60	3330	0.6	1040	70	0.3	20	100	0.5	40	660	1.7000000000000002	340	1090	0.7000000000000001	420
-62010	Retail sales supervisors	270	0.8	80	400	0.7000000000000001	150	6310	0.8	1980	110	-1	10	160	0.8999999999999999	50	960	1	400	1950	0.8	700
-62020	Food service supervisors	320	0.8999999999999999	70	390	0.7000000000000001	110	7450	0.8999999999999999	2000	140	0.3	20	190	0.8	40	1070	1.4000000000000001	390	1920	0.1	400
-62021	Executive housekeepers	\N	\N	\N	20	0.7000000000000001	10	230	0.4	100	\N	\N	\N	\N	\N	\N	30	-0.7000000000000001	10	70	-0.1	20
-62022	Accommodation, travel, tourism and related services supervisors	\N	\N	\N	\N	\N	\N	620	0.5	210	20	0.4	10	\N	\N	\N	140	-0.7000000000000001	30	110	0.2	30
-62023	Customer and information services supervisors	\N	\N	\N	\N	\N	\N	840	0.7000000000000001	290	\N	\N	\N	\N	\N	\N	\N	\N	\N	80	1.3	40
-62024	Cleaning supervisors	90	0.4	30	60	0.7000000000000001	30	980	0.4	330	40	0.5	10	40	1.4000000000000001	20	250	0.7000000000000001	110	340	0.4	120
+54100	Program leaders and instructors in recreation, sport and fitness	320	0.4	60	460	0.4	90	12740	0.8	2760	250	0.1	40	160	1.7	60	2210	1.1	620	3300	1.4	1140
+55109	Other performers	\N	\N	\N	\N	\N	\N	530	0.9	170	\N	\N	\N	\N	\N	\N	80	1.5	40	150	1.2	50
+60010	Corporate sales managers	140	0	50	100	0.1	40	9810	1.2	4130	\N	\N	\N	30	0.4	10	1000	1.1	560	1250	1	620
+60020	Retail and wholesale trade managers	2190	0.5	810	2600	0.7	1160	45550	0.7	15930	1070	-0.6	260	950	1.1	430	8450	0.9	4000	11870	0.7	4800
+60030	Restaurant and food service managers	540	1	200	960	0.5	360	16560	0.9	5960	270	0.3	80	260	0.9	90	2160	1.4	1100	4270	0.1	1290
+60031	Accommodation service managers	160	-0.3	50	550	0.7	210	4380	0.4	1290	180	0.4	80	110	1.5	70	1300	-0.5	280	1640	-0.4	470
+60040	Managers in customer and personal services	120	0.8	50	100	2.1	60	3330	0.6	1040	70	0.3	20	100	0.5	40	660	1.7	340	1090	0.7	420
+62010	Retail sales supervisors	270	0.8	80	400	0.7	150	6310	0.8	1980	110	-1	10	160	0.9	50	960	1	400	1950	0.8	700
+62020	Food service supervisors	320	0.9	70	390	0.7	110	7450	0.9	2000	140	0.3	20	190	0.8	40	1070	1.4	390	1920	0.1	400
+62021	Executive housekeepers	\N	\N	\N	20	0.7	10	230	0.4	100	\N	\N	\N	\N	\N	\N	30	-0.7	10	70	-0.1	20
+62022	Accommodation, travel, tourism and related services supervisors	\N	\N	\N	\N	\N	\N	620	0.5	210	20	0.4	10	\N	\N	\N	140	-0.7	30	110	0.2	30
+62023	Customer and information services supervisors	\N	\N	\N	\N	\N	\N	840	0.7	290	\N	\N	\N	\N	\N	\N	\N	\N	\N	80	1.3	40
+62024	Cleaning supervisors	90	0.4	30	60	0.7	30	980	0.4	330	40	0.5	10	40	1.4	20	250	0.7	110	340	0.4	120
 62029	Other services supervisors	\N	\N	\N	30	1.5	20	920	0.3	240	\N	\N	\N	\N	\N	\N	100	1.6	50	180	1	80
 62100	Technical sales specialists - wholesale trade	300	0.5	100	100	0.3	40	5960	0.8	2210	\N	\N	\N	90	0.2	30	790	1	420	840	0.6	370
-62101	Retail and wholesale buyers	110	0.5	40	120	0.3	50	3720	0.7000000000000001	1200	20	-1	0	20	1.4000000000000001	10	430	0.8	190	620	0.7000000000000001	260
-62200	Chefs	170	0.8999999999999999	50	300	0.7000000000000001	80	10180	0.8999999999999999	3340	60	0.3	10	50	0.8	10	1400	1.0999999999999999	440	2420	0.2	580
-62201	Funeral directors and embalmers	40	1.4000000000000001	20	20	1.7000000000000002	10	160	0.8999999999999999	50	\N	\N	\N	\N	\N	\N	110	1.3	40	100	0.5	30
-62202	Jewellers, jewellery and watch repairers and related occupations	\N	\N	\N	20	0.1	0	480	0.7000000000000001	150	20	-1	0	\N	\N	\N	60	0.8999999999999999	20	90	0.6	30
-63100	Insurance agents and brokers	360	0.3	80	250	4.7	250	10370	1	3360	150	-2	0	210	-0.6	20	1540	0.8999999999999999	570	1740	1.0999999999999999	630
-63101	Real estate agents and salespersons	370	-1.0999999999999999	10	280	1.5	120	18380	1.3	5310	190	-2.3	-10	120	2	50	1830	1.0999999999999999	660	3140	0.6	840
-63102	Financial sales representatives	150	1.6	50	230	-0.2	50	7390	0.8999999999999999	2100	100	-0.4	10	70	2.5	30	690	0.8999999999999999	260	1160	0.8999999999999999	380
-63200	Cooks	680	1.0999999999999999	200	1190	0.7000000000000001	310	16010	1	4670	430	0.4	90	340	0.8999999999999999	90	2920	1.3	980	5620	0.3	1090
-63201	Butchers - retail and wholesale	20	1	10	50	0.6	10	760	0.6	170	20	-1	0	\N	\N	\N	70	1.0999999999999999	20	190	0.7000000000000001	40
-63202	Bakers	200	0.7000000000000001	70	470	-0.2	80	5280	0.8999999999999999	1650	140	-0.6	20	150	0	30	1030	1.0999999999999999	360	1610	0.3	320
-63210	Hairstylists and barbers	360	1.4000000000000001	150	350	1.7000000000000002	150	8040	0.8999999999999999	2380	140	0.3	40	150	2.1	70	2110	1.3	780	2440	0.5	640
-63211	Estheticians, electrologists and related occupations	260	1.3	70	220	1.7000000000000002	80	6480	0.8999999999999999	1620	120	0.3	20	120	2.1	50	1340	1.3	390	1690	0.5	340
+62101	Retail and wholesale buyers	110	0.5	40	120	0.3	50	3720	0.7	1200	20	-1	0	20	1.4	10	430	0.8	190	620	0.7	260
+62200	Chefs	170	0.9	50	300	0.7	80	10180	0.9	3340	60	0.3	10	50	0.8	10	1400	1.1	440	2420	0.2	580
+62201	Funeral directors and embalmers	40	1.4	20	20	1.7	10	160	0.9	50	\N	\N	\N	\N	\N	\N	110	1.3	40	100	0.5	30
+62202	Jewellers, jewellery and watch repairers and related occupations	\N	\N	\N	20	0.1	0	480	0.7	150	20	-1	0	\N	\N	\N	60	0.9	20	90	0.6	30
+63100	Insurance agents and brokers	360	0.3	80	250	4.7	250	10370	1	3360	150	-2	0	210	-0.6	20	1540	0.9	570	1740	1.1	630
+63101	Real estate agents and salespersons	370	-1.1	10	280	1.5	120	18380	1.3	5310	190	-2.3	-10	120	2	50	1830	1.1	660	3140	0.6	840
+63102	Financial sales representatives	150	1.6	50	230	-0.2	50	7390	0.9	2100	100	-0.4	10	70	2.5	30	690	0.9	260	1160	0.9	380
+63200	Cooks	680	1.1	200	1190	0.7	310	16010	1	4670	430	0.4	90	340	0.9	90	2920	1.3	980	5620	0.3	1090
+63201	Butchers - retail and wholesale	20	1	10	50	0.6	10	760	0.6	170	20	-1	0	\N	\N	\N	70	1.1	20	190	0.7	40
+63202	Bakers	200	0.7	70	470	-0.2	80	5280	0.9	1650	140	-0.6	20	150	0	30	1030	1.1	360	1610	0.3	320
+63210	Hairstylists and barbers	360	1.4	150	350	1.7	150	8040	0.9	2380	140	0.3	40	150	2.1	70	2110	1.3	780	2440	0.5	640
+63211	Estheticians, electrologists and related occupations	260	1.3	70	220	1.7	80	6480	0.9	1620	120	0.3	20	120	2.1	50	1340	1.3	390	1690	0.5	340
 63220	Shoe repairers and shoemakers	\N	\N	\N	\N	\N	\N	80	0.8	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	70	0.4	20
-63221	Upholsterers	\N	\N	\N	\N	\N	\N	240	0.7000000000000001	70	\N	\N	\N	\N	\N	\N	50	1.3	20	80	0.5	30
-64100	Retail salespersons and visual merchandisers	2950	0.5	670	3060	0.6	700	65350	0.7000000000000001	15170	1010	-0.8	80	1290	1.2	420	12660	0.8999999999999999	3400	16800	0.7000000000000001	4280
-64101	Sales and account representatives - wholesale trade (non-technical)	190	0.1	40	210	0.2	50	8430	0.7000000000000001	2520	40	-0.3	10	60	0.8999999999999999	20	1230	0.8999999999999999	420	1310	0.6	410
-64200	Tailors, dressmakers, furriers and milliners	\N	\N	\N	50	1.2	20	1380	0.7000000000000001	560	20	0.3	10	30	1.7000000000000002	20	180	1	70	270	0.8	90
-64201	Image, social and other personal consultants	\N	\N	\N	\N	\N	\N	210	1	80	\N	\N	\N	\N	\N	\N	30	1.2	10	40	0.7000000000000001	10
-64300	Maîtres d'hôtel and hosts/hostesses	70	1	10	20	0.5	0	2410	0.8999999999999999	340	\N	\N	\N	\N	\N	\N	410	1.3	80	600	0.1	30
-64301	Bartenders	80	0.7000000000000001	10	130	0.2	20	2620	0.8999999999999999	490	40	0.3	0	30	0.8	0	580	1	140	780	0	80
+63221	Upholsterers	\N	\N	\N	\N	\N	\N	240	0.7	70	\N	\N	\N	\N	\N	\N	50	1.3	20	80	0.5	30
+64100	Retail salespersons and visual merchandisers	2950	0.5	670	3060	0.6	700	65350	0.7	15170	1010	-0.8	80	1290	1.2	420	12660	0.9	3400	16800	0.7	4280
+64101	Sales and account representatives - wholesale trade (non-technical)	190	0.1	40	210	0.2	50	8430	0.7	2520	40	-0.3	10	60	0.9	20	1230	0.9	420	1310	0.6	410
+64200	Tailors, dressmakers, furriers and milliners	\N	\N	\N	50	1.2	20	1380	0.7	560	20	0.3	10	30	1.7	20	180	1	70	270	0.8	90
+64201	Image, social and other personal consultants	\N	\N	\N	\N	\N	\N	210	1	80	\N	\N	\N	\N	\N	\N	30	1.2	10	40	0.7	10
+64300	Maîtres d'hôtel and hosts/hostesses	70	1	10	20	0.5	0	2410	0.9	340	\N	\N	\N	\N	\N	\N	410	1.3	80	600	0.1	30
+64301	Bartenders	80	0.7	10	130	0.2	20	2620	0.9	490	40	0.3	0	30	0.8	0	580	1	140	780	0	80
 64310	Travel counsellors	50	-0.1	20	\N	\N	\N	3070	-0.1	1030	\N	\N	\N	\N	\N	\N	400	1	170	390	2.3	220
 64311	Pursers and flight attendants	\N	\N	\N	\N	\N	\N	1580	0.5	540	\N	\N	\N	\N	\N	\N	120	0.5	50	110	0.3	40
-64312	Airline ticket and service agents	80	-0.8999999999999999	10	\N	\N	\N	2220	0.4	670	30	4.2	30	40	4.1000000000000005	40	90	0.5	40	170	0.4	80
+64312	Airline ticket and service agents	80	-0.9	10	\N	\N	\N	2220	0.4	670	30	4.2	30	40	4.1	40	90	0.5	40	170	0.4	80
 64313	Ground and water transport ticket agents, cargo service representatives and related clerks	\N	\N	\N	\N	\N	\N	320	0.8	100	\N	\N	\N	\N	\N	\N	\N	\N	\N	180	0.5	50
-64314	Hotel front desk clerks	180	-0.4	10	170	0.7000000000000001	30	2170	0.4	380	100	0.4	10	140	1.5	40	670	-0.7000000000000001	10	820	-0.6	80
-64320	Tour and travel guides	\N	\N	\N	40	1	10	270	0.2	60	\N	\N	\N	\N	\N	\N	90	1.0999999999999999	30	50	1.6	20
-64321	Casino workers	\N	\N	\N	\N	\N	\N	570	0.8	160	\N	\N	\N	\N	\N	\N	40	1.0999999999999999	10	\N	\N	\N
-64322	Outdoor sport and recreational guides	\N	\N	\N	\N	\N	\N	200	0.6	40	\N	\N	\N	\N	\N	\N	100	1.4000000000000001	30	80	0.7000000000000001	30
-64400	Customer services representatives - financial institutions	140	1.6	50	350	-0.2	70	5520	0.8999999999999999	1440	120	-0.4	10	90	2.5	40	780	1	270	1130	0.8999999999999999	300
+64314	Hotel front desk clerks	180	-0.4	10	170	0.7	30	2170	0.4	380	100	0.4	10	140	1.5	40	670	-0.7	10	820	-0.6	80
+64320	Tour and travel guides	\N	\N	\N	40	1	10	270	0.2	60	\N	\N	\N	\N	\N	\N	90	1.1	30	50	1.6	20
+64321	Casino workers	\N	\N	\N	\N	\N	\N	570	0.8	160	\N	\N	\N	\N	\N	\N	40	1.1	10	\N	\N	\N
+64322	Outdoor sport and recreational guides	\N	\N	\N	\N	\N	\N	200	0.6	40	\N	\N	\N	\N	\N	\N	100	1.4	30	80	0.7	30
+64400	Customer services representatives - financial institutions	140	1.6	50	350	-0.2	70	5520	0.9	1440	120	-0.4	10	90	2.5	40	780	1	270	1130	0.9	300
 64401	Postal services representatives	20	2.5	10	20	1.6	10	540	0.5	160	30	1.9	20	20	2	10	120	0.4	30	180	0.6	50
-64409	Other customer and information services representatives	740	0.3	150	450	0.2	100	20690	0.8	5210	270	0	50	270	0.8	70	2360	1.0999999999999999	810	4250	0.7000000000000001	1150
-64410	Security guards and related security service occupations	340	0.2	70	160	1	50	9130	0.3	1730	220	0.7000000000000001	60	130	0.3	30	1020	2.1999999999999997	510	2080	0.8	680
-65100	Cashiers	1670	0.8	330	1610	0.6	330	29820	0.8	6170	730	-0.8999999999999999	10	650	1.3	170	5200	1.0999999999999999	1380	8540	0.7000000000000001	1700
-65101	Service station attendants	40	1	10	70	0.6	10	380	0.6	80	70	-1	0	\N	\N	\N	90	1.0999999999999999	20	310	0.7000000000000001	50
-65102	Store shelf stockers, clerks and order fillers	1010	0.8999999999999999	240	1130	0.6	230	19190	0.7000000000000001	4410	420	-1	10	440	1.3	130	3670	1	950	5570	0.7000000000000001	1220
-65109	Other sales related occupations	90	0.8999999999999999	30	60	0.6	20	2310	0.7000000000000001	550	\N	\N	\N	\N	\N	\N	350	1.0999999999999999	110	530	0.8999999999999999	150
-65200	Food and beverage servers	410	0.8999999999999999	50	790	0.5	130	13470	0.8999999999999999	2850	200	0.3	10	220	0.8999999999999999	30	2710	1.2	710	4450	0	520
-65201	Food counter attendants, kitchen helpers and related support occupations	1580	1	240	1960	0.7000000000000001	340	37070	1	8290	780	0.3	50	850	0.8999999999999999	110	5780	1.4000000000000001	1530	11360	0.3	1490
-65202	Meat cutters and fishmongers - retail and wholesale	20	1	10	60	0.6	20	620	0.6	210	\N	\N	\N	30	1.4000000000000001	10	100	1.0999999999999999	30	280	0.7000000000000001	90
-65210	Support occupations in accommodation, travel and facilities set-up services	\N	\N	\N	\N	\N	\N	670	0.7000000000000001	130	\N	\N	\N	\N	\N	\N	\N	\N	\N	60	0.2	10
-65211	Operators and attendants in amusement, recreation and sport	150	0.1	30	260	0.1	30	3170	0.8	650	90	0.2	20	110	1.6	40	1100	1	250	770	1.4000000000000001	250
-65220	Pet groomers and animal care workers	140	1.4000000000000001	50	180	1.6	70	2240	0.8	510	70	0.3	20	60	2.1	30	650	1.2	200	930	0.7000000000000001	240
-65229	Other support occupations in personal services	\N	\N	\N	\N	\N	\N	480	1.3	210	\N	\N	\N	\N	\N	\N	70	1.7000000000000002	30	120	0.8	40
-65310	Light duty cleaners	1110	0.7000000000000001	310	1190	1.3	430	18310	0.6	5990	710	0.4	180	660	1.3	240	4350	1.2	1550	6350	0.7000000000000001	2100
-65311	Specialized cleaners	170	-0.1	20	160	1	40	3430	0.5	690	60	-0.5	0	110	0.8999999999999999	20	900	1.5	270	1030	0.6	250
-65312	Janitors, caretakers and heavy-duty cleaners	840	0.2	230	900	0.6	300	9710	0.4	2990	560	0.3	160	400	0.7000000000000001	130	2060	1.2	860	3430	0.8	1280
-65320	Dry cleaning, laundry and related occupations	90	1.9	50	70	1.2	30	1230	0.8999999999999999	550	70	0.6	20	20	2.1	10	410	0.8	130	590	0.8	200
+64409	Other customer and information services representatives	740	0.3	150	450	0.2	100	20690	0.8	5210	270	0	50	270	0.8	70	2360	1.1	810	4250	0.7	1150
+64410	Security guards and related security service occupations	340	0.2	70	160	1	50	9130	0.3	1730	220	0.7	60	130	0.3	30	1020	2.2	510	2080	0.8	680
+65100	Cashiers	1670	0.8	330	1610	0.6	330	29820	0.8	6170	730	-0.9	10	650	1.3	170	5200	1.1	1380	8540	0.7	1700
+65101	Service station attendants	40	1	10	70	0.6	10	380	0.6	80	70	-1	0	\N	\N	\N	90	1.1	20	310	0.7	50
+65102	Store shelf stockers, clerks and order fillers	1010	0.9	240	1130	0.6	230	19190	0.7	4410	420	-1	10	440	1.3	130	3670	1	950	5570	0.7	1220
+65109	Other sales related occupations	90	0.9	30	60	0.6	20	2310	0.7	550	\N	\N	\N	\N	\N	\N	350	1.1	110	530	0.9	150
+65200	Food and beverage servers	410	0.9	50	790	0.5	130	13470	0.9	2850	200	0.3	10	220	0.9	30	2710	1.2	710	4450	0	520
+65201	Food counter attendants, kitchen helpers and related support occupations	1580	1	240	1960	0.7	340	37070	1	8290	780	0.3	50	850	0.9	110	5780	1.4	1530	11360	0.3	1490
+65202	Meat cutters and fishmongers - retail and wholesale	20	1	10	60	0.6	20	620	0.6	210	\N	\N	\N	30	1.4	10	100	1.1	30	280	0.7	90
+65210	Support occupations in accommodation, travel and facilities set-up services	\N	\N	\N	\N	\N	\N	670	0.7	130	\N	\N	\N	\N	\N	\N	\N	\N	\N	60	0.2	10
+65211	Operators and attendants in amusement, recreation and sport	150	0.1	30	260	0.1	30	3170	0.8	650	90	0.2	20	110	1.6	40	1100	1	250	770	1.4	250
+65220	Pet groomers and animal care workers	140	1.4	50	180	1.6	70	2240	0.8	510	70	0.3	20	60	2.1	30	650	1.2	200	930	0.7	240
+65229	Other support occupations in personal services	\N	\N	\N	\N	\N	\N	480	1.3	210	\N	\N	\N	\N	\N	\N	70	1.7	30	120	0.8	40
+65310	Light duty cleaners	1110	0.7	310	1190	1.3	430	18310	0.6	5990	710	0.4	180	660	1.3	240	4350	1.2	1550	6350	0.7	2100
+65311	Specialized cleaners	170	-0.1	20	160	1	40	3430	0.5	690	60	-0.5	0	110	0.9	20	900	1.5	270	1030	0.6	250
+65312	Janitors, caretakers and heavy-duty cleaners	840	0.2	230	900	0.6	300	9710	0.4	2990	560	0.3	160	400	0.7	130	2060	1.2	860	3430	0.8	1280
+65320	Dry cleaning, laundry and related occupations	90	1.9	50	70	1.2	30	1230	0.9	550	70	0.6	20	20	2.1	10	410	0.8	130	590	0.8	200
 65329	Other service support occupations	50	-0.1	0	30	0	10	1980	0.8	410	30	-0.5	0	\N	\N	\N	250	1.2	90	380	1	90
-70010	Construction managers	610	-0.3	170	560	0.3	240	13400	2	6960	340	0.8	140	320	0.8999999999999999	140	2460	1.0999999999999999	1310	3180	0.3	1160
-70011	Home building and renovation managers	280	1.5	130	510	1.5	260	7940	2	4240	100	6	130	110	5.5	120	1130	1.7999999999999998	650	2260	0.5	880
-70012	Facility operation and maintenance managers	290	-0.4	90	420	0.8	220	10100	0.8999999999999999	4370	250	-1	60	140	1.9	90	1720	1	960	2450	0.8	1160
-70020	Managers in transportation	180	0.1	60	130	0.4	50	5320	0.5	1910	80	2.4	60	30	0.8999999999999999	10	500	0.7000000000000001	240	760	0.8	340
+70010	Construction managers	610	-0.3	170	560	0.3	240	13400	2	6960	340	0.8	140	320	0.9	140	2460	1.1	1310	3180	0.3	1160
+70011	Home building and renovation managers	280	1.5	130	510	1.5	260	7940	2	4240	100	6	130	110	5.5	120	1130	1.8	650	2260	0.5	880
+70012	Facility operation and maintenance managers	290	-0.4	90	420	0.8	220	10100	0.9	4370	250	-1	60	140	1.9	90	1720	1	960	2450	0.8	1160
+70020	Managers in transportation	180	0.1	60	130	0.4	50	5320	0.5	1910	80	2.4	60	30	0.9	10	500	0.7	240	760	0.8	340
 70021	Postal and courier services managers	20	2.1	10	\N	\N	\N	480	0.5	180	20	3	10	\N	\N	\N	70	0.4	30	140	0.6	60
-72010	Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations	80	0.4	30	\N	\N	\N	1440	1.2	640	\N	\N	\N	20	1.3	10	250	0.8999999999999999	150	280	0	110
-72011	Contractors and supervisors, electrical trades and telecommunications occupations	160	-0.5	50	140	-0.5	40	2760	1.6	1360	80	0.8999999999999999	40	90	-1.7000000000000002	10	650	0.8999999999999999	310	680	0.2	260
-72012	Contractors and supervisors, pipefitting trades	30	-0.6	0	40	-0.7000000000000001	0	1340	1.7000000000000002	480	20	0.1	0	70	-0.1	10	240	0.8999999999999999	60	320	0.2	70
-72013	Contractors and supervisors, carpentry trades	90	0	20	160	0.3	40	2130	1.9	950	20	0.1	0	60	3.6999999999999997	40	470	1.0999999999999999	190	780	0.2	200
-72014	Contractors and supervisors, other construction trades, installers, repairers and servicers	220	-0.2	60	360	-0.4	110	7400	1.6	3400	70	0.1	20	100	-0.5	20	1450	0.8999999999999999	670	2030	0.3	720
-72020	Contractors and supervisors, mechanic trades	190	-0.3	60	160	-0.3	50	2030	1.0999999999999999	810	20	2.7	20	80	0.8999999999999999	40	550	0.8	260	540	0.5	210
-72021	Contractors and supervisors, heavy equipment operator crews	350	-0.6	100	400	-0.6	130	3450	1.7999999999999998	1760	320	0.5	160	150	0.6	70	1550	0.6	730	1190	0.4	520
+72010	Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations	80	0.4	30	\N	\N	\N	1440	1.2	640	\N	\N	\N	20	1.3	10	250	0.9	150	280	0	110
+72011	Contractors and supervisors, electrical trades and telecommunications occupations	160	-0.5	50	140	-0.5	40	2760	1.6	1360	80	0.9	40	90	-1.7	10	650	0.9	310	680	0.2	260
+72012	Contractors and supervisors, pipefitting trades	30	-0.6	0	40	-0.7	0	1340	1.7	480	20	0.1	0	70	-0.1	10	240	0.9	60	320	0.2	70
+72013	Contractors and supervisors, carpentry trades	90	0	20	160	0.3	40	2130	1.9	950	20	0.1	0	60	3.7	40	470	1.1	190	780	0.2	200
+72014	Contractors and supervisors, other construction trades, installers, repairers and servicers	220	-0.2	60	360	-0.4	110	7400	1.6	3400	70	0.1	20	100	-0.5	20	1450	0.9	670	2030	0.3	720
+72020	Contractors and supervisors, mechanic trades	190	-0.3	60	160	-0.3	50	2030	1.1	810	20	2.7	20	80	0.9	40	550	0.8	260	540	0.5	210
+72021	Contractors and supervisors, heavy equipment operator crews	350	-0.6	100	400	-0.6	130	3450	1.8	1760	320	0.5	160	150	0.6	70	1550	0.6	730	1190	0.4	520
 72022	Supervisors, printing and related occupations	\N	\N	\N	\N	\N	\N	130	0.6	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 72023	Supervisors, railway transport operations	\N	\N	\N	\N	\N	\N	150	-0.1	50	\N	\N	\N	\N	\N	\N	20	0.6	10	\N	\N	\N
 72024	Supervisors, motor transport and other ground transit operators	50	-0.1	20	\N	\N	\N	1040	0.6	380	\N	\N	\N	\N	\N	\N	70	0.2	30	170	0.8	80
 72025	Supervisors, mail and message distribution occupations	\N	\N	\N	60	1.6	40	520	0.6	220	\N	\N	\N	\N	\N	\N	70	0.5	40	220	0.6	100
-72100	Machinists and machining and tooling inspectors	220	0.2	50	140	0.7000000000000001	30	2510	0.8999999999999999	880	30	-1.0999999999999999	0	20	-0.8999999999999999	0	290	1	80	430	-0.2	100
-72101	Tool and die makers	\N	\N	\N	\N	\N	\N	260	0.8999999999999999	100	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	-0.7000000000000001	10
-72102	Sheet metal workers	60	0.3	10	60	-0.3	10	2180	1.5	750	20	1.0999999999999999	10	30	-1.7000000000000002	0	490	0.8	140	660	0	120
-72103	Boilermakers	40	-0.6	10	\N	\N	\N	130	1.0999999999999999	40	\N	\N	\N	\N	\N	\N	40	0.7000000000000001	10	90	-0.5	10
+72100	Machinists and machining and tooling inspectors	220	0.2	50	140	0.7	30	2510	0.9	880	30	-1.1	0	20	-0.9	0	290	1	80	430	-0.2	100
+72101	Tool and die makers	\N	\N	\N	\N	\N	\N	260	0.9	100	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	-0.7	10
+72102	Sheet metal workers	60	0.3	10	60	-0.3	10	2180	1.5	750	20	1.1	10	30	-1.7	0	490	0.8	140	660	0	120
+72103	Boilermakers	40	-0.6	10	\N	\N	\N	130	1.1	40	\N	\N	\N	\N	\N	\N	40	0.7	10	90	-0.5	10
 72104	Structural metal and platework fabricators and fitters	130	-1.2	-10	30	1.6	10	1650	1	510	\N	\N	\N	\N	\N	\N	180	0.8	30	330	0	70
-72105	Ironworkers	60	-0.5	10	40	-0.7000000000000001	10	1900	1.6	680	60	-0.4	10	\N	\N	\N	180	0.7000000000000001	60	180	0.1	30
+72105	Ironworkers	60	-0.5	10	40	-0.7	10	1900	1.6	680	60	-0.4	10	\N	\N	\N	180	0.7	60	180	0.1	30
 72106	Welders and related machine operators	770	0.2	140	620	0.6	140	5720	1	1690	410	-0.3	50	400	0.1	70	1770	1.2	530	1530	0.2	310
-72200	Electricians (except industrial and power system)	430	-0.7000000000000001	0	580	-0.6	60	11280	1.6	3420	260	0.6	40	330	-0.8	0	2670	0.8	710	3360	0.3	510
-72201	Industrial electricians	390	-0.4	70	300	0.6	110	1060	1.0999999999999999	370	190	-1.5	10	190	0.6	60	660	1	270	540	0.4	160
-72202	Power system electricians	30	-0.4	0	90	0.1	30	190	1.7000000000000002	90	\N	\N	\N	\N	\N	\N	80	1.5	50	100	0.7000000000000001	40
-72203	Electrical power line and cable workers	80	-0.7000000000000001	10	210	-0.3	50	430	1.7999999999999998	170	40	1.5	10	40	2.5	20	350	1.0999999999999999	150	300	0.7000000000000001	100
-72204	Telecommunications line and cable installers and repairers	20	-0.6	0	40	-2.7	0	510	0.8999999999999999	190	30	1.5	10	\N	\N	\N	270	0.4	70	120	0.3	30
+72200	Electricians (except industrial and power system)	430	-0.7	0	580	-0.6	60	11280	1.6	3420	260	0.6	40	330	-0.8	0	2670	0.8	710	3360	0.3	510
+72201	Industrial electricians	390	-0.4	70	300	0.6	110	1060	1.1	370	190	-1.5	10	190	0.6	60	660	1	270	540	0.4	160
+72202	Power system electricians	30	-0.4	0	90	0.1	30	190	1.7	90	\N	\N	\N	\N	\N	\N	80	1.5	50	100	0.7	40
+72203	Electrical power line and cable workers	80	-0.7	10	210	-0.3	50	430	1.8	170	40	1.5	10	40	2.5	20	350	1.1	150	300	0.7	100
+72204	Telecommunications line and cable installers and repairers	20	-0.6	0	40	-2.7	0	510	0.9	190	30	1.5	10	\N	\N	\N	270	0.4	70	120	0.3	30
 72205	Telecommunications equipment installation and cable television service technicians	60	0	10	100	-2.4	-10	1170	0.5	420	30	1.5	10	\N	\N	\N	260	0.4	70	250	0.3	80
-72300	Plumbers	260	-0.4	30	370	-0.4	70	7570	1.7000000000000002	2690	130	0.7000000000000001	40	140	-1.5	0	1530	0.8	520	1730	0.2	340
+72300	Plumbers	260	-0.4	30	370	-0.4	70	7570	1.7	2690	130	0.7	40	140	-1.5	0	1530	0.8	520	1730	0.2	340
 72301	Steamfitters, pipefitters and sprinkler system installers	140	-0.6	10	190	0.8	60	1490	2.1	640	30	-1	0	140	0	20	300	1.6	140	540	0.6	170
-72302	Gas fitters	20	-0.6	0	60	-0.1	20	620	1.7000000000000002	240	\N	\N	\N	40	2.1999999999999997	20	130	1.3	60	210	0.4	60
-72310	Carpenters	1340	-0.1	260	1830	0.4	510	17770	1.7999999999999998	7080	720	1.7000000000000002	310	580	0.4	140	4250	1.0999999999999999	1620	7800	0.3	1750
-72311	Cabinetmakers	20	-2.5	0	40	-1.4000000000000001	0	1680	0.8999999999999999	620	\N	\N	\N	\N	\N	\N	300	0	70	410	0.1	110
-72320	Bricklayers	50	-0.6	10	\N	\N	\N	1100	1.7000000000000002	430	\N	\N	\N	\N	\N	\N	180	0.8999999999999999	60	410	0.2	90
-72321	Insulators	20	-0.6	0	60	-0.8	10	820	1.7000000000000002	320	\N	\N	\N	30	-1.7000000000000002	0	190	0.8	70	250	0.2	60
-72400	Construction millwrights and industrial mechanics	990	-0.4	240	700	0.2	220	3360	0.8999999999999999	1160	450	-0.8999999999999999	80	430	1.3	200	1490	0.8	600	820	0.5	290
+72302	Gas fitters	20	-0.6	0	60	-0.1	20	620	1.7	240	\N	\N	\N	40	2.2	20	130	1.3	60	210	0.4	60
+72310	Carpenters	1340	-0.1	260	1830	0.4	510	17770	1.8	7080	720	1.7	310	580	0.4	140	4250	1.1	1620	7800	0.3	1750
+72311	Cabinetmakers	20	-2.5	0	40	-1.4	0	1680	0.9	620	\N	\N	\N	\N	\N	\N	300	0	70	410	0.1	110
+72320	Bricklayers	50	-0.6	10	\N	\N	\N	1100	1.7	430	\N	\N	\N	\N	\N	\N	180	0.9	60	410	0.2	90
+72321	Insulators	20	-0.6	0	60	-0.8	10	820	1.7	320	\N	\N	\N	30	-1.7	0	190	0.8	70	250	0.2	60
+72400	Construction millwrights and industrial mechanics	990	-0.4	240	700	0.2	220	3360	0.9	1160	450	-0.9	80	430	1.3	200	1490	0.8	600	820	0.5	290
 72401	Heavy-duty equipment mechanics	820	0.5	200	910	0.5	240	2780	0.8	760	530	0.6	140	520	1.2	170	1480	1.3	530	1450	0.6	390
-72402	Heating, refrigeration and air conditioning mechanics	120	0.3	20	160	0.2	40	2510	2.1999999999999997	1040	20	0.1	0	30	-1.0999999999999999	0	690	1.5	280	620	0.8999999999999999	180
+72402	Heating, refrigeration and air conditioning mechanics	120	0.3	20	160	0.2	40	2510	2.2	1040	20	0.1	0	30	-1.1	0	690	1.5	280	620	0.9	180
 72403	Railway carmen/women	60	0.5	10	\N	\N	\N	200	-0.1	40	\N	\N	\N	\N	\N	\N	80	0.5	20	\N	\N	\N
-72404	Aircraft mechanics and aircraft inspectors	190	-0.7000000000000001	30	\N	\N	\N	3000	0.4	860	60	3.5000000000000004	40	\N	\N	\N	1040	0.6	290	510	0.7000000000000001	170
+72404	Aircraft mechanics and aircraft inspectors	190	-0.7	30	\N	\N	\N	3000	0.4	860	60	3.5	40	\N	\N	\N	1040	0.6	290	510	0.7	170
 72405	Machine fitters	\N	\N	\N	\N	\N	\N	50	1.2	20	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	0.2	10
-72406	Elevator constructors and mechanics	30	-0.6	0	\N	\N	\N	1120	1.7999999999999998	490	\N	\N	\N	\N	\N	\N	80	0.8	30	160	0.1	40
-72410	Automotive service technicians, truck and bus mechanics and mechanical repairers	1100	0.1	190	730	0.5	160	11520	0.5	2680	550	-0.4	70	580	0.8999999999999999	160	2950	1.0999999999999999	890	2680	0.4	720
-72411	Auto body collision, refinishing and glass technicians and damage repair estimators	140	0	20	140	0	20	3200	0.4	750	100	-1.7000000000000002	-10	80	0.5	10	490	1.7000000000000002	190	500	0.1	140
-72420	Oil and solid fuel heating mechanics	\N	\N	\N	\N	\N	\N	20	1.7999999999999998	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	40	1.3	10
-72421	Appliance servicers and repairers	\N	\N	\N	30	1.7000000000000002	10	610	0.8999999999999999	220	\N	\N	\N	\N	\N	\N	80	1.2	30	110	0.5	30
-72422	Electrical mechanics	40	0.8999999999999999	10	\N	\N	\N	200	1.0999999999999999	70	\N	\N	\N	\N	\N	\N	40	1.0999999999999999	20	20	0.7000000000000001	10
-72423	Motorcycle, all-terrain vehicle and other related mechanics	30	0.5	10	60	1.4000000000000001	20	810	0.7000000000000001	230	\N	\N	\N	\N	\N	\N	270	0.4	60	480	0.3	120
+72406	Elevator constructors and mechanics	30	-0.6	0	\N	\N	\N	1120	1.8	490	\N	\N	\N	\N	\N	\N	80	0.8	30	160	0.1	40
+72410	Automotive service technicians, truck and bus mechanics and mechanical repairers	1100	0.1	190	730	0.5	160	11520	0.5	2680	550	-0.4	70	580	0.9	160	2950	1.1	890	2680	0.4	720
+72411	Auto body collision, refinishing and glass technicians and damage repair estimators	140	0	20	140	0	20	3200	0.4	750	100	-1.7	-10	80	0.5	10	490	1.7	190	500	0.1	140
+72420	Oil and solid fuel heating mechanics	\N	\N	\N	\N	\N	\N	20	1.8	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	40	1.3	10
+72421	Appliance servicers and repairers	\N	\N	\N	30	1.7	10	610	0.9	220	\N	\N	\N	\N	\N	\N	80	1.2	30	110	0.5	30
+72422	Electrical mechanics	40	0.9	10	\N	\N	\N	200	1.1	70	\N	\N	\N	\N	\N	\N	40	1.1	20	20	0.7	10
+72423	Motorcycle, all-terrain vehicle and other related mechanics	30	0.5	10	60	1.4	20	810	0.7	230	\N	\N	\N	\N	\N	\N	270	0.4	60	480	0.3	120
 72429	Other small engine and small equipment repairers	\N	\N	\N	\N	\N	\N	70	0.6	20	\N	\N	\N	\N	\N	\N	30	1.2	10	50	0.4	10
-72500	Crane operators	80	-0.4	10	100	0.8999999999999999	40	1500	1.4000000000000001	570	230	-0.4	40	50	-1.3	0	310	0.8999999999999999	120	390	0.2	100
+72500	Crane operators	80	-0.4	10	100	0.9	40	1500	1.4	570	230	-0.4	40	50	-1.3	0	310	0.9	120	390	0.2	100
 72501	Water well drillers	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	0.1	0	\N	\N	\N
-72600	Air pilots, flight engineers and flying instructors	220	-0.8999999999999999	30	\N	\N	\N	2870	0.4	700	80	4.1000000000000005	70	50	4.1000000000000005	50	830	0.5	270	650	0.5	270
-72601	Air traffic controllers and related occupations	40	-0.8	10	\N	\N	\N	800	0.4	240	20	4.1000000000000005	20	20	4.1000000000000005	20	160	0.5	70	130	0.3	50
-72602	Deck officers, water transport	\N	\N	\N	30	-2.1	0	900	1.0999999999999999	330	90	4.1000000000000005	80	\N	\N	\N	60	10.8	130	1090	0.3	320
+72600	Air pilots, flight engineers and flying instructors	220	-0.9	30	\N	\N	\N	2870	0.4	700	80	4.1	70	50	4.1	50	830	0.5	270	650	0.5	270
+72601	Air traffic controllers and related occupations	40	-0.8	10	\N	\N	\N	800	0.4	240	20	4.1	20	20	4.1	20	160	0.5	70	130	0.3	50
+72602	Deck officers, water transport	\N	\N	\N	30	-2.1	0	900	1.1	330	90	4.1	80	\N	\N	\N	60	10.8	130	1090	0.3	320
 72603	Engineer officers, water transport	\N	\N	\N	\N	\N	\N	100	1	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	80	0.3	30
 72604	Railway traffic controllers and marine traffic regulators	\N	\N	\N	\N	\N	\N	180	0.2	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	0.3	10
-72999	Other technical trades and related occupations	150	-0.5	20	60	-0.4	10	830	0.6	210	50	-3.8	-10	20	0.5	10	240	0.8999999999999999	90	460	0.5	120
+72999	Other technical trades and related occupations	150	-0.5	20	60	-0.4	10	830	0.6	210	50	-3.8	-10	20	0.5	10	240	0.9	90	460	0.5	120
 73100	Concrete finishers	20	-0.6	0	50	0.3	10	1100	1.9	420	\N	\N	\N	\N	\N	\N	190	0.8	60	210	0.2	40
-73101	Tilesetters	20	-0.6	0	\N	\N	\N	1510	1.7999999999999998	640	\N	\N	\N	\N	\N	\N	300	0.8999999999999999	120	300	0.1	60
-73102	Plasterers, drywall installers and finishers and lathers	100	-0.3	20	170	-0.4	30	3010	1.7999999999999998	1070	\N	\N	\N	30	-1.7000000000000002	0	790	1	270	910	0.2	150
-73110	Roofers and shinglers	70	-0.3	10	70	-0.5	10	2060	1.2	700	50	0.7000000000000001	10	\N	\N	\N	430	1	160	750	0.4	160
-73111	Glaziers	20	0.2	10	\N	\N	\N	1510	1.5	510	\N	\N	\N	\N	\N	\N	210	0.8999999999999999	80	280	0.1	60
-73112	Painters and decorators (except interior decorators)	150	-0.4	10	240	-0.7000000000000001	50	6060	1.7000000000000002	2270	20	0.1	0	80	-1.7000000000000002	0	1280	0.8	480	1740	0.2	340
-73113	Floor covering installers	60	-0.6	10	100	-0.3	20	1250	1.7000000000000002	500	30	0.1	10	\N	\N	\N	390	0.8999999999999999	160	490	0.2	110
-73200	Residential and commercial installers and servicers	140	-0.2	10	180	-0.3	30	5650	1.4000000000000001	1790	30	0.1	0	30	-0.5	0	1560	1	490	1530	0.4	320
-73201	General building maintenance workers and building superintendents	480	0.2	130	520	0.8	180	7990	0.8	2730	240	-0.2	50	300	1.4000000000000001	120	1590	1.0999999999999999	620	2810	0.8	1030
+73101	Tilesetters	20	-0.6	0	\N	\N	\N	1510	1.8	640	\N	\N	\N	\N	\N	\N	300	0.9	120	300	0.1	60
+73102	Plasterers, drywall installers and finishers and lathers	100	-0.3	20	170	-0.4	30	3010	1.8	1070	\N	\N	\N	30	-1.7	0	790	1	270	910	0.2	150
+73110	Roofers and shinglers	70	-0.3	10	70	-0.5	10	2060	1.2	700	50	0.7	10	\N	\N	\N	430	1	160	750	0.4	160
+73111	Glaziers	20	0.2	10	\N	\N	\N	1510	1.5	510	\N	\N	\N	\N	\N	\N	210	0.9	80	280	0.1	60
+73112	Painters and decorators (except interior decorators)	150	-0.4	10	240	-0.7	50	6060	1.7	2270	20	0.1	0	80	-1.7	0	1280	0.8	480	1740	0.2	340
+73113	Floor covering installers	60	-0.6	10	100	-0.3	20	1250	1.7	500	30	0.1	10	\N	\N	\N	390	0.9	160	490	0.2	110
+73200	Residential and commercial installers and servicers	140	-0.2	10	180	-0.3	30	5650	1.4	1790	30	0.1	0	30	-0.5	0	1560	1	490	1530	0.4	320
+73201	General building maintenance workers and building superintendents	480	0.2	130	520	0.8	180	7990	0.8	2730	240	-0.2	50	300	1.4	120	1590	1.1	620	2810	0.8	1030
 73202	Pest controllers and fumigators	\N	\N	\N	\N	\N	\N	300	0	70	\N	\N	\N	\N	\N	\N	80	2.6	50	100	0.8	40
-73209	Other repairers and servicers	70	0.8999999999999999	20	90	0.4	20	1150	0.7000000000000001	280	20	-0.2	0	40	1.7999999999999998	20	240	1	60	320	0.8	100
-73300	Transport truck drivers	2470	0.3	710	2000	0.4	760	27910	0.5	7440	1570	1.6	750	1600	0.8999999999999999	600	5070	0.8	2210	4990	0.8999999999999999	1880
-73301	Bus drivers, subway operators and other transit operators	300	-0.1	80	150	0.4	70	7540	0.7000000000000001	2450	90	3.2	70	180	0.5	60	620	-0.6	180	1340	0.7000000000000001	560
+73209	Other repairers and servicers	70	0.9	20	90	0.4	20	1150	0.7	280	20	-0.2	0	40	1.8	20	240	1	60	320	0.8	100
+73300	Transport truck drivers	2470	0.3	710	2000	0.4	760	27910	0.5	7440	1570	1.6	750	1600	0.9	600	5070	0.8	2210	4990	0.9	1880
+73301	Bus drivers, subway operators and other transit operators	300	-0.1	80	150	0.4	70	7540	0.7	2450	90	3.2	70	180	0.5	60	620	-0.6	180	1340	0.7	560
 73310	Railway and yard locomotive engineers	160	0.5	60	170	-0.5	50	660	0.1	210	160	4.3	160	50	2	30	230	0.6	110	20	-0.6	10
 73311	Railway conductors and brakemen/women	200	0.5	50	140	-0.5	20	640	-0.2	130	130	4.3	110	30	2	10	190	0.5	50	100	0.5	50
-73400	Heavy equipment operators	1090	0	240	2070	0.4	630	4700	1.6	1840	1120	0.8	390	900	0.7000000000000001	280	3160	0.8999999999999999	1210	2430	0.7000000000000001	740
+73400	Heavy equipment operators	1090	0	240	2070	0.4	630	4700	1.6	1840	1120	0.8	390	900	0.7	280	3160	0.9	1210	2430	0.7	740
 73401	Printing press operators	20	-1.3	0	\N	\N	\N	1040	0.6	370	\N	\N	\N	\N	\N	\N	70	-0.4	20	80	-0.1	20
-73402	Drillers and blasters - surface mining, quarrying and construction	40	1	10	20	0.8999999999999999	10	230	1.3	60	\N	\N	\N	\N	\N	\N	170	1.7000000000000002	60	250	0.8999999999999999	70
-74100	Mail and parcel sorters and related occupations	60	2.8000000000000003	40	80	1.6	30	2470	0.5	740	50	2.1	30	20	2.5	10	220	0.4	50	300	0.6	80
+73402	Drillers and blasters - surface mining, quarrying and construction	40	1	10	20	0.9	10	230	1.3	60	\N	\N	\N	\N	\N	\N	170	1.7	60	250	0.9	70
+74100	Mail and parcel sorters and related occupations	60	2.8	40	80	1.6	30	2470	0.5	740	50	2.1	30	20	2.5	10	220	0.4	50	300	0.6	80
 74101	Letter carriers	100	3.2	80	90	1.6	40	3000	0.5	1050	100	1.9	50	30	2.5	20	530	0.4	160	1130	0.6	340
-74102	Couriers and messengers	70	2.6	40	100	1.4000000000000001	30	3590	0.6	990	50	1.9	20	20	2.5	10	530	0.5	120	1130	0.7000000000000001	320
+74102	Couriers and messengers	70	2.6	40	100	1.4	30	3590	0.6	990	50	1.9	20	20	2.5	10	530	0.5	120	1130	0.7	320
 74200	Railway yard and track maintenance workers	160	0.5	50	80	-0.5	10	500	0	110	40	4.3	40	\N	\N	\N	220	0.5	50	\N	\N	\N
-74201	Water transport deck and engine room crew	\N	\N	\N	30	-0.5	0	460	1.0999999999999999	140	50	4.1000000000000005	40	\N	\N	\N	20	12.5	60	720	0.3	150
-74202	Air transport ramp attendants	40	-0.8	0	\N	\N	\N	1890	0.5	510	30	4.1000000000000005	20	\N	\N	\N	90	0.8	20	140	0.4	30
-74203	Automotive and heavy truck and equipment parts installers and servicers	190	-0.2	0	180	1.0999999999999999	30	880	0.6	150	90	0.3	10	110	1.2	20	590	0.7000000000000001	80	260	0.7000000000000001	50
-74204	Utility maintenance workers	30	-0.3	10	40	-0.1	20	320	1	120	\N	\N	\N	20	-0.3	0	80	0.8999999999999999	40	60	1.5	30
-74205	Public works maintenance equipment operators and related workers	40	0.4	10	90	0	30	770	0.3	200	50	0.5	20	40	0.3	10	160	1.4000000000000001	80	270	1.2	110
-75100	Longshore workers	\N	\N	\N	\N	\N	\N	3290	0.3	820	410	2.8000000000000003	260	\N	\N	\N	40	0.8	10	310	0	80
+74201	Water transport deck and engine room crew	\N	\N	\N	30	-0.5	0	460	1.1	140	50	4.1	40	\N	\N	\N	20	12.5	60	720	0.3	150
+74202	Air transport ramp attendants	40	-0.8	0	\N	\N	\N	1890	0.5	510	30	4.1	20	\N	\N	\N	90	0.8	20	140	0.4	30
+74203	Automotive and heavy truck and equipment parts installers and servicers	190	-0.2	0	180	1.1	30	880	0.6	150	90	0.3	10	110	1.2	20	590	0.7	80	260	0.7	50
+74204	Utility maintenance workers	30	-0.3	10	40	-0.1	20	320	1	120	\N	\N	\N	20	-0.3	0	80	0.9	40	60	1.5	30
+74205	Public works maintenance equipment operators and related workers	40	0.4	10	90	0	30	770	0.3	200	50	0.5	20	40	0.3	10	160	1.4	80	270	1.2	110
+75100	Longshore workers	\N	\N	\N	\N	\N	\N	3290	0.3	820	410	2.8	260	\N	\N	\N	40	0.8	10	310	0	80
 75101	Material handlers	970	-0.1	220	630	-0.3	110	25560	0.8	7030	480	-0.5	80	330	1	120	2480	0.8	820	2730	0.8	820
-75110	Construction trades helpers and labourers	1020	-0.1	120	1240	0.3	270	21910	1.7999999999999998	8500	970	1.3	310	770	0.1	110	4740	1	1500	5310	0.4	1000
-75119	Other trades helpers and labourers	80	-0.2	10	110	0.4	20	800	1.4000000000000001	230	40	-1	0	40	0.2	0	130	0.6	30	160	0.3	30
-75200	Taxi and limousine drivers and chauffeurs	90	0.1	20	20	1.7999999999999998	10	6330	0.8	1990	40	3.5999999999999996	30	50	1	20	240	-0.8999999999999999	60	820	0.8999999999999999	340
-75201	Delivery service drivers and door-to-door distributors	420	1.2	110	290	0.4	50	11760	0.6	2720	150	1.5	50	120	1.2	30	1850	0.8999999999999999	450	3370	0.6	770
+75110	Construction trades helpers and labourers	1020	-0.1	120	1240	0.3	270	21910	1.8	8500	970	1.3	310	770	0.1	110	4740	1	1500	5310	0.4	1000
+75119	Other trades helpers and labourers	80	-0.2	10	110	0.4	20	800	1.4	230	40	-1	0	40	0.2	0	130	0.6	30	160	0.3	30
+75200	Taxi and limousine drivers and chauffeurs	90	0.1	20	20	1.8	10	6330	0.8	1990	40	3.6	30	50	1	20	240	-0.9	60	820	0.9	340
+75201	Delivery service drivers and door-to-door distributors	420	1.2	110	290	0.4	50	11760	0.6	2720	150	1.5	50	120	1.2	30	1850	0.9	450	3370	0.6	770
 75210	Boat and cable ferry operators and related occupations	\N	\N	\N	\N	\N	\N	480	1.2	140	60	4	50	\N	\N	\N	30	8.1	50	790	0.3	220
-75211	Railway and motor transport labourers	40	-0.3	10	20	-0.3	0	370	0.5	90	\N	\N	\N	\N	\N	\N	70	0.3	20	110	0.7000000000000001	30
+75211	Railway and motor transport labourers	40	-0.3	10	20	-0.3	0	370	0.5	90	\N	\N	\N	\N	\N	\N	70	0.3	20	110	0.7	30
 75212	Public works and maintenance labourers	100	0.3	30	120	0.4	40	2270	0.4	520	100	0.1	30	30	0.6	10	460	1.2	200	600	1.5	270
-80010	Managers in natural resources production and fishing	180	0.4	80	230	0.7000000000000001	120	590	0.6	240	120	1.9	80	150	1.2	80	340	1.7000000000000002	230	380	1.0999999999999999	220
-80020	Managers in agriculture	280	-0.4	100	440	0.1	140	2500	-1.3	300	230	-3.6999999999999997	0	180	4.7	200	2120	-1.4000000000000001	300	1330	-0.3	320
-80021	Managers in horticulture	\N	\N	\N	30	-0.1	10	240	-1.5	40	\N	\N	\N	\N	\N	\N	70	-1.7999999999999998	10	170	-0.3	40
-80022	Managers in aquaculture	\N	\N	\N	\N	\N	\N	20	-1.7000000000000002	0	\N	\N	\N	\N	\N	\N	\N	\N	\N	240	-0.5	80
-82010	Supervisors, logging and forestry	250	-0.1	80	120	-0.2	40	440	0.7000000000000001	190	130	2	80	130	0.8	60	210	-0.8	60	330	-0.3	100
-82020	Supervisors, mining and quarrying	120	1.4000000000000001	50	280	1.0999999999999999	140	400	1.2	190	90	1.7999999999999998	50	80	2.9000000000000004	60	390	3.2	350	100	3	90
-82021	Contractors and supervisors, oil and gas drilling and services	30	0.8999999999999999	10	70	1.2	50	50	1.7000000000000002	20	\N	\N	\N	260	0.5	100	230	1.9	170	90	2.3	60
-82030	Agricultural service contractors and farm supervisors	\N	\N	\N	\N	\N	\N	180	-1.6	0	\N	\N	\N	\N	\N	\N	30	-1.7999999999999998	0	\N	\N	\N
-82031	Contractors and supervisors, landscaping, grounds maintenance and horticulture services	40	0.5	20	100	0.8999999999999999	50	2020	0.1	580	20	0.1	10	\N	\N	\N	570	2.1999999999999997	390	640	0.8	260
-83100	Underground production and development miners	190	1.5	90	340	1	100	80	1.2	30	140	1.9	70	110	2.9000000000000004	70	460	3.2	290	230	2.9000000000000004	130
-83101	Oil and gas well drillers, servicers, testers and related workers	\N	\N	\N	40	2.3	20	290	0.7000000000000001	70	\N	\N	\N	120	0.8	30	190	2	80	80	4.5	60
-83110	Logging machinery operators	200	0	50	140	0.1	50	130	-0.3	30	170	2.3	100	70	0.7000000000000001	20	300	-2.1	20	470	-0.5	130
+80010	Managers in natural resources production and fishing	180	0.4	80	230	0.7	120	590	0.6	240	120	1.9	80	150	1.2	80	340	1.7	230	380	1.1	220
+80020	Managers in agriculture	280	-0.4	100	440	0.1	140	2500	-1.3	300	230	-3.7	0	180	4.7	200	2120	-1.4	300	1330	-0.3	320
+80021	Managers in horticulture	\N	\N	\N	30	-0.1	10	240	-1.5	40	\N	\N	\N	\N	\N	\N	70	-1.8	10	170	-0.3	40
+80022	Managers in aquaculture	\N	\N	\N	\N	\N	\N	20	-1.7	0	\N	\N	\N	\N	\N	\N	\N	\N	\N	240	-0.5	80
+82010	Supervisors, logging and forestry	250	-0.1	80	120	-0.2	40	440	0.7	190	130	2	80	130	0.8	60	210	-0.8	60	330	-0.3	100
+82020	Supervisors, mining and quarrying	120	1.4	50	280	1.1	140	400	1.2	190	90	1.8	50	80	2.9	60	390	3.2	350	100	3	90
+82021	Contractors and supervisors, oil and gas drilling and services	30	0.9	10	70	1.2	50	50	1.7	20	\N	\N	\N	260	0.5	100	230	1.9	170	90	2.3	60
+82030	Agricultural service contractors and farm supervisors	\N	\N	\N	\N	\N	\N	180	-1.6	0	\N	\N	\N	\N	\N	\N	30	-1.8	0	\N	\N	\N
+82031	Contractors and supervisors, landscaping, grounds maintenance and horticulture services	40	0.5	20	100	0.9	50	2020	0.1	580	20	0.1	10	\N	\N	\N	570	2.2	390	640	0.8	260
+83100	Underground production and development miners	190	1.5	90	340	1	100	80	1.2	30	140	1.9	70	110	2.9	70	460	3.2	290	230	2.9	130
+83101	Oil and gas well drillers, servicers, testers and related workers	\N	\N	\N	40	2.3	20	290	0.7	70	\N	\N	\N	120	0.8	30	190	2	80	80	4.5	60
+83110	Logging machinery operators	200	0	50	140	0.1	50	130	-0.3	30	170	2.3	100	70	0.7	20	300	-2.1	20	470	-0.5	130
 83120	Fishing masters and officers	\N	\N	\N	\N	\N	\N	30	-1.3	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	0.2	20
 83121	Fishermen/women	\N	\N	\N	\N	\N	\N	120	-1	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	110	0.4	30
-84100	Underground mine service and support workers	90	1.5	40	100	0.8999999999999999	20	\N	\N	\N	20	1.7999999999999998	10	\N	\N	\N	180	3.1	100	40	2.3	20
-84101	Oil and gas well drilling and related workers and services operators	20	1.5	10	\N	\N	\N	100	0.2	10	\N	\N	\N	180	0.5	40	80	2.1999999999999997	40	40	1.9	10
-84110	Chain saw and skidder operators	170	0.1	40	190	0.2	50	320	-0.1	50	150	2.1	80	80	-1.7999999999999998	0	400	-1.7000000000000002	0	600	-0.4	110
-84111	Silviculture and forestry workers	280	0.1	30	140	-0.2	20	250	-0.1	20	160	0.7000000000000001	30	40	0.2	0	280	-0.8	20	230	0	40
-84120	Specialized livestock workers and farm machinery operators	40	-0.4	0	60	-0.2	10	1070	-0.8999999999999999	100	50	-3.6999999999999997	-20	20	5	20	420	-1.3	10	380	0	50
+84100	Underground mine service and support workers	90	1.5	40	100	0.9	20	\N	\N	\N	20	1.8	10	\N	\N	\N	180	3.1	100	40	2.3	20
+84101	Oil and gas well drilling and related workers and services operators	20	1.5	10	\N	\N	\N	100	0.2	10	\N	\N	\N	180	0.5	40	80	2.2	40	40	1.9	10
+84110	Chain saw and skidder operators	170	0.1	40	190	0.2	50	320	-0.1	50	150	2.1	80	80	-1.8	0	400	-1.7	0	600	-0.4	110
+84111	Silviculture and forestry workers	280	0.1	30	140	-0.2	20	250	-0.1	20	160	0.7	30	40	0.2	0	280	-0.8	20	230	0	40
+84120	Specialized livestock workers and farm machinery operators	40	-0.4	0	60	-0.2	10	1070	-0.9	100	50	-3.7	-20	20	5	20	420	-1.3	10	380	0	50
 84121	Fishing vessel deckhands	\N	\N	\N	\N	\N	\N	100	-1.3	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	90	0.4	20
-85100	Livestock labourers	80	-0.4	10	50	-0.1	10	1070	-0.7000000000000001	80	70	-3.1	-10	20	5	20	330	-0.8	40	280	-0.1	40
-85101	Harvesting labourers	\N	\N	\N	20	-0.1	0	730	-1.4000000000000001	80	\N	\N	\N	\N	\N	\N	300	-1.7999999999999998	-10	110	-0.5	0
+85100	Livestock labourers	80	-0.4	10	50	-0.1	10	1070	-0.7	80	70	-3.1	-10	20	5	20	330	-0.8	40	280	-0.1	40
+85101	Harvesting labourers	\N	\N	\N	20	-0.1	0	730	-1.4	80	\N	\N	\N	\N	\N	\N	300	-1.8	-10	110	-0.5	0
 85102	Aquaculture and marine harvest labourers	\N	\N	\N	\N	\N	\N	40	-0.5	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	220	-0.2	40
-85103	Nursery and greenhouse labourers	60	0.1	10	90	0.4	30	1350	-1	150	60	-2.8000000000000003	-10	\N	\N	\N	430	-1.4000000000000001	20	330	-0.1	50
+85103	Nursery and greenhouse labourers	60	0.1	10	90	0.4	30	1350	-1	150	60	-2.8	-10	\N	\N	\N	430	-1.4	20	330	-0.1	50
 85104	Trappers and hunters	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-85110	Mine labourers	110	1.5	40	100	1.2	30	140	0.2	20	150	1.9	60	30	2.9000000000000004	20	110	3.2	70	\N	\N	\N
-85111	Oil and gas drilling, servicing and related labourers	\N	\N	\N	\N	\N	\N	30	0.1	0	\N	\N	\N	370	0.7000000000000001	70	120	1.7999999999999998	40	30	3.5999999999999996	20
-85120	Logging and forestry labourers	170	0.2	30	170	0.1	20	320	-0.3	0	80	2.6	40	\N	\N	\N	240	-2.1999999999999997	-40	310	-0.6	20
+85110	Mine labourers	110	1.5	40	100	1.2	30	140	0.2	20	150	1.9	60	30	2.9	20	110	3.2	70	\N	\N	\N
+85111	Oil and gas drilling, servicing and related labourers	\N	\N	\N	\N	\N	\N	30	0.1	0	\N	\N	\N	370	0.7	70	120	1.8	40	30	3.6	20
+85120	Logging and forestry labourers	170	0.2	30	170	0.1	20	320	-0.3	0	80	2.6	40	\N	\N	\N	240	-2.2	-40	310	-0.6	20
 85121	Landscaping and grounds maintenance labourers	410	0.2	70	810	0.6	170	9490	0.3	1680	260	0.1	40	190	0.6	40	3010	1.6	1050	4800	1	1510
-90010	Manufacturing managers	410	-1.0999999999999999	100	350	-1	110	8260	0.8	3520	60	-1.6	10	120	-0.6	30	1310	0	570	1480	-0.1	540
+90010	Manufacturing managers	410	-1.1	100	350	-1	110	8260	0.8	3520	60	-1.6	10	120	-0.6	30	1310	0	570	1480	-0.1	540
 90011	Utilities managers	60	0	30	40	0.3	20	830	1	440	\N	\N	\N	60	1.2	40	230	1.5	170	260	1	140
-92010	Supervisors, mineral and metal processing	\N	\N	\N	40	0.8999999999999999	20	290	0.8	120	150	-1.6	30	\N	\N	\N	40	2.1	30	\N	\N	\N
-92011	Supervisors, petroleum, gas and chemical processing and utilities	60	-0.3	20	70	0.8	40	500	1.2	240	60	2.9000000000000004	50	110	0.8999999999999999	50	210	1.3	130	100	0.8	50
-92012	Supervisors, food and beverage processing	\N	\N	\N	\N	\N	\N	1680	0.8999999999999999	510	\N	\N	\N	\N	\N	\N	220	0.2	50	150	0.2	40
+92010	Supervisors, mineral and metal processing	\N	\N	\N	40	0.9	20	290	0.8	120	150	-1.6	30	\N	\N	\N	40	2.1	30	\N	\N	\N
+92011	Supervisors, petroleum, gas and chemical processing and utilities	60	-0.3	20	70	0.8	40	500	1.2	240	60	2.9	50	110	0.9	50	210	1.3	130	100	0.8	50
+92012	Supervisors, food and beverage processing	\N	\N	\N	\N	\N	\N	1680	0.9	510	\N	\N	\N	\N	\N	\N	220	0.2	50	150	0.2	40
 92013	Supervisors, plastic and rubber products manufacturing	\N	\N	\N	\N	\N	\N	180	0.6	80	\N	\N	\N	\N	\N	\N	40	-0.8	10	\N	\N	\N
-92014	Supervisors, forest products processing	250	-1.2	60	90	-0.7000000000000001	30	480	0.8	210	70	-2.6	10	80	1.4000000000000001	50	220	-0.8	80	110	-0.2	40
+92014	Supervisors, forest products processing	250	-1.2	60	90	-0.7	30	480	0.8	210	70	-2.6	10	80	1.4	50	220	-0.8	80	110	-0.2	40
 92015	Supervisors, textile, fabric, fur and leather products processing and manufacturing	\N	\N	\N	\N	\N	\N	110	0.8	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 92020	Supervisors, motor vehicle assembling	\N	\N	\N	\N	\N	\N	90	0	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-92021	Supervisors, electronics and electrical products manufacturing	\N	\N	\N	\N	\N	\N	220	0.7000000000000001	90	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	0.7000000000000001	10
+92021	Supervisors, electronics and electrical products manufacturing	\N	\N	\N	\N	\N	\N	220	0.7	90	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	0.7	10
 92022	Supervisors, furniture and fixtures manufacturing	\N	\N	\N	\N	\N	\N	90	0.6	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-92023	Supervisors, other mechanical and metal products manufacturing	\N	\N	\N	\N	\N	\N	130	0.7000000000000001	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	1.3	10
-92024	Supervisors, other products manufacturing and assembly	\N	\N	\N	\N	\N	\N	180	0.7000000000000001	60	\N	\N	\N	\N	\N	\N	50	-0.5	10	\N	\N	\N
-92100	Power engineers and power systems operators	610	-0.4	160	560	0.8	260	2330	0.8999999999999999	930	270	1.0999999999999999	120	430	1	190	1080	0.5	430	980	0.7000000000000001	420
+92023	Supervisors, other mechanical and metal products manufacturing	\N	\N	\N	\N	\N	\N	130	0.7	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	30	1.3	10
+92024	Supervisors, other products manufacturing and assembly	\N	\N	\N	\N	\N	\N	180	0.7	60	\N	\N	\N	\N	\N	\N	50	-0.5	10	\N	\N	\N
+92100	Power engineers and power systems operators	610	-0.4	160	560	0.8	260	2330	0.9	930	270	1.1	120	430	1	190	1080	0.5	430	980	0.7	420
 92101	Water and waste treatment plant operators	50	-0.3	10	170	0.4	70	560	1	220	110	2.6	70	80	1.5	40	370	1.5	210	510	1	220
-93100	Central control and process operators, mineral and metal processing	\N	\N	\N	380	1	200	80	1.4000000000000001	50	90	-1.6	10	\N	\N	\N	70	2.3	50	20	1.6	20
-93101	Central control and process operators, petroleum, gas and chemical processing	90	-0.3	20	150	0.7000000000000001	70	680	1.0999999999999999	250	250	0.5	80	700	0.5	240	310	1.3	160	330	1.6	180
-93102	Pulping, papermaking and coating control operators	60	-1	20	\N	\N	\N	20	-0.6	0	\N	\N	\N	\N	\N	\N	\N	\N	\N	70	-0.7000000000000001	20
+93100	Central control and process operators, mineral and metal processing	\N	\N	\N	380	1	200	80	1.4	50	90	-1.6	10	\N	\N	\N	70	2.3	50	20	1.6	20
+93101	Central control and process operators, petroleum, gas and chemical processing	90	-0.3	20	150	0.7	70	680	1.1	250	250	0.5	80	700	0.5	240	310	1.3	160	330	1.6	180
+93102	Pulping, papermaking and coating control operators	60	-1	20	\N	\N	\N	20	-0.6	0	\N	\N	\N	\N	\N	\N	\N	\N	\N	70	-0.7	20
 93200	Aircraft assemblers and aircraft assembly inspectors	\N	\N	\N	\N	\N	\N	30	0	10	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	1.5	10
-94100	Machine operators, mineral and metal processing	30	1.5	20	80	0.5	20	240	1	100	260	-0.8999999999999999	60	\N	\N	\N	70	3.3000000000000003	50	30	1.2	10
+94100	Machine operators, mineral and metal processing	30	1.5	20	80	0.5	20	240	1	100	260	-0.9	60	\N	\N	\N	70	3.3	50	30	1.2	10
 94101	Foundry workers	\N	\N	\N	20	1	0	70	0.8	30	\N	\N	\N	\N	\N	\N	30	2.3	10	\N	\N	\N
-94102	Glass forming and finishing machine operators and glass cutters	\N	\N	\N	\N	\N	\N	260	0.7000000000000001	70	\N	\N	\N	\N	\N	\N	20	-1.0999999999999999	0	\N	\N	\N
-94103	Concrete, clay and stone forming operators	\N	\N	\N	\N	\N	\N	390	1.0999999999999999	130	\N	\N	\N	\N	\N	\N	30	-1.0999999999999999	0	70	0.5	10
-94104	Inspectors and testers, mineral and metal processing	\N	\N	\N	\N	\N	\N	120	0.8999999999999999	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94105	Metalworking and forging machine operators	40	-0.1	10	\N	\N	\N	680	0.8999999999999999	220	\N	\N	\N	\N	\N	\N	120	1.9	40	120	-0.4	30
-94106	Machining tool operators	\N	\N	\N	\N	\N	\N	320	1	100	\N	\N	\N	\N	\N	\N	30	1.0999999999999999	0	40	-0.4	10
+94102	Glass forming and finishing machine operators and glass cutters	\N	\N	\N	\N	\N	\N	260	0.7	70	\N	\N	\N	\N	\N	\N	20	-1.1	0	\N	\N	\N
+94103	Concrete, clay and stone forming operators	\N	\N	\N	\N	\N	\N	390	1.1	130	\N	\N	\N	\N	\N	\N	30	-1.1	0	70	0.5	10
+94104	Inspectors and testers, mineral and metal processing	\N	\N	\N	\N	\N	\N	120	0.9	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+94105	Metalworking and forging machine operators	40	-0.1	10	\N	\N	\N	680	0.9	220	\N	\N	\N	\N	\N	\N	120	1.9	40	120	-0.4	30
+94106	Machining tool operators	\N	\N	\N	\N	\N	\N	320	1	100	\N	\N	\N	\N	\N	\N	30	1.1	0	40	-0.4	10
 94107	Machine operators of other metal products	\N	\N	\N	\N	\N	\N	110	0.8	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94110	Chemical plant machine operators	\N	\N	\N	\N	\N	\N	270	0.7000000000000001	90	\N	\N	\N	30	0.2	10	60	0.5	20	20	1	10
+94110	Chemical plant machine operators	\N	\N	\N	\N	\N	\N	270	0.7	90	\N	\N	\N	30	0.2	10	60	0.5	20	20	1	10
 94111	Plastics processing machine operators	\N	\N	\N	\N	\N	\N	620	0.6	230	\N	\N	\N	\N	\N	\N	40	0.2	10	\N	\N	\N
-94112	Rubber processing machine operators and related workers	\N	\N	\N	\N	\N	\N	100	0.7000000000000001	30	\N	\N	\N	\N	\N	\N	50	-0.6	10	\N	\N	\N
-94120	Sawmill machine operators	330	-1.2	50	130	-2	20	600	1.0999999999999999	240	110	-3.8	-10	50	-0.1	10	320	-0.8	100	360	0	100
-94121	Pulp mill, papermaking and finishing machine operators	260	-0.8999999999999999	80	70	2	50	170	-0.4	50	\N	\N	\N	\N	\N	\N	80	-0.5	20	380	-0.7000000000000001	80
+94112	Rubber processing machine operators and related workers	\N	\N	\N	\N	\N	\N	100	0.7	30	\N	\N	\N	\N	\N	\N	50	-0.6	10	\N	\N	\N
+94120	Sawmill machine operators	330	-1.2	50	130	-2	20	600	1.1	240	110	-3.8	-10	50	-0.1	10	320	-0.8	100	360	0	100
+94121	Pulp mill, papermaking and finishing machine operators	260	-0.9	80	70	2	50	170	-0.4	50	\N	\N	\N	\N	\N	\N	80	-0.5	20	380	-0.7	80
 94122	Paper converting machine operators	\N	\N	\N	\N	\N	\N	190	-0.4	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94123	Lumber graders and other wood processing inspectors and graders	110	-0.8999999999999999	20	70	-2	10	390	1.2	150	50	-2.1999999999999997	0	\N	\N	\N	120	-0.8999999999999999	30	110	-0.1	30
-94124	Woodworking machine operators	40	-1.3	0	30	-2	0	450	1	150	\N	\N	\N	\N	\N	\N	110	-1.0999999999999999	20	50	0.1	20
+94123	Lumber graders and other wood processing inspectors and graders	110	-0.9	20	70	-2	10	390	1.2	150	50	-2.2	0	\N	\N	\N	120	-0.9	30	110	-0.1	30
+94124	Woodworking machine operators	40	-1.3	0	30	-2	0	450	1	150	\N	\N	\N	\N	\N	\N	110	-1.1	20	50	0.1	20
 94129	Other wood processing machine operators	120	-0.8	20	40	-2	10	210	1.2	80	20	-3.8	0	\N	\N	\N	170	-1	50	40	-0.1	10
-94130	Textile fibre and yarn, hide and pelt processing machine operators and workers	\N	\N	\N	\N	\N	\N	160	0.7000000000000001	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	-0.2	0
+94130	Textile fibre and yarn, hide and pelt processing machine operators and workers	\N	\N	\N	\N	\N	\N	160	0.7	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	-0.2	0
 94131	Weavers, knitters and other fabric making occupations	\N	\N	\N	\N	\N	\N	120	0.6	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	20	-0.2	0
-94132	Industrial sewing machine operators	\N	\N	\N	\N	\N	\N	1300	0.7000000000000001	560	\N	\N	\N	\N	\N	\N	40	-0.1	10	90	0.6	30
+94132	Industrial sewing machine operators	\N	\N	\N	\N	\N	\N	1300	0.7	560	\N	\N	\N	\N	\N	\N	40	-0.1	10	90	0.6	30
 94133	Inspectors and graders, textile, fabric, fur and leather products manufacturing	\N	\N	\N	\N	\N	\N	180	0.6	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94140	Process control and machine operators, food and beverage processing	140	-0.8999999999999999	20	250	-0.8	20	4470	0.8	1440	60	-1.0999999999999999	10	\N	\N	\N	1420	0.3	290	680	0	130
-94141	Industrial butchers and meat cutters, poultry preparers and related workers	\N	\N	\N	\N	\N	\N	1130	1	420	50	-0.2	10	80	-1.2	10	310	1.0999999999999999	130	70	0.3	10
-94142	Fish and seafood plant workers	\N	\N	\N	\N	\N	\N	520	0.8999999999999999	260	20	0.3	10	\N	\N	\N	\N	\N	\N	350	0	90
-94143	Testers and graders, food and beverage processing	40	-0.5	10	60	-0.8	10	570	0.8999999999999999	170	\N	\N	\N	\N	\N	\N	130	0.2	30	90	-0.1	20
+94140	Process control and machine operators, food and beverage processing	140	-0.9	20	250	-0.8	20	4470	0.8	1440	60	-1.1	10	\N	\N	\N	1420	0.3	290	680	0	130
+94141	Industrial butchers and meat cutters, poultry preparers and related workers	\N	\N	\N	\N	\N	\N	1130	1	420	50	-0.2	10	80	-1.2	10	310	1.1	130	70	0.3	10
+94142	Fish and seafood plant workers	\N	\N	\N	\N	\N	\N	520	0.9	260	20	0.3	10	\N	\N	\N	\N	\N	\N	350	0	90
+94143	Testers and graders, food and beverage processing	40	-0.5	10	60	-0.8	10	570	0.9	170	\N	\N	\N	\N	\N	\N	130	0.2	30	90	-0.1	20
 94150	Plateless printing equipment operators	\N	\N	\N	\N	\N	\N	460	0.5	170	\N	\N	\N	\N	\N	\N	40	-0.1	0	80	0.3	20
 94151	Camera, platemaking and other prepress occupations	\N	\N	\N	\N	\N	\N	140	0.6	50	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 94152	Binding and finishing machine operators	\N	\N	\N	\N	\N	\N	250	0.6	70	\N	\N	\N	\N	\N	\N	\N	\N	\N	40	0.1	10
-94153	Photographic and film processors	\N	\N	\N	\N	\N	\N	260	1.2	90	\N	\N	\N	\N	\N	\N	20	1.0999999999999999	10	60	0.7000000000000001	20
-94200	Motor vehicle assemblers, inspectors and testers	\N	\N	\N	40	-4.3999999999999995	-10	810	0.5	270	\N	\N	\N	20	0.5	0	80	1.0999999999999999	20	90	0.6	30
-94201	Electronics assemblers, fabricators, inspectors and testers	\N	\N	\N	\N	\N	\N	1170	0.8999999999999999	440	\N	\N	\N	\N	\N	\N	100	0.4	20	120	0.3	30
+94153	Photographic and film processors	\N	\N	\N	\N	\N	\N	260	1.2	90	\N	\N	\N	\N	\N	\N	20	1.1	10	60	0.7	20
+94200	Motor vehicle assemblers, inspectors and testers	\N	\N	\N	40	-4.4	-10	810	0.5	270	\N	\N	\N	20	0.5	0	80	1.1	20	90	0.6	30
+94201	Electronics assemblers, fabricators, inspectors and testers	\N	\N	\N	\N	\N	\N	1170	0.9	440	\N	\N	\N	\N	\N	\N	100	0.4	20	120	0.3	30
 94202	Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing	\N	\N	\N	\N	\N	\N	340	1	140	\N	\N	\N	\N	\N	\N	20	0.8	10	40	-0.5	0
 94203	Assemblers, fabricators and inspectors, industrial electrical motors and transformers	\N	\N	\N	\N	\N	\N	80	1	30	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94204	Mechanical assemblers and inspectors	\N	\N	\N	\N	\N	\N	730	1	270	\N	\N	\N	\N	\N	\N	100	1.4000000000000001	20	40	0.4	10
+94204	Mechanical assemblers and inspectors	\N	\N	\N	\N	\N	\N	730	1	270	\N	\N	\N	\N	\N	\N	100	1.4	20	40	0.4	10
 94205	Machine operators and inspectors, electrical apparatus manufacturing	\N	\N	\N	\N	\N	\N	120	0.6	40	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-94210	Furniture and fixture assemblers, finishers, refinishers and inspectors	50	-0.8999999999999999	0	30	-2.1	0	1260	0.8	360	\N	\N	\N	\N	\N	\N	170	0.2	40	210	0	40
+94210	Furniture and fixture assemblers, finishers, refinishers and inspectors	50	-0.9	0	30	-2.1	0	1260	0.8	360	\N	\N	\N	\N	\N	\N	170	0.2	40	210	0	40
 94211	Assemblers and inspectors of other wood products	30	-0.6	0	50	-1	10	730	1	220	20	-3.8	0	\N	\N	\N	180	-0.4	50	100	0.2	20
-94212	Plastic products assemblers, finishers and inspectors	\N	\N	\N	\N	\N	\N	240	0.6	80	\N	\N	\N	\N	\N	\N	20	-1.0999999999999999	0	30	0.1	10
-94213	Industrial painters, coaters and metal finishing process operators	90	-1.6	0	\N	\N	\N	1380	0.8999999999999999	480	\N	\N	\N	\N	\N	\N	240	0.8	60	160	0.3	50
+94212	Plastic products assemblers, finishers and inspectors	\N	\N	\N	\N	\N	\N	240	0.6	80	\N	\N	\N	\N	\N	\N	20	-1.1	0	30	0.1	10
+94213	Industrial painters, coaters and metal finishing process operators	90	-1.6	0	\N	\N	\N	1380	0.9	480	\N	\N	\N	\N	\N	\N	240	0.8	60	160	0.3	50
 94219	Other products assemblers, finishers and inspectors	20	-2.5	0	20	0.5	0	1800	0.8	570	\N	\N	\N	\N	\N	\N	310	1.5	80	540	0.4	170
-95100	Labourers in mineral and metal processing	30	0.2	10	40	0.7000000000000001	10	850	0.7000000000000001	250	110	-1.6	10	\N	\N	\N	60	0.7000000000000001	10	80	0	10
-95101	Labourers in metal fabrication	100	-1.5	-10	20	-1.0999999999999999	0	1350	0.8	380	\N	\N	\N	20	0	0	60	0.2	10	210	-0.4	30
+95100	Labourers in mineral and metal processing	30	0.2	10	40	0.7	10	850	0.7	250	110	-1.6	10	\N	\N	\N	60	0.7	10	80	0	10
+95101	Labourers in metal fabrication	100	-1.5	-10	20	-1.1	0	1350	0.8	380	\N	\N	\N	20	0	0	60	0.2	10	210	-0.4	30
 95102	Labourers in chemical products processing and utilities	\N	\N	\N	\N	\N	\N	580	1	210	\N	\N	\N	\N	\N	\N	70	1	30	110	0.6	30
-95104	Labourers in rubber and plastic products manufacturing	\N	\N	\N	\N	\N	\N	530	0.6	130	\N	\N	\N	\N	\N	\N	40	-1.0999999999999999	0	\N	\N	\N
-95105	Labourers in textile processing and cutting	\N	\N	\N	\N	\N	\N	540	0.7000000000000001	190	\N	\N	\N	\N	\N	\N	20	0.3	0	\N	\N	\N
-95106	Labourers in food and beverage processing	220	-0.4	40	220	-0.7000000000000001	20	10420	0.8999999999999999	3870	30	-0.5	10	\N	\N	\N	1730	0.7000000000000001	490	670	0.2	130
-95107	Labourers in fish and seafood processing	\N	\N	\N	\N	\N	\N	390	0.7000000000000001	180	30	0.3	10	\N	\N	\N	\N	\N	\N	250	0	60
-95109	Other labourers in processing, manufacturing and utilities	180	0.2	40	230	-0.1	30	6370	0.7000000000000001	1800	70	-1	0	70	0	10	780	0.5	180	890	0.5	220
+95103	Labourers in wood, pulp and paper processing	1090	-1	80	340	-1.5	50	1770	0.9	580	320	-3.1	-50	180	-0.5	20	980	-0.6	260	430	0	80
+95104	Labourers in rubber and plastic products manufacturing	\N	\N	\N	\N	\N	\N	530	0.6	130	\N	\N	\N	\N	\N	\N	40	-1.1	0	\N	\N	\N
+95105	Labourers in textile processing and cutting	\N	\N	\N	\N	\N	\N	540	0.7	190	\N	\N	\N	\N	\N	\N	20	0.3	0	\N	\N	\N
+95106	Labourers in food and beverage processing	220	-0.4	40	220	-0.7	20	10420	0.9	3870	30	-0.5	10	\N	\N	\N	1730	0.7	490	670	0.2	130
+95107	Labourers in fish and seafood processing	\N	\N	\N	\N	\N	\N	390	0.7	180	30	0.3	10	\N	\N	\N	\N	\N	\N	250	0	60
+95109	Other labourers in processing, manufacturing and utilities	180	0.2	40	230	-0.1	30	6370	0.7	1800	70	-1	0	70	0	10	780	0.5	180	890	0.5	220
 \.
 
 
@@ -92024,8 +92024,6 @@ skills	\N	2021-01-01 08:00:00+00	\N	skills_data_for_career_profiles_2026-08-05	S
 openings_careers	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	Job_Openings_by_Industry_LMO_2026-08-05	Career Profiles	A5-Q515	\N	2026-08-05 08:00:00+00
 education	\N	2023-01-01 08:00:00+00	\N	All_Occupations'_TEERs_2023_Jan22_24	Sheet 1	A2-D513	\N	2024-01-22 08:00:00+00
 census	2021 Census	2021-01-01 08:00:00+00	\N	2021_Census_Jan18_23	Career Profiles	A5-R516	\N	2023-01-18 08:00:00+00
-career_regional	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Regional Outlook	A5-AC516	\N	2026-08-05 08:00:00+00
-career_provincial	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Provincial Outlook	A4-L515	\N	2026-08-05 08:00:00+00
 career_related	\N	2021-01-01 08:00:00+00	\N	NOC2021/noc_2021_version_1.0_-_elements.csv	\N	\N	\N	2026-08-06 08:00:00+00
 occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_Apr5_24	Sheet 1	A2-C1537	\N	2024-04-05 08:00:00+00
 fyp_categories_interests	\N	2025-01-01 08:00:00+00	\N	FYP - Categories, Areas of interest, and NOCs 2025-04-23	CONSOLIDATED LIST	A2-F909	\N	2025-04-23 08:00:00+00
@@ -92150,6 +92148,8 @@ monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-07-01 08:00:00+00	\N	WorkBC LMS July_2026	Sheet3	\N	\N	2026-09-10 15:56:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-08-01 08:00:00+00	\N	WorkBC LMS Aug_2026	Sheet3	\N	\N	2026-09-10 15:59:00+00
 high_opportunity_occupations	2026 High Opportunity Occupations	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_new_tool_2026-08-05_2	Sheet 1	A2-O857	BC Labour Market Information Office	2026-11-26 12:53:00+00
+career_provincial	2026 Career Profile	2026-01-01 08:00:00+00	\N	0-WorkBC_Career_Profile_Data_2026-08-05_22	Provincial Outlook	A4-L515	\N	2026-11-26 15:06:00+00
+career_regional	2026 Career Profile	2026-01-01 08:00:00+00	\N	0-WorkBC_Career_Profile_Data_2026-08-05_22	Regional Outlook	A5-AC516	\N	2026-11-26 15:06:00+00
 \.
 
 
@@ -121604,5 +121604,5 @@ ALTER EVENT TRIGGER pgrst_watch OWNER TO workbc;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict VjhzWvCjsZC9qCsrXR5J0M2GI76z6Egx4mXqLOisB9fVWgiAqfj1hXdXE7f6o9z
+\unrestrict s5OsZ2PQS3uImr3VGVRwucwFfbkbrdcPuZPaX4h0U2QVZg0FBe5qw3cUNUP2gaL
 
