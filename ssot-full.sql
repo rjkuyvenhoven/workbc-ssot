@@ -2,10 +2,10 @@
 -- PostgreSQL database dump
 --
 
-\restrict 0BmeaTgKTcSTiqOQhNrc8qKgt2NNJVBSkAmUym8qSwQGCwnqxlF4H4g5zV9eicc
+\restrict VjhzWvCjsZC9qCsrXR5J0M2GI76z6Egx4mXqLOisB9fVWgiAqfj1hXdXE7f6o9z
 
--- Dumped from database version 16.15 (Debian 16.15-1.pgdg12+2)
--- Dumped by pg_dump version 16.15 (Debian 16.15-1.pgdg12+2)
+-- Dumped from database version 16.16 (Debian 16.16-1.pgdg12+1)
+-- Dumped by pg_dump version 16.16 (Debian 16.16-1.pgdg12+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -92027,7 +92027,6 @@ census	2021 Census	2021-01-01 08:00:00+00	\N	2021_Census_Jan18_23	Career Profile
 career_regional	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Regional Outlook	A5-AC516	\N	2026-08-05 08:00:00+00
 career_provincial	B.C. Labour Market Outlook	2026-01-01 08:00:00+00	\N	WorkBC_Career_Profile_Data_2026-08-05	Provincial Outlook	A4-L515	\N	2026-08-05 08:00:00+00
 career_related	\N	2021-01-01 08:00:00+00	\N	NOC2021/noc_2021_version_1.0_-_elements.csv	\N	\N	\N	2026-08-06 08:00:00+00
-high_opportunity_occupations	\N	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_new_tool_2026-08-05	Sheet 1	A2-O857	B.C. Labour Market Information Office	2026-08-05 08:00:00+00
 occupational_interests	\N	2023-01-01 08:00:00+00	\N	Occupational_Interests_2023_Apr5_24	Sheet 1	A2-C1537	\N	2024-04-05 08:00:00+00
 fyp_categories_interests	\N	2025-01-01 08:00:00+00	\N	FYP - Categories, Areas of interest, and NOCs 2025-04-23	CONSOLIDATED LIST	A2-F909	\N	2025-04-23 08:00:00+00
 monthly_labour_market_updates	Monthly Labour Force Survey, 3-month moving average, seasonally unadjusted	1971-11-26 08:00:00+00	unemployment_pct	\N	\N	\N	\N	\N
@@ -92150,6 +92149,7 @@ monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-06-01 08:00:00+00	\N	WorkBC LMS June_2026	Sheet3	\N	\N	2026-07-16 11:02:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-07-01 08:00:00+00	\N	WorkBC LMS July_2026	Sheet3	\N	\N	2026-09-10 15:56:00+00
 monthly_labour_market_updates	Labour Force Survey (monthly, seasonally adjusted)	2026-08-01 08:00:00+00	\N	WorkBC LMS Aug_2026	Sheet3	\N	\N	2026-09-10 15:59:00+00
+high_opportunity_occupations	2026 High Opportunity Occupations	2026-01-01 08:00:00+00	\N	HOO_BC_and_Region_for_new_tool_2026-08-05_2	Sheet 1	A2-O857	BC Labour Market Information Office	2026-11-26 12:53:00+00
 \.
 
 
@@ -121604,5 +121604,5 @@ ALTER EVENT TRIGGER pgrst_watch OWNER TO workbc;
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 0BmeaTgKTcSTiqOQhNrc8qKgt2NNJVBSkAmUym8qSwQGCwnqxlF4H4g5zV9eicc
+\unrestrict VjhzWvCjsZC9qCsrXR5J0M2GI76z6Egx4mXqLOisB9fVWgiAqfj1hXdXE7f6o9z
 
